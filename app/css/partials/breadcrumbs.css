@@ -1,0 +1,30 @@
+.breadcrumbs {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 30px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #767676;
+  list-style: none;
+  padding: 6px 0 6px 0;
+  margin: 0 0 20px 0; }
+  .breadcrumbs .list {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .breadcrumbs .item {
+    margin: 0;
+    padding: 0;
+    display: inline; }
+  .breadcrumbs .item:after {
+    content: '/';
+    display: inline;
+    padding: 0 5px 0 9px; }
+  .breadcrumbs .item:last-child:after {
+    content: '';
+    padding: 0; }
+  .breadcrumbs a {
+    color: inherit;
+    text-decoration: underline; }
+  .breadcrumbs a:hover {
+    text-decoration: none; }

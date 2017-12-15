@@ -1,0 +1,97 @@
+body
+	color: rgba(255,255,255, .65)
+	background-color: #222
+	font-family: 'Roboto', sans-serif
+	font-size: 1em
+	line-height: 1.5
+	font-weight: 400
+
+
+a
+	color: rgba(255,255,255, 1)
+	text-decoration: underline
+	&:active
+		background-color: none
+		box-shadow: none
+	&:hover
+		color: rgba(206,232,104, 1)
+
+
+h1
+	font-family: inherit
+	font-size: 3.5em
+	line-height: 1
+	font-weight: 500
+	padding: 0
+	margin: 0 0 .3em 0
+h2
+	font-family: inherit
+	font-size: 2.25em
+	line-height: 1.5
+	font-weight: 500
+	padding: 0
+	margin: 1.75em 0 .3em 0
+h3
+	font-family: inherit
+	font-size: 1.75em
+	line-height: 1.5
+	font-weight: 500
+	padding: 0
+	margin: 2.5em 0 .4em 0
+h4
+	font-family: inherit
+	font-size: 1.25em
+	line-height: 1.5
+	font-weight: 500
+	padding: 0
+	margin: 3em 0 .5em 0
+
+
+p
+	padding: 0
+	margin: 0
+	+ p,
+	+ ul,
+	+ ol
+		margin-top: 1em
+em
+	font-style: italic
+strong
+	font-weight: bold
+sup
+	// todo
+sub
+	// todo
+
+
+ul,
+ol
+	margin: 0 0 0 3em
+	padding: 0
+	li
+		margin: 0
+		padding: 0
+		+ li
+			margin-top: 1em
+
+.align-center
+	text-align: center
+.align-left
+	text-align: left
+.align-right
+	text-align: right
+.align-justify
+	text-align: justify
+
+hr
+	height: 0
+	margin: 1em 0
+	padding: 0
+	background: none
+	border: none
+	border-top: 1px solid #777
+	box-shadow: none
+
+
+blockquote
+	// todo

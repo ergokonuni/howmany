@@ -1,0 +1,48 @@
+- var page_title = "Loading...";
+
+doctype html
+html
+	block html
+		
+		
+		head
+			block head
+				
+				block title
+					title= page_title
+				
+				block meta
+					include ./meta.pug
+				
+				block css
+					include ./css.pug
+				
+				block favicon
+					include ./favicon.pug
+		
+		
+		body
+			block body
+				
+				
+				block content
+				
+				
+				//block sidebar
+					include ./_sidebar.pug
+				
+				
+				block header
+					include ./_header.pug
+				
+				
+				block footer
+					include ./_footer.pug
+				
+				
+				//block modal
+					include ../modal/__base.pug
+				
+				
+				//block js
+					include ./js.pug

@@ -1,0 +1,22 @@
+// Form
+form(method='post' action='#' autocomplete='off')
+	fieldset.form
+		div.row
+			div.label
+				label(for='field1') Label 1
+			div.field
+				input(id='field1' tabindex='1' class='input' type='text' required='required' value='')
+		div.row
+			div.label
+				label(for='field2') Label 2
+			div.field
+				input(id='field2' tabindex='2' class='input' type='text' required='required' value='')
+		div.row
+			div.label
+				label(for='field3') Label 3
+			div.field
+				textarea(id='field3' tabindex='3' class='textarea' rows='7' required='required')
+		div.row
+			div.buttons
+				input(id='test-trigger' tabindex='4' class='btn' type='button' value='Отправить' modal-dialog='#modal-test')
+// /Form
