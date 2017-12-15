@@ -1,4 +1,31 @@
 $(document).ready(function(){
+	deviceOrientation();
+});
+
+
+
+// DEVICE ORIENTATION
+function deviceOrientation(){
+	docWidth   = $(document).width();
+	docHeight  = $(document).height();
+	$('html').removeClass('landscape portrait');
+	if (docWidth > docHeight) {
+		$('html').removeClass('portrait').addClass('landscape');
+	} else {
+		$('html').removeClass('landscape').addClass('portrait');
+	}
+	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
+	console.log('HTML Class: ' + $('html').attr('class'));
+}
+$(window).on('resize', function(){
+	deviceOrientation();
+})
+
+
+
+
+/*
+$(document).ready(function(){
 
 
 	// Slider
@@ -148,3 +175,4 @@ $(document).ready(function(){
 
 
 });
+*/
