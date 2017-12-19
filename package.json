@@ -35,10 +35,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ergokonuni/start.git"
+    "url": "git+https://github.com/ergokonuni/truestory.git"
   },
   "bugs": {
-    "url": "https://github.com/ergokonuni/start/issues"
+    "url": "https://github.com/ergokonuni/truestory/issues"
   },
-  "homepage": "https://github.com/ergokonuni/start#readme"
+  "homepage": "https://github.com/ergokonuni/truestory#readme"
 }
