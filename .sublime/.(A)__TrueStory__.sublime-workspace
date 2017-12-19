@@ -43,7 +43,8 @@
 			"file": "/D/OpenServer/domains/truestory/package.json",
 			"settings":
 			{
-				"buffer_size": 1148,
+				"buffer_size": 1160,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -113,6 +114,7 @@
 	],
 	"file_history":
 	[
+		"/D/OpenServer/domains/truestory/README.md",
 		"/D/OpenServer/domains/howmany/app/index.pug",
 		"/D/OpenServer/domains/howmany/app/sass/layout/__base.sass",
 		"/D/OpenServer/domains/howmany/app/sass/__adaptive.sass",
@@ -239,8 +241,7 @@
 		"/D/OpenServer/domains/start/app/sass/modules/_slider.sass",
 		"/D/OpenServer/domains/start/app/sass/modules/_submenu.sass",
 		"/D/OpenServer/domains/start/app/sass/modules/_table.sass",
-		"/D/OpenServer/domains/start/app/sass/form/_textarea.sass",
-		"/D/OpenServer/domains/start/app/sass/form/_selectbox.sass"
+		"/D/OpenServer/domains/start/app/sass/form/_textarea.sass"
 	],
 	"find":
 	{
@@ -352,15 +353,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1148,
+						"buffer_size": 1160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								462,
+								462
 							]
 						],
 						"settings":
@@ -461,8 +462,8 @@
 								{
 									"1":
 									[
-										1146,
-										1147
+										890,
+										891
 									]
 								},
 								"icon":
@@ -477,8 +478,8 @@
 								{
 									"1":
 									[
-										0,
-										1
+										232,
+										233
 									]
 								},
 								"unmatched":
@@ -487,61 +488,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
@@ -628,7 +629,7 @@
 		[
 			[
 				"",
-				"D:\\Dropbox\\Documents\\Templates\\.A-Planing.sublime-project"
+				"D:\\Dropbox\\Documents\\Templates\\.(A)__Planing__.sublime-project"
 			]
 		],
 		"width": 380.0
