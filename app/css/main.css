@@ -222,6 +222,11 @@ hr {
   .main .container {
     min-height: 100%; }
 
+.home {
+  max-width: 430px;
+  margin: 0 auto;
+  background-color: #cc0000; }
+
 @media only screen and (min-width: 300px) {
   html {
     font-size: 1em; }

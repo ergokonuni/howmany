@@ -34,7 +34,17 @@
       <!-- Home-->
       <main class="home">
         <div class="logo"></div>
-        <div class="auth"></div>
+        <fieldset class="auth">
+          <div class="field">
+            <input class="input" name="auth__fld__login" placeholder="логин" value="" type="text" tabindex="1">
+          </div>
+          <div class="field">
+            <input class="input" name="auth__fld__pwd" placeholder="пароль" value="" type="password" tabindex="2">
+          </div>
+          <div class="action">
+            <button class="btn" name="auth__btn__signin" value="войти" type="button" tabindex="3"></button>
+          </div>
+        </fieldset>
       </main>
       <!-- /Home-->
     </main>
