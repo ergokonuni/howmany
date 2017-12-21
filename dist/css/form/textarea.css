@@ -24,7 +24,7 @@
   transition: all .15s ease-in-out; }
   .textarea:hover {
     color: rgba(255, 255, 255, 0.95);
-    border-color: rgba(255, 255, 255, 0.15); }
+    border-color: rgba(255, 255, 255, 0.17); }
   .textarea:focus {
     color: rgba(255, 255, 255, 0.95);
     border-color: rgba(238, 117, 202, 0.8);

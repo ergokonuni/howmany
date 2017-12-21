@@ -11,18 +11,28 @@
 	margin: 0
 	outline: 0
 	border: none
-	border-bottom: 1px solid rgba(255,255,255, .07)
 	border-radius: 0
 	box-shadow: none
 	text-shadow: none
 	transition: all .15s ease-in-out
+	& + .brd
+		transition: background-color .15s ease-in-out
+		display: block
+		width: 100%
+		height: 1px
+		background-color: rgba(255,255,255, .07)
+		position: absolute
 	&:hover
 		color: rgba(255,255,255, .95)
-		border-color: rgba(255,255,255, .15)
+		& + .brd
+			background-color: rgba(255,255,255, .17)
 	&:focus
 		color: rgba(255,255,255, .95)
-		border-color: rgba(238,117,202, .8)
 		transition-duration: .2s
+		& + .brd
+			transition-duration: .2s
+			background-color: rgba(238,117,202, .8)
+			height: 2px
 	&.error
 		color: #dc7f7f
 		font-style: italic

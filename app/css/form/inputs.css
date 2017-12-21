@@ -12,7 +12,6 @@
   margin: 0;
   outline: 0;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -20,15 +19,30 @@
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }
+  .input + .brd {
+    -webkit-transition: background-color .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.07);
+    position: absolute; }
   .input:hover {
-    color: rgba(255, 255, 255, 0.95);
-    border-color: rgba(255, 255, 255, 0.15); }
+    color: rgba(255, 255, 255, 0.95); }
+    .input:hover + .brd {
+      background-color: rgba(255, 255, 255, 0.17); }
   .input:focus {
     color: rgba(255, 255, 255, 0.95);
-    border-color: rgba(238, 117, 202, 0.8);
     -webkit-transition-duration: .2s;
          -o-transition-duration: .2s;
             transition-duration: .2s; }
+    .input:focus + .brd {
+      -webkit-transition-duration: .2s;
+           -o-transition-duration: .2s;
+              transition-duration: .2s;
+      background-color: rgba(238, 117, 202, 0.8);
+      height: 2px; }
   .input.error {
     color: #dc7f7f;
     font-style: italic;
