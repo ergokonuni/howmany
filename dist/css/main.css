@@ -490,9 +490,8 @@ hr {
   .btn:visited {
     color: inherit; }
   .btn:hover {
-    color: rgba(255, 255, 255, 0.95);
-    border-color: rgba(255, 255, 255, 0.17); }
-    .btn:hover:before {
+    color: rgba(255, 255, 255, 0.95); }
+    .btn:hover:after {
       border-color: rgba(255, 255, 255, 0.17); }
   .btn:focus {
     color: rgba(255, 255, 255, 0.95);
