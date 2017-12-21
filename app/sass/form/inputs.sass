@@ -1,22 +1,28 @@
 .input
 	box-sizing: border-box
 	display: inline-block
-	font-size: 14px
-	line-height: 40px
-	height: 42px
+	font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+	font-size: 1.18em
+	line-height: inherit
+	height: 2.75em
+	background: none
+	color: rgba(255,255,255, .75)
+	padding: .4em .75em
 	margin: 0
-	padding: 0 12px
-	color: #535353
-	background-color: #FFF
 	outline: 0
-	border: 1px solid #c3c3c3
-	border-radius: 1px
+	border: none
+	border-bottom: 1px solid rgba(255,255,255, .07)
+	border-radius: 0
 	box-shadow: none
-	transition: all .1s ease-in-out
+	text-shadow: none
+	transition: all .15s ease-in-out
 	&:hover
-		border-color: #555
+		color: rgba(255,255,255, .95)
+		border-color: rgba(255,255,255, .15)
 	&:focus
-		border-color: #555
+		color: rgba(255,255,255, .95)
+		border-color: rgba(238,117,202, .8)
+		transition-duration: .2s
 	&.error
 		color: #dc7f7f
 		font-style: italic
@@ -25,17 +31,17 @@
 
 
 input::-webkit-input-placeholder
-	color: #535353
-	opacity: .6
+	color: inherit
+	opacity: 1
 
 input:-moz-placeholder
-	color: #535353
-	opacity: .6
+	color: inherit
+	opacity: 1
 
 input::-moz-placeholder
-	color: #535353
-	opacity: .6
+	color: inherit
+	opacity: 1
 
 input:-ms-input-placeholder
-	color: #535353
-	opacity: .6
+	color: inherit
+	opacity: 1

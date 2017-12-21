@@ -33,18 +33,28 @@
     <main class="content">
       <!-- Home-->
       <main class="home">
-        <div class="logo"></div>
-        <fieldset class="auth">
-          <div class="field">
-            <input class="input" name="auth__fld__login" placeholder="логин" value="" type="text" tabindex="1">
+        <!-- Container-->
+        <div class="container">
+          <!-- Logo-->
+          <div class="logo-holder">
+            <p class="logo"><span class="true">True</span><span class="story">Story…</span></p>
           </div>
-          <div class="field">
-            <input class="input" name="auth__fld__pwd" placeholder="пароль" value="" type="password" tabindex="2">
-          </div>
-          <div class="action">
-            <button class="btn" name="auth__btn__signin" value="войти" type="button" tabindex="3"></button>
-          </div>
-        </fieldset>
+          <!-- /Logo-->
+          <!-- Form-->
+          <fieldset class="auth">
+            <div class="field">
+              <input class="input" name="auth__fld__login" placeholder="логин" value="" type="text" tabindex="1">
+            </div>
+            <div class="field">
+              <input class="input" name="auth__fld__pwd" placeholder="пароль" value="" type="password" tabindex="2">
+            </div>
+            <div class="action">
+              <button class="btn" name="auth__btn__signin" value="войти" type="button" tabindex="3">войти</button>
+            </div>
+          </fieldset>
+          <!-- /Form-->
+        </div>
+        <!-- /Container-->
       </main>
       <!-- /Home-->
     </main>

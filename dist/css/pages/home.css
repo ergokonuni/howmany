@@ -1,4 +1,19 @@
 .home {
   max-width: 430px;
   margin: 0 auto;
-  background-color: #cc0000; }
+  text-align: center; }
+  .home .logo {
+    margin: 4.5em 0 3.5em 0; }
+
+.auth .input {
+  text-align: center;
+  width: 100%; }
+
+.auth .btn {
+  width: 62%; }
+
+.auth .field + .field {
+  margin-top: .5em; }
+
+.auth .action {
+  margin-top: 3em; }

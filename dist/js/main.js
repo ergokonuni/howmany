@@ -8,7 +8,6 @@ $(document).ready(function(){
 function deviceOrientation(){
 	docWidth   = $(document).width();
 	docHeight  = $(document).height();
-	$('html').removeClass('landscape portrait');
 	if (docWidth > docHeight) {
 		$('html').removeClass('portrait').addClass('landscape');
 	} else {
