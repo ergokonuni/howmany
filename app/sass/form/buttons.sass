@@ -1,3 +1,23 @@
+// Text Color
+$text_color: rgba(255,255,255, .8)
+$text_color_hover: rgba(255,255,255, .95)
+$text_color_focus: rgba(255,255,255, .95)
+// Border Color
+$border_color: rgba(255,255,255, .08)
+$border_color_hover: rgba(255,255,255, .15)
+$border_color_focus: rgba(238,117,202, .8)
+// Error Text Color
+$error_text_color: rgba(228,106,106, .75)
+$error_text_color_hover: rgba(228,106,106, .75)
+$error_text_color_focus: rgba(228,106,106, .75)
+// Error Border Color
+$error_border_color: rgba(228,106,106, .75)
+$error_border_color_hover: rgba(228,106,106, .75)
+$error_border_color_focus: rgba(228,106,106, .75)
+
+
+
+// Button
 .btn
 	box-sizing: border-box
 	display: inline-block
@@ -11,11 +31,10 @@
 	text-transform: uppercase
 	vertical-align: middle
 	background: none
-	color: rgba(255,255,255, .75)
+	color: $text_color
 	padding: 0 1.5em
 	margin: 0
 	outline: 0 !important
-	//border: 1px solid rgba(255,255,255, .07)
 	border: 0
 	border-radius: 5px
 	box-shadow: none
@@ -30,7 +49,7 @@
 		display: block
 		width: 100%
 		height: 100%
-		border: 1px solid rgba(255,255,255, .07)
+		border: 1px solid $border_color
 		border-radius: 5px
 		position: absolute
 		left: 0
@@ -38,17 +57,16 @@
 	&:visited
 		color: inherit
 	&:hover
-		color: rgba(255,255,255, .95)
+		color: $text_color_hover
 		&:after
-			border-color: rgba(255,255,255, .17)
+			border-color: $border_color_hover
+			border-width: 2px
 	&:focus
-		color: rgba(255,255,255, .95)
-		border-color: rgba(238,117,202, .8)
-		border-width: 2px
+		color: $text_color_focus
 		transition-duration: .2s
 		&:after
 			transition-duration: .2s
-			border-color: rgba(238,117,202, .8)
+			border-color: $border_color_focus
 			border-width: 2px
 	&:active
 		position: relative

@@ -31,28 +31,44 @@ block content
 				
 				// Form
 				fieldset.auth
+					
+					
+					// Field 'Login'
 					div.field
 						input.input(
 							name='auth__fld__login'
 							placeholder='логин'
 							value=''
 							type='text'
+							autocomplete='off'
 							tabindex=1)
 						span.brd
+					// /Field 'Login'
+					
+					
+					// Field 'Password'
 					div.field
 						input.input(
 							name='auth__fld__pwd'
 							placeholder='пароль'
 							value=''
 							type='password'
+							autocomplete='off'
 							tabindex=2)
 						span.brd
+					// /Field 'Password'
+					
+					
+					// Action
 					div.action
 						button.btn(
 							name='auth__btn__signin'
 							value='войти'
 							type='button'
 							tabindex=3) войти
+					// /Action
+					
+					
 				// /Form
 				
 				

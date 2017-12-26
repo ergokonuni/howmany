@@ -7,7 +7,7 @@
   line-height: inherit;
   height: 2.75em;
   background: none;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.8);
   padding: .4em .75em;
   margin: 0;
   outline: 0;
@@ -26,12 +26,13 @@
     display: block;
     width: 100%;
     height: 1px;
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgba(255, 255, 255, 0.08);
     position: absolute; }
   .input:hover {
     color: rgba(255, 255, 255, 0.95); }
     .input:hover + .brd {
-      background-color: rgba(255, 255, 255, 0.17); }
+      background-color: rgba(255, 255, 255, 0.15);
+      height: 2px; }
   .input:focus {
     color: rgba(255, 255, 255, 0.95);
     -webkit-transition-duration: .2s;
@@ -44,24 +45,27 @@
       background-color: rgba(238, 117, 202, 0.8);
       height: 2px; }
   .input.error {
-    color: #dc7f7f;
-    font-style: italic;
-    border-color: #ff8383;
-    -webkit-box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75);
-            box-shadow: inset 0 0 13px rgba(228, 106, 106, 0.75); }
+    color: rgba(228, 106, 106, 0.75);
+    font-style: italic; }
 
-input::-webkit-input-placeholder {
+.input::-webkit-input-placeholder {
   color: inherit;
   opacity: 1; }
 
-input:-moz-placeholder {
+.input:-moz-placeholder {
   color: inherit;
   opacity: 1; }
 
-input::-moz-placeholder {
+.input::-moz-placeholder {
   color: inherit;
   opacity: 1; }
 
-input:-ms-input-placeholder {
+.input:-ms-input-placeholder {
   color: inherit;
   opacity: 1; }
+
+.input::-ms-clear {
+  display: none; }
+
+.input::-ms-reveal {
+  display: none; }
