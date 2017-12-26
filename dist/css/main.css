@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic";
-@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic";
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic";
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -43,6 +43,44 @@ body {
 
 .overflow-hidden {
   overflow: hidden; }
+
+.logo {
+  font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+  font-size: 2.25em;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -.01em;
+  cursor: default;
+  padding: 0;
+  margin: 0; }
+  .logo .true {
+    color: rgba(255, 255, 255, 0.7); }
+    .logo .true .r {
+      margin-left: -.104em; }
+  .logo .story {
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    top: -.23em;
+    left: -.21em; }
+    .logo .story .o {
+      margin-left: -.025em; }
+    .logo .story .r {
+      margin-left: -.015em;
+      margin-right: .015em; }
+    .logo .story:before {
+      content: '';
+      display: block; }
+  .logo .dots {
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top: -.23em;
+    margin-left: -.21em; }
+    .logo .dots .d1 {
+      margin-left: -.055em; }
+    .logo .dots .d2 {
+      margin-left: -.055em; }
+    .logo .dots .d3 {
+      margin-left: -.055em; }
 
 body {
   color: rgba(255, 255, 255, 0.55);
@@ -227,8 +265,8 @@ hr {
   max-width: 600px;
   margin: 0 auto;
   text-align: center; }
-  .home .logo {
-    margin: 4.5em 0 3.5em 0; }
+  .home__logo {
+    margin: 3.75em 0 2.25em 0; }
 
 .auth {
   width: 95%; }
@@ -467,7 +505,7 @@ hr {
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
-  cursor: pointer;
+  cursor: default;
   position: relative;
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
@@ -519,7 +557,7 @@ hr {
   height: 2.75em;
   background: none;
   color: rgba(255, 255, 255, 0.8);
-  padding: .4em .75em;
+  padding: .65em .75em .15em .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -527,6 +565,7 @@ hr {
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
+  cursor: default;
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }

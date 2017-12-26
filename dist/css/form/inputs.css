@@ -8,7 +8,7 @@
   height: 2.75em;
   background: none;
   color: rgba(255, 255, 255, 0.8);
-  padding: .4em .75em;
+  padding: .65em .75em .15em .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -16,6 +16,7 @@
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
+  cursor: default;
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }

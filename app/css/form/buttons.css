@@ -21,7 +21,7 @@
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
-  cursor: pointer;
+  cursor: default;
   position: relative;
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
