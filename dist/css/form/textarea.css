@@ -71,9 +71,9 @@
   .textarea:focus {
     color: rgba(255, 255, 255, 0.95); }
     .textarea:focus + .brd:before {
-      -webkit-transition-duration: .1s;
-           -o-transition-duration: .1s;
-              transition-duration: .1s;
+      -webkit-transition-duration: .225s;
+           -o-transition-duration: .225s;
+              transition-duration: .225s;
       -webkit-transform: translate3d(0, 0, 0) translate(0, -2px) scale(0.89, 0.89);
               transform: translate3d(0, 0, 0) translate(0, -2px) scale(0.89, 0.89);
       opacity: 0; }
