@@ -23,13 +23,13 @@
   text-shadow: none;
   cursor: default;
   position: relative;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out; }
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
   .btn:after {
-    -webkit-transition: border-color .15s ease-in-out;
-    -o-transition: border-color .15s ease-in-out;
-    transition: border-color .15s ease-in-out;
+    -webkit-transition: border-color .175s ease-in-out;
+    -o-transition: border-color .175s ease-in-out;
+    transition: border-color .175s ease-in-out;
     content: '';
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -49,19 +49,13 @@
       border-color: rgba(255, 255, 255, 0.15);
       border-width: 2px; }
   .btn:focus {
-    color: rgba(255, 255, 255, 0.95);
-    -webkit-transition-duration: .2s;
-         -o-transition-duration: .2s;
-            transition-duration: .2s; }
+    color: rgba(255, 255, 255, 0.95); }
     .btn:focus:after {
-      -webkit-transition-duration: .2s;
-           -o-transition-duration: .2s;
-              transition-duration: .2s;
       border-color: rgba(238, 117, 202, 0.8);
       border-width: 2px; }
   .btn:active {
     position: relative;
-    top: 1px; }
+    top: 0; }
   .btn:disabled {
     color: rgba(255, 255, 255, 0.2) !important;
     top: 0 !important;

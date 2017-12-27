@@ -43,9 +43,9 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	text-shadow: none
 	cursor: default
 	position: relative
-	transition: all .15s ease-in-out
+	transition: all .175s ease-in-out
 	&:after
-		transition: border-color .15s ease-in-out
+		transition: border-color .175s ease-in-out
 		content: ''
 		box-sizing: border-box
 		display: block
@@ -65,19 +65,16 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			border-width: 2px
 	&:focus
 		color: $text_color_focus
-		transition-duration: .2s
 		&:after
-			transition-duration: .2s
 			border-color: $border_color_focus
 			border-width: 2px
 	&:active
 		position: relative
-		top: 1px
+		top: 0
 	&:disabled
 		color: $disabled_text_color !important
 		top: 0 !important
 		cursor: default !important
-		//opacity: .5
 		&:after
 			border-color: $border_color !important
 			border-width: 1px !important
