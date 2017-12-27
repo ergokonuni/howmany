@@ -45,7 +45,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 		height: 2px
 		position: absolute
 		&:before
-			transition: transform .175s ease-in-out, opacity .175s ease-in-out, background-color .175s ease-in-out
+			transition: transform .175s ease-in-out, opacity .1s ease-in-out, background-color .175s ease-in-out
 			content: ''
 			display: block
 			width: 100%
@@ -55,9 +55,9 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			left: 0
 			top: 0
 			opacity: 1
-			transform: translate3d(0,0,0) translate(0, 0)
+			transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
 		&:after
-			transition: transform .175s ease-in-out, opacity .175s ease-in-out
+			transition: transform .175s ease-in-out, opacity .1s ease-in-out, background-color .175s ease-in-out
 			content: ''
 			display: block
 			width: 100%
@@ -67,7 +67,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			left: 0
 			top: 0
 			opacity: 0
-			transform: translate3d(0,0,0) translate(0, 2px)
+			transform: translate3d(0,0,0) translate(0, 2px) scale(1.11, 1.11)
 	&:hover
 		color: $text_color_hover
 		& + .brd
@@ -78,10 +78,12 @@ $error_border_color_focus: rgba(228,106,106, .75)
 		color: $text_color_focus
 		& + .brd
 			&:before
-				transform: translate3d(0,0,0) translate(0, -2px)
+				transition-duration: .1s
+				transform: translate3d(0,0,0) translate(0, -2px) scale(0.89, 0.89)
 				opacity: 0
 			&:after
-				transform: translate3d(0,0,0) translate(0, 0)
+				transition-duration: .175s
+				transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
 				opacity: 1
 	&:disabled
 		color: $disabled_text_color !important
