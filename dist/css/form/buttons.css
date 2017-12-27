@@ -62,3 +62,10 @@
   .btn:active {
     position: relative;
     top: 1px; }
+  .btn:disabled {
+    color: rgba(255, 255, 255, 0.2) !important;
+    top: 0 !important;
+    cursor: default !important; }
+    .btn:disabled:after {
+      border-color: rgba(255, 255, 255, 0.08) !important;
+      border-width: 1px !important; }

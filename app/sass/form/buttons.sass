@@ -6,6 +6,8 @@ $text_color_focus: rgba(255,255,255, .95)
 $border_color: rgba(255,255,255, .08)
 $border_color_hover: rgba(255,255,255, .15)
 $border_color_focus: rgba(238,117,202, .8)
+// Disabled
+$disabled_text_color: rgba(255,255,255, .2)
 // Error Text Color
 $error_text_color: rgba(228,106,106, .75)
 $error_text_color_hover: rgba(228,106,106, .75)
@@ -71,3 +73,11 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	&:active
 		position: relative
 		top: 1px
+	&:disabled
+		color: $disabled_text_color !important
+		top: 0 !important
+		cursor: default !important
+		//opacity: .5
+		&:after
+			border-color: $border_color !important
+			border-width: 1px !important

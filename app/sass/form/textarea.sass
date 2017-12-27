@@ -6,6 +6,8 @@ $text_color_focus: rgba(255,255,255, .95)
 $border_color: rgba(255,255,255, .08)
 $border_color_hover: rgba(255,255,255, .15)
 $border_color_focus: rgba(238,117,202, .8)
+// Disabled
+$disabled_text_color: rgba(255,255,255, .2)
 // Error Text Color
 $error_text_color: rgba(228,106,106, .75)
 $error_text_color_hover: rgba(228,106,106, .75)
@@ -56,6 +58,12 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			transition-duration: .2s
 			background-color: $border_color_focus
 			height: 2px
+	&:disabled
+		color: $disabled_text_color !important
+		cursor: default !important
+		& + .brd
+			background-color: $border_color !important
+			height: 1px !important
 	&.error
 		color: $error_text_color
 		font-style: italic
@@ -64,18 +72,26 @@ $error_border_color_focus: rgba(228,106,106, .75)
 
 // Placeholder
 
-textarea::-webkit-input-placeholder
+.textarea::-webkit-input-placeholder
 	color: inherit
+	opacity: .4
+.textarea:disabled::-webkit-input-placeholder
 	opacity: 1
 
-textarea:-moz-placeholder
+.textarea:-moz-placeholder
 	color: inherit
+	opacity: .4
+.textarea:disabled:-moz-placeholder
 	opacity: 1
 
-textarea::-moz-placeholder
+.textarea::-moz-placeholder
 	color: inherit
+	opacity: .4
+.textarea:disabled::-moz-placeholder
 	opacity: 1
 
-textarea:-ms-input-placeholder
+.textarea:-ms-input-placeholder
 	color: inherit
+	opacity: .6
+.textarea:disabled:-ms-input-placeholder
 	opacity: 1

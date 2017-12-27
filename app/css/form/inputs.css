@@ -45,24 +45,42 @@
               transition-duration: .2s;
       background-color: rgba(238, 117, 202, 0.8);
       height: 2px; }
+  .input:disabled {
+    color: rgba(255, 255, 255, 0.2) !important;
+    cursor: default !important; }
+    .input:disabled + .brd {
+      background-color: rgba(255, 255, 255, 0.08) !important;
+      height: 1px !important; }
   .input.error {
     color: rgba(228, 106, 106, 0.75);
     font-style: italic; }
 
 .input::-webkit-input-placeholder {
   color: inherit;
+  opacity: .4; }
+
+.input:disabled::-webkit-input-placeholder {
   opacity: 1; }
 
 .input:-moz-placeholder {
   color: inherit;
+  opacity: .4; }
+
+.input:disabled:-moz-placeholder {
   opacity: 1; }
 
 .input::-moz-placeholder {
   color: inherit;
+  opacity: .4; }
+
+.input:disabled::-moz-placeholder {
   opacity: 1; }
 
 .input:-ms-input-placeholder {
   color: inherit;
+  opacity: .6; }
+
+.input:disabled:-ms-input-placeholder {
   opacity: 1; }
 
 .input::-ms-clear {
