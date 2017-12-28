@@ -28,7 +28,7 @@
     <!--link(rel='apple-touch-icon' sizes='152x152' href='./apple-touch-icon-152x152.png')-->
     <!-- /Favicon-->
   </head>
-  <body id="body">
+  <body>
     <!-- Content-->
     <main class="content">
       <!-- Home-->
@@ -41,23 +41,27 @@
           </div>
           <!-- /Logo-->
           <!-- Form-->
-          <fieldset class="auth">
-            <!-- Field 'Login'-->
-            <div class="field">
-              <input class="input" name="auth__fld__login" placeholder="логин" value="" type="text" autocomplete="off" tabindex="1"><span class="brd"></span>
-            </div>
-            <!-- /Field 'Login'-->
-            <!-- Field 'Password'-->
-            <div class="field">
-              <input class="input" name="auth__fld__pwd" placeholder="пароль" value="" type="password" autocomplete="off" tabindex="2"><span class="brd"></span>
-            </div>
-            <!-- /Field 'Password'-->
-            <!-- Action-->
-            <div class="action">
-              <button class="btn" name="auth__btn__signin" value="войти" type="button" tabindex="3"><span>войти</span></button>
-            </div>
-            <!-- /Action-->
-          </fieldset>
+          <form method="post" action="#">
+            <!-- Auth-->
+            <fieldset class="auth">
+              <!-- Field 'Login'-->
+              <div class="field">
+                <input class="input" name="auth__fld__login" placeholder="логин" value="" type="text" autocomplete="off" tabindex="1"><span class="brd"></span>
+              </div>
+              <!-- /Field 'Login'-->
+              <!-- Field 'Password'-->
+              <div class="field">
+                <input class="input" name="auth__fld__pwd" placeholder="пароль" value="" type="password" autocomplete="off" tabindex="2"><span class="brd"></span>
+              </div>
+              <!-- /Field 'Password'-->
+              <!-- Action-->
+              <div class="action">
+                <button class="btn" name="auth__btn__signin" value="войти" type="button" tabindex="3"><span>войти</span></button>
+              </div>
+              <!-- /Action-->
+            </fieldset>
+            <!-- /Auth-->
+          </form>
           <!-- /Form-->
         </div>
         <!-- /Container-->
