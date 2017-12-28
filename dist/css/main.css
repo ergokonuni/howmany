@@ -94,12 +94,15 @@ body {
 a {
   color: white;
   text-decoration: underline; }
+  a:hover {
+    color: #cee868; }
+  a:focus {
+    outline: none; }
   a:active {
     background-color: none;
     -webkit-box-shadow: none;
-            box-shadow: none; }
-  a:hover {
-    color: #cee868; }
+            box-shadow: none;
+    outline: none; }
 
 h1 {
   font-family: inherit;
@@ -268,20 +271,43 @@ hr {
   text-align: center; }
   .home__logo {
     margin: 3.75em 0 2.25em 0; }
-
-.auth {
-  width: 95%; }
-  .auth .input {
-    text-align: center;
-    width: 100%; }
-  .auth .btn {
-    width: 62%; }
-  .auth .field {
-    position: relative; }
-  .auth .field + .field {
-    margin-top: .5em; }
-  .auth .action {
-    margin-top: 3em; }
+  .home__auth {
+    width: 95%;
+    margin: 0 auto; }
+    .home__auth .input {
+      text-align: center;
+      width: 100%; }
+    .home__auth .btn {
+      width: 62%; }
+    .home__auth .field {
+      position: relative; }
+    .home__auth .field + .field {
+      margin-top: .5em; }
+    .home__auth .action {
+      margin-top: 3em; }
+  .home__links {
+    list-style: none;
+    padding: 0;
+    margin: 2.25em 0 3.75em 0;
+    font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+    font-size: .9375em; }
+    .home__links .item {
+      margin: 0; }
+    .home__links .link {
+      color: #fff;
+      -webkit-transition: all .175s ease-in-out;
+      -o-transition: all .175s ease-in-out;
+      transition: all .175s ease-in-out;
+      position: relative;
+      display: inline-block;
+      padding: 1px 2em;
+      opacity: .18; }
+      .home__links .link:hover {
+        opacity: .5; }
+      .home__links .link:focus {
+        opacity: .75; }
+      .home__links .link:active {
+        opacity: .75; }
 
 @media only screen and (min-width: 300px) {
   html {

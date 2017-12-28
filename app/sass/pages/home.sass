@@ -1,23 +1,65 @@
+// Default
+$text_color: rgba(255,255,255, .8)
+$border_color: rgba(255,255,255, .08)
+// Hover
+$text_color_hover: rgba(255,255,255, .95)
+$border_color_hover: rgba(255,255,255, .15)
+// Focus
+$text_color_focus: rgba(255,255,255, .95)
+$border_color_focus: rgba(238,117,202, .8)
+// Active
+$border_color_active: rgba(238,117,202, .95)
+$shadow_color_active: rgba(238,117,202, .2)
+$background_color_active: rgba(238,117,202, .03)
+
+
+
+
 // Home
 .home
 	max-width: 600px
 	margin: 0 auto
 	text-align: center
+	
+	// Logo
 	&__logo
 		margin: 3.75em 0 2.25em 0
+	
+	// Auth
+	&__auth
+		width: 95%
+		margin: 0 auto
+		.input
+			text-align: center
+			width: 100%
+		.btn
+			width: 62%
+		.field
+			position: relative
+		.field + .field
+			margin-top: .5em
+		.action
+			margin-top: 3em
 
-
-// Auth
-.auth
-	width: 95%
-	.input
-		text-align: center
-		width: 100%
-	.btn
-		width: 62%
-	.field
-		position: relative
-	.field + .field
-		margin-top: .5em
-	.action
-		margin-top: 3em
+	// Links
+	&__links
+		list-style: none
+		padding: 0
+		margin: 2.25em 0 3.75em 0
+		font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+		font-size: .9375em
+		.item
+			margin: 0
+		.link
+			color: #fff
+			transition: all .175s ease-in-out
+			position: relative
+			display: inline-block
+			padding: 1px 2em
+			opacity: .18
+			&:hover
+				opacity: .5
+			&:focus
+				opacity: .75
+			&:active
+				opacity: .75
