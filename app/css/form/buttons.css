@@ -49,11 +49,11 @@
     -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1);
             transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1); }
   .btn:after {
-    -webkit-transition: opacity .1s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out;
-    transition: opacity .1s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out;
-    -o-transition: transform .175s ease-in-out, opacity .1s ease-in-out, border-width .175s ease-in-out;
-    transition: transform .175s ease-in-out, opacity .1s ease-in-out, border-width .175s ease-in-out;
-    transition: transform .175s ease-in-out, opacity .1s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out, -webkit-box-shadow .1s ease-in-out;
+    transition: opacity .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out, -webkit-box-shadow .1s ease-in-out;
+    -o-transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out;
+    transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out;
+    transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out, -webkit-transform .175s ease-in-out, -webkit-box-shadow .1s ease-in-out;
     content: '';
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -93,17 +93,15 @@
     position: relative;
     top: 0; }
     .btn:active:after {
-      -webkit-transition-duration: .125s;
-           -o-transition-duration: .125s;
-              transition-duration: .125s;
+      -webkit-transition-duration: .075s;
+           -o-transition-duration: .075s;
+              transition-duration: .075s;
       border-color: rgba(238, 117, 202, 0.95);
+      -webkit-transform: scale(0.97, 0.97);
+          -ms-transform: scale(0.97, 0.97);
+              transform: scale(0.97, 0.97);
       -webkit-box-shadow: 0 0 5px 2px rgba(238, 117, 202, 0.2);
-              box-shadow: 0 0 5px 2px rgba(238, 117, 202, 0.2);
-      background-color: rgba(238, 117, 202, 0.02);
-      width: calc(100% - 2px);
-      height: calc(100% - 2px);
-      left: 1px;
-      top: 1px; }
+              box-shadow: 0 0 5px 2px rgba(238, 117, 202, 0.2); }
   .btn:disabled {
     color: rgba(255, 255, 255, 0.2) !important;
     top: 0 !important;

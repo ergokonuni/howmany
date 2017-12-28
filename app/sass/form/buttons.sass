@@ -64,7 +64,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 		opacity: 1
 		transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
 	&:after
-		transition: transform .175s ease-in-out, opacity .1s ease-in-out, border-width .175s ease-in-out
+		transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out
 		content: ''
 		box-sizing: border-box
 		display: block
@@ -96,14 +96,16 @@ $error_border_color_focus: rgba(228,106,106, .75)
 		position: relative
 		top: 0
 		&:after
-			transition-duration: .125s
+			transition-duration: .075s
 			border-color: $border_color_active
+			transform: scale(0.97, 0.97)
+			//transform: perspective(100px) rotate3d(10,0,0,180deg)
 			box-shadow: 0 0 5px 2px $border_active_shadow
-			background-color: $border_active_bg
-			width: calc(100% - 2px)
-			height: calc(100% - 2px)
-			left: 1px
-			top: 1px
+			//background-color: $border_active_bg
+			//width: calc(100% - 2px)
+			//height: calc(100% - 2px)
+			//left: 1px
+			//top: 1px
 	&:disabled
 		color: $disabled_text_color !important
 		top: 0 !important
