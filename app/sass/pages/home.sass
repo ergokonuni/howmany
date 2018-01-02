@@ -55,11 +55,36 @@ $background_color_active: rgba(238,117,202, .03)
 			transition: all .175s ease-in-out
 			position: relative
 			display: inline-block
-			padding: 1px 2em
+			padding: 5px 1.75em
 			opacity: .18
+			&:before
+				transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out, background-color .175s ease-in-out
+				content: ''
+				box-sizing: border-box
+				display: block
+				width: 100%
+				height: 100%
+				border: 2px solid $border_color_focus
+				border-radius: 5px
+				position: absolute
+				left: 0
+				top: 0
+				opacity: 0
+				transform: translate3d(0,0,0) translate(0, 2px) scale(1.11, 1.11)
 			&:hover
 				opacity: .5
 			&:focus
 				opacity: .75
+				&:before
+					transition-duration: .175s
+					//transform: translate3d(0,0,0) translate(0, 0) scale(.89, .89)
+					animation: btn_focus .275s linear
+					//opacity: 1
 			&:active
 				opacity: .75
+				&:before
+					transition-duration: .075s
+					border-color: $border_color_active
+					transform: scale(0.97, 0.97)
+					box-shadow: 0 0 5px 2px $shadow_color_active
+					background-color: $background_color_active
