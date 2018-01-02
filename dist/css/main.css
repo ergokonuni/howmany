@@ -427,30 +427,6 @@ hr {
     -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11);
             transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11); } }
 
-@-webkit-keyframes btn_active {
-  0% {
-    opacity: 0; }
-  38% {
-    opacity: .62;
-    -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1);
-            transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1); }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11);
-            transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11); } }
-
-@keyframes btn_active {
-  0% {
-    opacity: 0; }
-  38% {
-    opacity: .62;
-    -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1);
-            transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1); }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11);
-            transform: translate3d(0, 0, 0) translate(0, 0) scale(1.11, 1.11); } }
-
 @-webkit-keyframes bgcolor_isVisible {
   0% {
     background-color: transparent; }
