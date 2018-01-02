@@ -13,12 +13,24 @@
 +keyframes(btn_focus)
 	0%
 		opacity: 0
-	25%
-		opacity: 1
+		transform: translate3d(0,0,0) translate(0, 2px) scale(1.11, 1.11)
+	38%
+		opacity: .62
 		transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
 	100%
 		opacity: 0
-		//transform: translate3d(0,0,0) translate(0, 0) scale(1.05, 1.05)
+		transform: translate3d(0,0,0) translate(0, 0) scale(1.11, 1.11)
+
+
++keyframes(btn_active)
+	0%
+		opacity: 0
+	38%
+		opacity: .62
+		transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
+	100%
+		opacity: 0
+		transform: translate3d(0,0,0) translate(0, 0) scale(1.11, 1.11)
 
 
 
