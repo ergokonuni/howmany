@@ -1,12 +1,46 @@
 .home {
-  max-width: 600px;
+  max-width: 900px;
+  height: 100%;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .home .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
   .home__logo {
-    margin: 3.75em 0 2.25em 0; }
+    margin: 3em 0 1.25em 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
   .home__auth {
     width: 95%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
     .home__auth .input {
       text-align: center;
       width: 100%; }
@@ -21,9 +55,12 @@
   .home__links {
     list-style: none;
     padding: 0;
-    margin: 2.25em 0 3.75em 0;
+    margin: 2.25em 0;
     font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
-    font-size: .9375em; }
+    font-size: .9375em;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
     .home__links .item {
       margin: 0; }
     .home__links .link {
