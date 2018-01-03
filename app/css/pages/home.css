@@ -31,7 +31,7 @@
         -ms-flex-align: stretch;
             align-items: stretch; }
   .home__logo {
-    margin: 3em 0 1.25em 0;
+    margin: 3em 0 .75em 0;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto; }
@@ -55,7 +55,7 @@
   .home__links {
     list-style: none;
     padding: 0;
-    margin: 2.25em 0;
+    margin: 2em auto 3em auto;
     font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
     font-size: .9375em;
     -webkit-box-flex: 0;
