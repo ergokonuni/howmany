@@ -16,21 +16,9 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch; }
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
 
 .container {
   width: 85%;
@@ -229,12 +217,7 @@ hr {
 
 .content {
   border-top: 3.2em solid transparent;
-  -webkit-box-flex: 10;
-      -ms-flex: 10 1 auto;
-          flex: 10 1 auto;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2; }
+  background-color: #330000; }
   .content img {
     max-width: 100%; }
   .content table {
@@ -270,44 +253,14 @@ hr {
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch; }
+  display: none; }
   .home .container {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch; }
+    height: 100%; }
   .home__logo {
-    margin: 3em 0 .75em 0;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
+    margin: 3em 0 .75em 0; }
   .home__auth {
     width: 95%;
-    margin: 0 auto;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
+    margin: 0 auto; }
     .home__auth .input {
       text-align: center;
       width: 100%; }
@@ -324,10 +277,7 @@ hr {
     padding: 0;
     margin: 2em auto 3em auto;
     font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
-    font-size: .9375em;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto; }
+    font-size: .9375em; }
     .home__links .item {
       margin: 0; }
     .home__links .link {
