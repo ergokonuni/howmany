@@ -13,12 +13,10 @@ body {
           box-sizing: border-box;
   min-width: 300px;
   min-height: 100%;
+  height: 0;
   padding: 0;
   margin: 0;
-  position: relative;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr; }
+  position: relative; }
 
 .container {
   width: 85%;
@@ -216,8 +214,11 @@ hr {
       text-decoration: none; }
 
 .content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-top: 3.2em solid transparent;
-  background-color: #330000; }
+  min-height: 100%;
+  height: 0; }
   .content img {
     max-width: 100%; }
   .content table {
@@ -250,17 +251,37 @@ hr {
 
 .home {
   max-width: 900px;
+  min-height: 100%;
   height: 100%;
   margin: 0 auto;
-  text-align: center;
-  display: none; }
+  text-align: center; }
   .home .container {
-    height: 100%; }
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
   .home__logo {
-    margin: 3em 0 .75em 0; }
+    margin: 3em 0 .75em 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
   .home__auth {
     width: 95%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
     .home__auth .input {
       text-align: center;
       width: 100%; }
@@ -273,11 +294,14 @@ hr {
     .home__auth .action {
       margin-top: 3em; }
   .home__links {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 2em auto 3em auto;
     font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
-    font-size: .9375em; }
+    font-size: .9375em;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
     .home__links .item {
       margin: 0; }
     .home__links .link {
