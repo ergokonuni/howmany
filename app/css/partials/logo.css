@@ -1,0 +1,38 @@
+.logo {
+  font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+  font-size: 2em;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -.01em;
+  text-align: center;
+  cursor: default;
+  padding: 0;
+  margin: 0; }
+  .logo .true {
+    color: rgba(255, 255, 255, 0.7); }
+    .logo .true .r {
+      margin-left: -.104em; }
+  .logo .story {
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    top: -.23em;
+    left: -.21em; }
+    .logo .story .o {
+      margin-left: -.025em; }
+    .logo .story .r {
+      margin-left: -.015em;
+      margin-right: .015em; }
+    .logo .story:before {
+      content: '';
+      display: block; }
+  .logo .dots {
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    margin-top: -.23em;
+    margin-left: -.21em; }
+    .logo .dots .d1 {
+      margin-left: -.055em; }
+    .logo .dots .d2 {
+      margin-left: -.055em; }
+    .logo .dots .d3 {
+      margin-left: -.055em; }
