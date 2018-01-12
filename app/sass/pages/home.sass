@@ -17,39 +17,34 @@ $background_color_active: rgba(238,117,202, .03)
 
 // Home
 .home
-	max-width: 900px
-	margin: 0 auto
-	padding: 0
+	height: 29em
+	//padding: 0
 	text-align: center
+	display: flex
+	flex-direction: column
+	justify-content: space-around
+	align-content: stretch
+	align-items: stretch
 	//background-color: #330000
-	//display: flex
-	//flex-direction: column
-	//justify-content: center
-	//align-content: stretch
-	//align-items: stretch
 	//display: none
 	
 	// Container
 	.container
-		min-height: 100%
-		height: 0
+		max-width: 700px
+		//min-height: 100%
+		//height: 0
 		//height: 100%
-		display: flex
-		flex-direction: column
-		justify-content: space-around
-		align-content: stretch
-		align-items: stretch
 		//background-color: #330000
 	
 	// Logo
 	&__logo
-		margin: 3em 0 .75em 0
+		margin: 0
 		flex: 0 0 auto
 	
-	// Auth
-	&__auth
+	// Signin
+	&__signin
 		width: 95%
-		margin: 0 auto
+		margin: 0 auto 1em auto
 		flex: 0 0 auto
 		.input
 			text-align: center
@@ -65,12 +60,14 @@ $background_color_active: rgba(238,117,202, .03)
 
 	// Links
 	&__links
-		list-style-type: none
-		padding: 0
-		margin: 2em auto 3em auto
+		margin: 2em 0 0 0
 		font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
 		font-size: .9375em
 		flex: 0 0 auto
+		.list
+			list-style-type: none
+			padding: 0
+			margin: 0
 		.item
 			margin: 0
 		.link

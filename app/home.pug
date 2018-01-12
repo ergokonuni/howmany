@@ -9,20 +9,17 @@ block title
 block content
 	
 	
-	// Content
+	// .content
 	main.content
 		
 		
-		// Page Home
+		// .page.home
 		main.page.home
 			
 			
-			// Container
-			div.container
-				
-				
-				// Logo
-				div.home__logo
+			// .home__logo
+			div.home__logo
+				div.container
 					p.logo
 						span.true
 							span.t T
@@ -39,18 +36,16 @@ block content
 							span.d1 .
 							span.d2 .
 							span.d3 .
-				// /Logo
-				
-				
-				// Form
-				form(method='post' action='#')
-					
-					
-					// Auth
-					fieldset.home__auth
+			// /.home__logo
+			
+			
+			// home__signin
+			fieldset.home__signin
+				div.container
+					form(method='post' action='#')
 						
 						
-						// Field 'Login'
+						// .field 'Login'
 						div.field
 							input.input(
 								name='auth__fld__login'
@@ -60,10 +55,10 @@ block content
 								autocomplete='off'
 								tabindex=1)
 							span.brd
-						// /Field 'Login'
+						// /.field 'Login'
 						
 						
-						// Field 'Password'
+						// .field 'Password'
 						div.field
 							input.input(
 								name='auth__fld__pwd'
@@ -73,10 +68,10 @@ block content
 								autocomplete='off'
 								tabindex=2)
 							span.brd
-						// /Field 'Password'
+						// /.field 'Password'
 						
 						
-						// Action
+						// .action
 						div.action
 							button.btn(
 								name='auth__btn__signin'
@@ -84,28 +79,24 @@ block content
 								type='button'
 								tabindex=3)
 								span войти
-						// /Action
+						// /.action
 						
 						
-					// /Auth
-					
-					
-				// /Form
-				
-				
-				// Links
-				ul.home__links
-					li.item
-						a.link(href='#') Забыли пароль?
-					li.item
-						a.link(href='#') Регистрация
-				// /Links
-				
-				
-			// /Container
+			// /.home__signin
 			
 			
-		// /Page Home
+			// .home__links
+			div.home__links
+				div.container
+					ul.list
+						li.item
+							a.link(href='#') Забыли пароль?
+						li.item
+							a.link(href='#') Регистрация
+			// /.home__links
+			
+			
+		// /.page.home
 		
 		
-	// /Content
+	// /.content
