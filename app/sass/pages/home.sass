@@ -17,30 +17,33 @@ $background_color_active: rgba(238,117,202, .03)
 
 // Home
 .home
-	height: 30em
+	//height: 27em
+	height: 100%
+	min-height: 27em
+	max-height: 34em
 	text-align: center
 	display: flex
 	flex-direction: column
 	justify-content: space-around
-	align-content: stretch
 	align-items: stretch
+	align-self: center
 	//background-color: #330000
 	//display: none
 	
 	// Container
 	.container
-		max-width: 700px
+		max-width: 500px
 		//background-color: #330000
 	
 	// Logo
 	&__logo
-		margin: 0
+		margin: 0 0 .5em 0
 		flex: 0 0 auto
 	
 	// Signin
 	&__signin
 		width: 95%
-		margin: 0 auto 1em auto
+		margin: 0 auto
 		flex: 0 0 auto
 		.input
 			text-align: center
@@ -52,7 +55,7 @@ $background_color_active: rgba(238,117,202, .03)
 		.field + .field
 			margin-top: .5em
 		.action
-			margin-top: 3em
+			margin-top: 2.75em
 
 	// Links
 	&__links
