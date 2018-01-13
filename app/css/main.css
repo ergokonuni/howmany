@@ -194,7 +194,7 @@ hr {
   border-top: 3.2em solid transparent;
   width: 100%;
   min-height: 100%;
-  height: auto;
+  height: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +224,7 @@ hr {
 .home {
   height: 100%;
   min-height: 27em;
-  max-height: 34em;
+  max-height: 37em;
   -ms-flex-item-align: center;
       align-self: center;
   text-align: center;
