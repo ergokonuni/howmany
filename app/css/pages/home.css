@@ -2,6 +2,8 @@
   height: 100%;
   min-height: 27em;
   max-height: 34em;
+  -ms-flex-item-align: center;
+      align-self: center;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,9 +16,7 @@
       justify-content: space-around;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-item-align: center;
-      align-self: center; }
+          align-items: stretch; }
   .home .container {
     max-width: 500px; }
   .home__logo {
