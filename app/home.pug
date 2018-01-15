@@ -6,97 +6,90 @@ block title
 	title= page_title
 
 
-block content
+block main
 	
 	
-	// .content
-	main.content
+	// .page.home
+	main.page.home
 		
 		
-		// .page.home
-		main.page.home
-			
-			
-			// .home__logo
-			div.home__logo
-				div.container
-					p.logo
-						span.true
-							span.t T
-							span.r r
-							span.u u
-							span.e e
-						span.story
-							span.s S
-							span.t t
-							span.o o
-							span.r r
-							span.y y
-						span.dots
-							span.d1 .
-							span.d2 .
-							span.d3 .
-			// /.home__logo
-			
-			
-			// home__signin
-			fieldset.home__signin
-				div.container
-					form(method='post' action='#')
-						
-						
-						// .field 'Login'
-						div.field
-							input.input(
-								name='auth__fld__login'
-								placeholder='логин'
-								value=''
-								type='text'
-								autocomplete='off'
-								tabindex=1)
-							span.brd
-						// /.field 'Login'
-						
-						
-						// .field 'Password'
-						div.field
-							input.input(
-								name='auth__fld__pwd'
-								placeholder='пароль'
-								value=''
-								type='password'
-								autocomplete='off'
-								tabindex=2)
-							span.brd
-						// /.field 'Password'
-						
-						
-						// .action
-						div.action
-							button.btn(
-								name='auth__btn__signin'
-								value='войти'
-								type='button'
-								tabindex=3)
-								span войти
-						// /.action
-						
-						
-			// /.home__signin
-			
-			
-			// .home__links
-			div.home__links
-				div.container
-					ul.list
-						li.item
-							a.link(href='#' tabindex=4) Забыли пароль?
-						li.item
-							a.link(href='#' tabindex=5) Регистрация
-			// /.home__links
-			
-			
-		// /.page.home
+		// .home__logo
+		div.home__logo
+			div.container
+				p.logo
+					span.true
+						span.t T
+						span.r r
+						span.u u
+						span.e e
+					span.story
+						span.s S
+						span.t t
+						span.o o
+						span.r r
+						span.y y
+					span.dots
+						span.d1 .
+						span.d2 .
+						span.d3 .
+		// /.home__logo
 		
 		
-	// /.content
+		// home__signin
+		fieldset.home__signin
+			div.container
+				form(method='post' action='#')
+					
+					
+					// .field 'Login'
+					div.field
+						input.input(
+							name='auth__fld__login'
+							placeholder='логин'
+							value=''
+							type='text'
+							autocomplete='off'
+							tabindex=1)
+						span.brd
+					// /.field 'Login'
+					
+					
+					// .field 'Password'
+					div.field
+						input.input(
+							name='auth__fld__pwd'
+							placeholder='пароль'
+							value=''
+							type='password'
+							autocomplete='off'
+							tabindex=2)
+						span.brd
+					// /.field 'Password'
+					
+					
+					// .action
+					div.action
+						button.btn(
+							name='auth__btn__signin'
+							value='войти'
+							type='button'
+							tabindex=3)
+							span войти
+					// /.action
+					
+					
+		// /.home__signin
+		
+		
+		// .home__links
+		div.home__links
+			div.container
+				ul.list
+					li.item
+						a.link(href='#' tabindex=4) Забыли пароль?
+					li.item
+						a.link(href='#' tabindex=5) Регистрация
+		// /.home__links
+		
+		
+	// /.page.home
