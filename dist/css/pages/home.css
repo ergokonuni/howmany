@@ -1,3 +1,9 @@
+.test {
+  min-height: auto;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #330000; }
+
 .home {
   height: 100%;
   min-height: 27em;
