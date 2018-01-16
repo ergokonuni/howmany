@@ -1,5 +1,5 @@
 .chart {
-  min-width: 10em; }
+  width: 100%; }
   .chart p.label {
     font-size: 2em;
     line-height: 2em;
