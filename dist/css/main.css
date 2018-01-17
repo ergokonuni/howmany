@@ -499,7 +499,7 @@ hr {
   height: 2.75em;
   background: none;
   color: rgba(255, 255, 255, 0.85);
-  padding: .53em .75em 0 .75em;
+  padding: 1.05em .75em .475em .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -666,7 +666,7 @@ hr {
   max-height: 10em;
   background: none;
   color: rgba(255, 255, 255, 0.85);
-  padding: 1.04em .75em .44em .75em;
+  padding: 1.05em .75em .44em .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -676,7 +676,7 @@ hr {
   text-shadow: none;
   overflow: auto;
   cursor: default;
-  resize: vertical;
+  resize: none;
   vertical-align: top;
   -webkit-transition: all .175s ease-in-out;
   -o-transition: all .175s ease-in-out;
