@@ -498,8 +498,8 @@ hr {
   line-height: inherit;
   height: 2.75em;
   background: none;
-  color: rgba(255, 255, 255, 0.8);
-  padding: .65em .75em .15em .75em;
+  color: rgba(255, 255, 255, 0.85);
+  padding: .53em .75em 0 .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -554,12 +554,12 @@ hr {
       -webkit-transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11);
               transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11); }
   .input:hover {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .input:hover + .brd:before {
       background-color: rgba(255, 255, 255, 0.15);
       height: 2px; }
   .input:focus {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .input:focus + .brd:before {
       -webkit-transition-duration: .225s;
            -o-transition-duration: .225s;
@@ -585,32 +585,68 @@ hr {
     font-style: italic; }
 
 .input::-webkit-input-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.input:hover::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.input:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .input:disabled::-webkit-input-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .input:-moz-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.input:hover:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.input:focus:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .input:disabled:-moz-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .input::-moz-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.input:hover::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.input:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .input:disabled::-moz-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .input:-ms-input-placeholder {
-  color: inherit;
-  opacity: .6; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.input:hover:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.input:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .input:disabled:-ms-input-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .input::-ms-clear {
   display: none; }
@@ -628,7 +664,7 @@ hr {
   min-height: 2.75em;
   height: 2.75em;
   background: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   padding: .85em .75em 0 .75em;
   margin: 0;
   outline: 0;
@@ -686,12 +722,12 @@ hr {
       -webkit-transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11);
               transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11); }
   .textarea:hover {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .textarea:hover + .brd:before {
       background-color: rgba(255, 255, 255, 0.15);
       height: 2px; }
   .textarea:focus {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .textarea:focus + .brd:before {
       -webkit-transition-duration: .225s;
            -o-transition-duration: .225s;
@@ -717,32 +753,68 @@ hr {
     font-style: italic; }
 
 .textarea::-webkit-input-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.textarea:hover::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.textarea:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .textarea:disabled::-webkit-input-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .textarea:-moz-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.textarea:hover:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.textarea:focus:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .textarea:disabled:-moz-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .textarea::-moz-placeholder {
-  color: inherit;
-  opacity: .4; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.textarea:hover::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.textarea:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .textarea:disabled::-moz-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 .textarea:-ms-input-placeholder {
-  color: inherit;
-  opacity: .6; }
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
+
+.textarea:hover:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
+
+.textarea:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4); }
 
 .textarea:disabled:-ms-input-placeholder {
-  opacity: 1; }
+  color: rgba(255, 255, 255, 0.2); }
 
 fieldset {
   margin: 0;
@@ -754,12 +826,9 @@ fieldset {
   .form .field + .field {
     margin-top: .5em; }
   .form .field .input {
-    width: 100%;
-    text-align: center;
-    background-color: #330000; }
+    width: 100%; }
   .form .field .textarea {
-    width: 100%;
-    background-color: #330000; }
+    width: 100%; }
 
 .form .action {
   margin-top: 2.75em;

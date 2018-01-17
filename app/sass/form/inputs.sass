@@ -1,11 +1,14 @@
 // Default
-$text_color: rgba(255,255,255, .8)
+$text_color: rgba(255,255,255, .85)
+$placeholder_color: rgba(255,255,255, .4)
 $border_color: rgba(255,255,255, .08)
 // Hover
-$text_color_hover: rgba(255,255,255, .95)
+$text_color_hover: rgba(255,255,255, .85)
+$placeholder_color_hover: rgba(255,255,255, .4)
 $border_color_hover: rgba(255,255,255, .15)
 // Focus
-$text_color_focus: rgba(255,255,255, .95)
+$text_color_focus: rgba(255,255,255, .85)
+$placeholder_color_focus: rgba(255,255,255, .4)
 $border_color_focus: rgba(238,117,202, .8)
 
 
@@ -36,7 +39,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	height: 2.75em
 	background: none
 	color: $text_color
-	padding: .65em .75em .15em .75em
+	padding: .53em .75em 0 .75em
 	margin: 0
 	outline: 0
 	border: none
@@ -119,34 +122,54 @@ $error_border_color_focus: rgba(228,106,106, .75)
 
 // Placeholder (Webkit)
 .input::-webkit-input-placeholder
-	color: inherit
-	opacity: .4
-.input:disabled::-webkit-input-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.input:hover::-webkit-input-placeholder
+	color: $placeholder_color_hover
+.input:focus::-webkit-input-placeholder
+	color: $placeholder_color_focus
+.input:disabled::-webkit-input-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (Mozilla (Old))
 .input:-moz-placeholder
-	color: inherit
-	opacity: .4
-.input:disabled:-moz-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.input:hover:-moz-placeholder
+	color: $placeholder_color_hover
+.input:focus:-moz-placeholder
+	color: $placeholder_color_focus
+.input:disabled:-moz-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (Mozilla (New))
 .input::-moz-placeholder
-	color: inherit
-	opacity: .4
-.input:disabled::-moz-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.input:hover::-moz-placeholder
+	color: $placeholder_color_hover
+.input:focus::-moz-placeholder
+	color: $placeholder_color_focus
+.input:disabled::-moz-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (MS)
 .input:-ms-input-placeholder
-	color: inherit
-	opacity: .6
-.input:disabled:-ms-input-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.input:hover:-ms-input-placeholder
+	color: $placeholder_color_hover
+.input:focus:-ms-input-placeholder
+	color: $placeholder_color_focus
+.input:disabled:-ms-input-placeholder
+	color: $disabled_text_color
 
 
 

@@ -1,11 +1,14 @@
 // Default
-$text_color: rgba(255,255,255, .8)
+$text_color: rgba(255,255,255, .85)
+$placeholder_color: rgba(255,255,255, .4)
 $border_color: rgba(255,255,255, .08)
 // Hover
-$text_color_hover: rgba(255,255,255, .95)
+$text_color_hover: rgba(255,255,255, .85)
+$placeholder_color_hover: rgba(255,255,255, .4)
 $border_color_hover: rgba(255,255,255, .15)
 // Focus
-$text_color_focus: rgba(255,255,255, .95)
+$text_color_focus: rgba(255,255,255, .85)
+$placeholder_color_focus: rgba(255,255,255, .4)
 $border_color_focus: rgba(238,117,202, .8)
 
 
@@ -122,31 +125,51 @@ $error_border_color_focus: rgba(228,106,106, .75)
 
 // Placeholder (Webkit)
 .textarea::-webkit-input-placeholder
-	color: inherit
-	opacity: .4
-.textarea:disabled::-webkit-input-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.textarea:hover::-webkit-input-placeholder
+	color: $placeholder_color_hover
+.textarea:focus::-webkit-input-placeholder
+	color: $placeholder_color_focus
+.textarea:disabled::-webkit-input-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (Mozilla (Old))
 .textarea:-moz-placeholder
-	color: inherit
-	opacity: .4
-.textarea:disabled:-moz-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.textarea:hover:-moz-placeholder
+	color: $placeholder_color_hover
+.textarea:focus:-moz-placeholder
+	color: $placeholder_color_focus
+.textarea:disabled:-moz-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (Mozilla (New))
 .textarea::-moz-placeholder
-	color: inherit
-	opacity: .4
-.textarea:disabled::-moz-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.textarea:hover::-moz-placeholder
+	color: $placeholder_color_hover
+.textarea:focus::-moz-placeholder
+	color: $placeholder_color_focus
+.textarea:disabled::-moz-placeholder
+	color: $disabled_text_color
 
 
 // Placeholder (MS)
 .textarea:-ms-input-placeholder
-	color: inherit
-	opacity: .6
-.textarea:disabled:-ms-input-placeholder
+	color: $placeholder_color
 	opacity: 1
+	transition: all .175s ease-in-out
+.textarea:hover:-ms-input-placeholder
+	color: $placeholder_color_hover
+.textarea:focus:-ms-input-placeholder
+	color: $placeholder_color_focus
+.textarea:disabled:-ms-input-placeholder
+	color: $disabled_text_color
