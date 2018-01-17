@@ -4,12 +4,13 @@
   display: inline-block;
   font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
   font-size: 1.18em;
-  line-height: inherit;
+  line-height: 1.25;
   min-height: 2.75em;
   height: 2.75em;
+  max-height: 10em;
   background: none;
   color: rgba(255, 255, 255, 0.85);
-  padding: .85em .75em 0 .75em;
+  padding: 1.04em .75em .44em .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -20,6 +21,7 @@
   overflow: auto;
   cursor: default;
   resize: vertical;
+  vertical-align: top;
   -webkit-transition: all .175s ease-in-out;
   -o-transition: all .175s ease-in-out;
   transition: all .175s ease-in-out; }
