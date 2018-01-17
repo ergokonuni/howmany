@@ -279,11 +279,9 @@ hr {
     grid-column: 1;
     grid-row: 1; }
   .home__signin {
-    width: 95%;
-    margin: 0 auto;
     grid-column: 1;
     grid-row: 2;
-    justify-self: center; }
+    padding: 0 2%; }
     .home__signin .input {
       text-align: center;
       width: 100%; }
@@ -627,10 +625,11 @@ hr {
   font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
   font-size: 1.18em;
   line-height: inherit;
-  min-height: 5em;
+  min-height: 2.75em;
+  height: 2.75em;
   background: none;
   color: rgba(255, 255, 255, 0.8);
-  padding: 0;
+  padding: .85em .75em 0 .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -639,10 +638,11 @@ hr {
           box-shadow: none;
   text-shadow: none;
   overflow: auto;
+  cursor: default;
   resize: vertical;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out; }
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
   .textarea + .brd {
     -webkit-transition: all .175s ease-in-out;
     -o-transition: all .175s ease-in-out;
@@ -748,6 +748,24 @@ fieldset {
   margin: 0;
   padding: 0;
   border: 0; }
+
+.form .field {
+  position: relative; }
+  .form .field + .field {
+    margin-top: .5em; }
+  .form .field .input {
+    width: 100%;
+    text-align: center;
+    background-color: #330000; }
+  .form .field .textarea {
+    width: 100%;
+    background-color: #330000; }
+
+.form .action {
+  margin-top: 2.75em;
+  text-align: center; }
+  .form .action .btn {
+    width: 50%; }
 
 @media only screen and (min-width: 300px) {
   html {

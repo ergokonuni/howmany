@@ -5,10 +5,11 @@
   font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
   font-size: 1.18em;
   line-height: inherit;
-  min-height: 5em;
+  min-height: 2.75em;
+  height: 2.75em;
   background: none;
   color: rgba(255, 255, 255, 0.8);
-  padding: 0;
+  padding: .85em .75em 0 .75em;
   margin: 0;
   outline: 0;
   border: none;
@@ -17,10 +18,11 @@
           box-shadow: none;
   text-shadow: none;
   overflow: auto;
+  cursor: default;
   resize: vertical;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out; }
+  -webkit-transition: all .175s ease-in-out;
+  -o-transition: all .175s ease-in-out;
+  transition: all .175s ease-in-out; }
   .textarea + .brd {
     -webkit-transition: all .175s ease-in-out;
     -o-transition: all .175s ease-in-out;

@@ -5,7 +5,27 @@
 @import "selectbox"
 @import "textarea"
 
+
 fieldset
 	margin: 0
 	padding: 0
 	border: 0
+
+
+.form
+	.field
+		position: relative
+		& + .field
+			margin-top: .5em
+		.input
+			width: 100%
+			text-align: center
+			background-color: #330000
+		.textarea
+			width: 100%
+			background-color: #330000
+	.action
+		margin-top: 2.75em
+		text-align: center
+		.btn
+			width: 50%

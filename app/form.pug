@@ -9,34 +9,12 @@ block title
 block main
 	
 	
-	// .page.home
-	main.page.home
+	// .page
+	main.page
 		
 		
-		// .home__logo
-		div.home__logo
-			div.container
-				p.logo
-					span.true
-						span.t T
-						span.r r
-						span.u u
-						span.e e
-					span.story
-						span.s S
-						span.t t
-						span.o o
-						span.r r
-						span.y y
-					span.dots
-						span.d1 .
-						span.d2 .
-						span.d3 .
-		// /.home__logo
-		
-		
-		// .home__signin
-		fieldset.home__signin
+		// .form
+		fieldset.form
 			div.container
 				form(method='post' action='#')
 					
@@ -67,29 +45,32 @@ block main
 					// /.field 'Password'
 					
 					
+					// .field 'Message'
+					div.field
+						textarea.textarea(
+							name='auth__fld__msg'
+							placeholder='сообщение...'
+							type='password'
+							autocomplete='off'
+							cols='auto'
+							rows='auto'
+							tabindex=3)
+						span.brd
+					// /.field 'Password'
+					
+					
 					// .action
 					div.action
 						button.btn(
 							name='auth__btn__signin'
 							value='войти'
 							type='button'
-							tabindex=3)
+							tabindex=4)
 							span войти
 					// /.action
 					
 					
-		// /.home__signin
-		
-		
-		// .home__links
-		div.home__links
-			div.container
-				ul.list
-					li.item
-						a.link(href='#' tabindex=4) Забыли пароль?
-					li.item
-						a.link(href='#' tabindex=5) Регистрация
-		// /.home__links
+		// /.form
 		
 		
 	// /.page.home
