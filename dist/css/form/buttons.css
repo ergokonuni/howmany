@@ -28,7 +28,7 @@
   -o-transition: all .175s ease-in-out;
   transition: all .175s ease-in-out; }
   .btn:visited {
-    color: inherit; }
+    color: rgba(255, 255, 255, 0.85); }
   .btn:before {
     -webkit-transition: opacity .1s ease-in-out, border-color .175s ease-in-out, -webkit-transform .175s ease-in-out;
     transition: opacity .1s ease-in-out, border-color .175s ease-in-out, -webkit-transform .175s ease-in-out;
