@@ -275,7 +275,7 @@ hr {
   .home .container {
     max-width: 500px; }
   .home__logo {
-    margin: 0 0 .5em 0;
+    margin: 0 0 .6em 0;
     grid-column: 1;
     grid-row: 1; }
   .home__signin {
@@ -289,12 +289,12 @@ hr {
       width: 62%; }
     .home__signin .field {
       position: relative; }
-    .home__signin .field + .field {
-      margin-top: .5em; }
+      .home__signin .field + .field {
+        margin-top: .25em; }
     .home__signin .action {
       margin-top: 2.75em; }
   .home__links {
-    margin: 2em 0;
+    margin: 2em 0 3em 0;
     font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
     font-size: .9375em;
     grid-column: 1;
@@ -382,16 +382,17 @@ hr {
   display: inline-block;
   font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
   font-size: 1.06em;
-  line-height: inherit;
-  height: 2.75em;
+  line-height: 1.25;
+  letter-spacing: .04em;
+  min-height: 2.75em;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   vertical-align: middle;
   background: none;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 0 1.5em;
+  color: rgba(255, 255, 255, 0.85);
+  padding: .92em 2em;
   margin: 0;
   outline: 0 !important;
   border: 0;
@@ -447,12 +448,12 @@ hr {
     -webkit-transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11);
             transform: translate3d(0, 0, 0) translate(0, 2px) scale(1.11, 1.11); }
   .btn:hover {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .btn:hover:before {
       border-color: rgba(255, 255, 255, 0.15);
       border-width: 2px; }
   .btn:focus {
-    color: rgba(255, 255, 255, 0.95); }
+    color: rgba(255, 255, 255, 0.85); }
     .btn:focus:before {
       -webkit-transition-duration: .225s;
            -o-transition-duration: .225s;
@@ -826,7 +827,7 @@ fieldset {
 .form .field {
   position: relative; }
   .form .field + .field {
-    margin-top: .5em; }
+    margin-top: .25em; }
   .form .field .input {
     width: 100%; }
   .form .field .textarea {
@@ -836,7 +837,7 @@ fieldset {
   margin-top: 2.75em;
   text-align: center; }
   .form .action .btn {
-    width: 50%; }
+    min-width: 50%; }
 
 @media only screen and (min-width: 300px) {
   html {
