@@ -839,6 +839,21 @@ fieldset {
   .form .action .btn {
     min-width: 50%; }
 
+.desktop.win ::-webkit-scrollbar {
+  width: 24px;
+  height: 24px; }
+  .desktop.win ::-webkit-scrollbar-corner {
+    background: none; }
+  .desktop.win ::-webkit-scrollbar-track {
+    background: none; }
+  .desktop.win ::-webkit-scrollbar-track-piece {
+    background: rgba(0, 0, 0, 0.2);
+    background: none; }
+  .desktop.win ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border: 8px solid #371253;
+    border-radius: 12px; }
+
 @media only screen and (min-width: 300px) {
   html {
     font-size: 1em; }
