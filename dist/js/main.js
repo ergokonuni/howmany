@@ -1,11 +1,13 @@
 $(document).ready(function(){
-	deviceOrientation();
+	deviceOrientation__Init();
+	textareaAutoresize__Init();
 });
 
 
 
+
 // DEVICE ORIENTATION
-function deviceOrientation(){
+function deviceOrientation__Init(){
 	docWidth   = $(document).width();
 	docHeight  = $(document).height();
 	if (docWidth > docHeight) {
@@ -15,10 +17,35 @@ function deviceOrientation(){
 	}
 	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
 	console.log('HTML Class: ' + $('html').attr('class'));
-}
+};
 $(window).on('resize', function(){
-	deviceOrientation();
-})
+	deviceOrientation__Init();
+});
+
+
+
+
+// TEXTAREA AUTORESIZE
+function textareaAutoresize__Init(){
+	$('textarea[autoresize="on"]').each(function(){
+		textareaAutoresize(this);
+		//console.log($(this).attr('name'));
+		//console.log($(this).height());
+		$(this).on('keyup', function(){
+			textareaAutoresize(this);
+		});
+	});
+};
+function textareaAutoresize(el){
+	if ($(el).length > 0) {
+		el.style.height = 'auto';
+		el.style.height = (el.scrollHeight) + 'px';
+		console.log(el.scrollHeight+' x '+el.style.height);
+	}
+};
+$(window).on('resize', function(){
+	textareaAutoresize__Init();
+});
 
 
 

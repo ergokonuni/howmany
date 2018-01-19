@@ -1,16 +1,20 @@
 .desktop.win
+	
+	// Webkit: All
 	::-webkit-scrollbar
 		width: 24px
 		height: 24px
-		background: #371253
+		background-color: #371253
 		&:vertical
 			border-left: 1px solid rgba(255,255,255, .1)
 		&:horizontal
 			border-top: 1px solid rgba(255,255,255, .1)
 		&-corner
-			background: #371253
+			background-color: #371253
 			border-left: 1px solid rgba(255,255,255, .1)
 			border-top: 1px solid rgba(255,255,255, .1)
+		&-resizer
+			//background: none
 		&-track
 			//background: none
 		&-track-piece
@@ -26,22 +30,21 @@
 				background-color: rgba(255,255,255, .15)
 			&:active
 				background-color: rgba(238,117,202, .8)
+	
+	// Webkit: Textarea
 	.textarea::-webkit-scrollbar
 		width: 16px
 		height: 16px
 		border: none
-		&:vertical
-			//border-left: 1px solid rgba(255,255,255, .1)
-			//border-right: 1px solid rgba(255,255,255, .1)
 		&-corner
 			border: none
-			//border-right: 1px solid rgba(255,255,255, .1)
 		&-thumb
 			&:vertical
 				box-shadow: inset 4px 4px 0 0 #371253, inset -4px -4px 0 0 #371253
 			&:horizontal
 				box-shadow: inset 4px 4px 0 0 #371253, inset -4px -4px 0 0 #371253
-
+	
+	// IE: All
 	body
 		scrollbar-base-color: #4b2a65
 		scrollbar-face-color: #4b2a65

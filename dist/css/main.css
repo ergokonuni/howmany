@@ -842,13 +842,13 @@ fieldset {
 .desktop.win ::-webkit-scrollbar {
   width: 24px;
   height: 24px;
-  background: #371253; }
+  background-color: #371253; }
   .desktop.win ::-webkit-scrollbar:vertical {
     border-left: 1px solid rgba(255, 255, 255, 0.1); }
   .desktop.win ::-webkit-scrollbar:horizontal {
     border-top: 1px solid rgba(255, 255, 255, 0.1); }
   .desktop.win ::-webkit-scrollbar-corner {
-    background: #371253;
+    background-color: #371253;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1); }
   .desktop.win ::-webkit-scrollbar-thumb {
