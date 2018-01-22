@@ -25,6 +25,10 @@
   -webkit-transition: all .175s ease-in-out;
   -o-transition: all .175s ease-in-out;
   transition: all .175s ease-in-out; }
+  .textarea__hidden {
+    display: block;
+    height: auto;
+    background-color: #330000; }
   .textarea + .brd {
     -webkit-transition: all .175s ease-in-out;
     -o-transition: all .175s ease-in-out;

@@ -38,9 +38,18 @@ function textareaAutoresize__Init(){
 };
 function textareaAutoresize(el){
 	if ($(el).length > 0) {
-		el.style.height = 'auto';
-		el.style.height = (el.scrollHeight) + 'px';
-		console.log(el.scrollHeight+' x '+el.style.height);
+		if (!$(el).parent().find('.textarea__hidden').length > 0) {
+			textarea__hidden__html = '<div class="textarea textarea__hidden">123</div>';
+			$(el).parent().append(textarea__hidden__html);
+		}
+		textarea__hidden = $('.textarea__hidden');
+		textarea__hidden.html($(el).val().replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;').replace(/\n/g, '<br/>'));
+		textarea__height = textarea__hidden.height() + parseFloat($(el).css('padding-top')) + parseFloat($(el).css('padding-bottom')) + .1;
+		$(el).css({'height':'auto'});
+		$(el).css({'height':textarea__height});
+		console.log(textarea__height);
+		console.log($(el).css('height'));
+		console.log(textarea__hidden.height());
 	}
 };
 $(window).on('resize', function(){
