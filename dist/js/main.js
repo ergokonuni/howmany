@@ -31,6 +31,9 @@ function textareaAutoresize__Init(){
 		textareaAutoresize(this);
 		//console.log($(this).attr('name'));
 		//console.log($(this).height());
+		$(this).on('keydown', function(){
+			textareaAutoresize(this);
+		});
 		$(this).on('keyup', function(){
 			textareaAutoresize(this);
 		});
@@ -39,17 +42,24 @@ function textareaAutoresize__Init(){
 function textareaAutoresize(el){
 	if ($(el).length > 0) {
 		if (!$(el).parent().find('.textarea__hidden').length > 0) {
-			textarea__hidden__html = '<div class="textarea textarea__hidden">123</div>';
+			textarea__hidden__html = '<div class="textarea textarea__hidden"></div>';
 			$(el).parent().append(textarea__hidden__html);
 		}
 		textarea__hidden = $('.textarea__hidden');
-		textarea__hidden.html($(el).val().replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;').replace(/\n/g, '<br/>'));
-		textarea__height = textarea__hidden.height() + parseFloat($(el).css('padding-top')) + parseFloat($(el).css('padding-bottom')) + .1;
+		str = $(el).val();
+		//console.log('.' + str.charCodeAt(str.length - 1) + '.');
+		br = str.split('\n');
+		br_str = '<br/>';
+		br_str_last = '<br/>&nbsp;';
+		str_replaced = str.replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
+		console.log(br.length)
+		textarea__hidden.html(str_replaced);
+		textarea__height = textarea__hidden.height() + parseFloat($(el).css('padding-top')) + parseFloat($(el).css('padding-bottom'));
 		$(el).css({'height':'auto'});
 		$(el).css({'height':textarea__height});
-		console.log(textarea__height);
-		console.log($(el).css('height'));
-		console.log(textarea__hidden.height());
+		//console.log(textarea__height);
+		//console.log($(el).css('height'));
+		//console.log(textarea__hidden.height());
 	}
 };
 $(window).on('resize', function(){
