@@ -16,7 +16,7 @@ function deviceOrientation__Init(){
 		$('html').removeClass('landscape').addClass('portrait');
 	}
 	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
-	console.log('HTML Class: ' + $('html').attr('class'));
+	//console.log('HTML Class: ' + $('html').attr('class'));
 };
 $(window).on('resize', function(){
 	deviceOrientation__Init();
@@ -29,12 +29,13 @@ $(window).on('resize', function(){
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
 		textareaAutoresize(this);
-		//console.log($(this).attr('name'));
-		//console.log($(this).height());
 		$(this).on('keydown', function(){
 			textareaAutoresize(this);
 		});
 		$(this).on('keyup', function(){
+			textareaAutoresize(this);
+		});
+		$(this).on('change', function(){
 			textareaAutoresize(this);
 		});
 	});
@@ -47,19 +48,19 @@ function textareaAutoresize(el){
 		}
 		textarea__hidden = $('.textarea__hidden');
 		str = $(el).val();
-		//console.log('.' + str.charCodeAt(str.length - 1) + '.');
-		br = str.split('\n');
-		br_str = '<br/>';
-		br_str_last = '<br/>&nbsp;';
-		str_replaced = str.replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
-		console.log(br.length)
+		str_replaced = '';
+		str_splited = str.split('\n');
+		for (i = 0; i < str_splited.length; i++) {
+			str_replaced = str_replaced + str_splited[i].replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
+			str_replaced = str_replaced + '<br/>';
+		}
 		textarea__hidden.html(str_replaced);
-		textarea__height = textarea__hidden.height() + parseFloat($(el).css('padding-top')) + parseFloat($(el).css('padding-bottom'));
+		textarea__pd__top = $(el).css('padding-top');
+		textarea__pd__bottom = $(el).css('padding-bottom');
+		textarea__height = parseFloat(textarea__hidden.height()) + parseFloat(textarea__pd__top) + parseFloat(textarea__pd__bottom) + .1;
 		$(el).css({'height':'auto'});
 		$(el).css({'height':textarea__height});
 		//console.log(textarea__height);
-		//console.log($(el).css('height'));
-		//console.log(textarea__hidden.height());
 	}
 };
 $(window).on('resize', function(){
