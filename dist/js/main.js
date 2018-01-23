@@ -40,6 +40,7 @@ function textareaAutoresize__Init(){
 	});
 };
 function textareaAutoresize(el){
+	//console.log(el);
 	if ($(el).length > 0) {
 		textarea__hidden = $(el).parent().find('.textarea__hidden');
 		if (!textarea__hidden.length > 0) {
