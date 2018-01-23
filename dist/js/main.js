@@ -35,7 +35,6 @@ function textareaAutoresize__Init(){
 	});
 };
 function textareaAutoresize(el){
-	//console.log(el);
 	if ($(el).length > 0) {
 		textarea__hidden = $(el).parent().find('.textarea__hidden');
 		if (!textarea__hidden.length > 0) {
@@ -54,8 +53,6 @@ function textareaAutoresize(el){
 		textarea__pd__bottom = $(el).css('padding-bottom');
 		textarea__height = parseFloat(textarea__hidden.height()) + parseFloat(textarea__pd__top) + parseFloat(textarea__pd__bottom) + .1;
 		$(el).css({'height':textarea__height});
-		//console.log(textarea__height);
-		//$(el).val('sdasadsda as as a das s as as as das dsa das d das da das das dasda  s a as as asd as asd s as asas as as as');
 	}
 };
 $(window).on('resize', function(){
