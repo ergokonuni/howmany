@@ -29,14 +29,9 @@ $(window).on('resize', function(){
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
 		textareaAutoresize(this);
-		$(this).on('keydown keyup change', function(){
+		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
-		/*
-		textareaAutoresize__timer = setInterval(function(){
-			textareaAutoresize(el);
-		}, 1000);
-		*/
 	});
 };
 function textareaAutoresize(el){
