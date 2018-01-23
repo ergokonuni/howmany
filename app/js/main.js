@@ -28,29 +28,24 @@ $(window).on('resize', function(){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
-		el = this;
-		textareaAutoresize(el);
-		$(el).on('keydown', function(){
-			textareaAutoresize(el);
+		textareaAutoresize(this);
+		$(this).on('keydown keyup change', function(){
+			textareaAutoresize(this);
 		});
-		$(el).on('keyup', function(){
-			textareaAutoresize(el);
-		});
-		$(el).on('change', function(){
-			textareaAutoresize(el);
-		});
+		/*
 		textareaAutoresize__timer = setInterval(function(){
 			textareaAutoresize(el);
 		}, 1000);
+		*/
 	});
 };
 function textareaAutoresize(el){
 	if ($(el).length > 0) {
-		if (!$(el).parent().find('.textarea__hidden').length > 0) {
+		textarea__hidden = $(el).parent().find('.textarea__hidden');
+		if (!textarea__hidden.length > 0) {
 			textarea__hidden__html = '<div class="textarea textarea__hidden"></div>';
 			$(el).parent().append(textarea__hidden__html);
 		}
-		textarea__hidden = $('.textarea__hidden');
 		str = $(el).val();
 		str_splited = str.split('\n');
 		str_replaced = '';
@@ -62,7 +57,6 @@ function textareaAutoresize(el){
 		textarea__pd__top = $(el).css('padding-top');
 		textarea__pd__bottom = $(el).css('padding-bottom');
 		textarea__height = parseFloat(textarea__hidden.height()) + parseFloat(textarea__pd__top) + parseFloat(textarea__pd__bottom) + .1;
-		$(el).css({'height':'auto'});
 		$(el).css({'height':textarea__height});
 		//console.log(textarea__height);
 		//$(el).val('sdasadsda as as a das s as as as das dsa das d das da das das dasda  s a as as asd as asd s as asas as as as');
