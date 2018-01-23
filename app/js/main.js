@@ -28,16 +28,20 @@ $(window).on('resize', function(){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
-		textareaAutoresize(this);
-		$(this).on('keydown', function(){
-			textareaAutoresize(this);
+		el = this;
+		textareaAutoresize(el);
+		$(el).on('keydown', function(){
+			textareaAutoresize(el);
 		});
-		$(this).on('keyup', function(){
-			textareaAutoresize(this);
+		$(el).on('keyup', function(){
+			textareaAutoresize(el);
 		});
-		$(this).on('change', function(){
-			textareaAutoresize(this);
+		$(el).on('change', function(){
+			textareaAutoresize(el);
 		});
+		textareaAutoresize__timer = setInterval(function(){
+			textareaAutoresize(el);
+		}, 1000);
 	});
 };
 function textareaAutoresize(el){
@@ -48,11 +52,11 @@ function textareaAutoresize(el){
 		}
 		textarea__hidden = $('.textarea__hidden');
 		str = $(el).val();
-		str_replaced = '';
 		str_splited = str.split('\n');
+		str_replaced = '';
 		for (i = 0; i < str_splited.length; i++) {
-			str_replaced = str_replaced + str_splited[i].replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
-			str_replaced = str_replaced + '<br/>';
+			str_replaced += str_splited[i].replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
+			str_replaced += '<br/>';
 		}
 		textarea__hidden.html(str_replaced);
 		textarea__pd__top = $(el).css('padding-top');
@@ -61,6 +65,7 @@ function textareaAutoresize(el){
 		$(el).css({'height':'auto'});
 		$(el).css({'height':textarea__height});
 		//console.log(textarea__height);
+		//$(el).val('sdasadsda as as a das s as as as das dsa das d das da das das dasda  s a as as asd as asd s as asas as as as');
 	}
 };
 $(window).on('resize', function(){
