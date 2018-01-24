@@ -28,16 +28,19 @@ $(window).on('resize', function(){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
-		var textareaAutoresize = function(el) {
-			offset = el.offsetHeight - el.clientHeight;
-			$(el).css('height', 'auto');
-			$(el).css('height', el.scrollHeight + offset);
-		};
 		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
 		textareaAutoresize(this);
 	});
+};
+$(window).on('resize', function(){
+	$('textarea[autoresize="on"]').trigger('change');
+});
+function textareaAutoresize(el){
+	offset = el.offsetHeight - el.clientHeight;
+	$(el).css('height', 'auto');
+	$(el).css('height', el.scrollHeight + offset);
 };
 /*
 function textareaAutoresize(el){
@@ -62,10 +65,6 @@ function textareaAutoresize(el){
 	}
 };
 */
-$(window).on('resize', function(){
-	$('textarea[autoresize="on"]').trigger('change');
-	//textareaAutoresize__Init();
-});
 
 
 
