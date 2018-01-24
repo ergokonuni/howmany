@@ -10,10 +10,13 @@ $(document).ready(function(){
 function deviceOrientation__Init(){
 	docWidth   = $(document).width();
 	docHeight  = $(document).height();
+	$('html').removeClass('portrait landscape square');
 	if (docWidth > docHeight) {
-		$('html').removeClass('portrait').addClass('landscape');
-	} else {
-		$('html').removeClass('landscape').addClass('portrait');
+		$('html').addClass('landscape');
+	} else if (docWidth < docHeight) {
+		$('html').addClass('portrait');
+	} else if (docWidth == docHeight) {
+		$('html').addClass('square');
 	}
 	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
 	//console.log('HTML Class: ' + $('html').attr('class'));
