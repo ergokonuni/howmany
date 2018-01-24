@@ -28,24 +28,15 @@ $(window).on('resize', function(){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
-		/*
-		textareaAutoresize(this);
-		$(this).on('input keydown keyup change', function(){
-			textareaAutoresize(this);
-		});
-		*/
-		var offset = this.offsetHeight - this.clientHeight;
-		var old_height = this.scrollHeight + offset;
 		var textareaAutoresize = function(el) {
+			offset = el.offsetHeight - el.clientHeight;
 			$(el).css('height', 'auto');
-			new_height = el.scrollHeight + offset;
-			$(el).css('height', old_height);
-			$(el).css('height', new_height);
-			old_height = new_height;
+			$(el).css('height', el.scrollHeight + offset);
 		};
 		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
+		textareaAutoresize(this);
 	});
 };
 /*
@@ -72,7 +63,8 @@ function textareaAutoresize(el){
 };
 */
 $(window).on('resize', function(){
-	textareaAutoresize__Init();
+	$('textarea[autoresize="on"]').trigger('change');
+	//textareaAutoresize__Init();
 });
 
 

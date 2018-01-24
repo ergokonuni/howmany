@@ -666,6 +666,7 @@ hr {
   word-wrap: break-word;
   min-height: 2.75em;
   height: 2.75em;
+  height: auto;
   max-height: 10.6em;
   background: none;
   color: rgba(255, 255, 255, 0.85);
@@ -678,6 +679,7 @@ hr {
           box-shadow: none;
   text-shadow: none;
   overflow: auto;
+  overflow-x: hidden;
   cursor: default;
   resize: none;
   vertical-align: top;
