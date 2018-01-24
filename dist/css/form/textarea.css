@@ -5,7 +5,8 @@
   font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
   font-size: 1.18em;
   line-height: 1.25;
-  word-break: break-all;
+  word-break: normal;
+  word-wrap: break-word;
   min-height: 2.75em;
   height: 2.75em;
   max-height: 10.6em;
@@ -29,6 +30,7 @@
   .textarea__hidden {
     display: block;
     height: auto;
+    max-width: 100%;
     background-color: #330000; }
   .textarea + .brd {
     -webkit-transition: all .175s ease-in-out;

@@ -36,7 +36,8 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
 	font-size: 1.18em
 	line-height: 1.25
-	word-break: break-all
+	word-break: normal
+	word-wrap: break-word
 	min-height: 2.75em
 	height: 2.75em
 	max-height: 10.6em
@@ -58,6 +59,9 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	&__hidden
 		display: block
 		height: auto
+		max-width: 100%
+		//position: absolute
+		//left: -10000px
 		background-color: #330000
 	//  .brd
 	& + .brd
