@@ -28,12 +28,27 @@ $(window).on('resize', function(){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 	$('textarea[autoresize="on"]').each(function(){
+		/*
 		textareaAutoresize(this);
+		$(this).on('input keydown keyup change', function(){
+			textareaAutoresize(this);
+		});
+		*/
+		var offset = this.offsetHeight - this.clientHeight;
+		var old_height = this.scrollHeight + offset;
+		var textareaAutoresize = function(el) {
+			$(el).css('height', 'auto');
+			new_height = el.scrollHeight + offset;
+			$(el).css('height', old_height);
+			$(el).css('height', new_height);
+			old_height = new_height;
+		};
 		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
 	});
 };
+/*
 function textareaAutoresize(el){
 	if ($(el).length > 0) {
 		textarea__hidden = $(el).parent().find('.textarea__hidden');
@@ -55,6 +70,7 @@ function textareaAutoresize(el){
 		$(el).css({'height':textarea__height});
 	}
 };
+*/
 $(window).on('resize', function(){
 	textareaAutoresize__Init();
 });
