@@ -1,26 +1,31 @@
 {
   "name": "device.js",
-  "version": "0.2.7",
-  "homepage": "https://github.com/matthewhudson/device.js",
-  "authors": [
-    "Matthew Hudson <matthud@gmail.com>"
-  ],
-  "description": "Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).",
-  "license": "MIT",
+  "description": "",
+  "version": "0.0.3",
+  "homepage": "http://",
+  "author": {
+    "name": "Javi Jimenez Villar",
+    "site": "http://twitter.com/soyjavi"
+  },
   "main": [
-    "lib/device.js"
+    "./device.js"
   ],
-  "ignore": [
-    "**/.*"
+  "keywords": [
+    "mobile"
   ],
-  "_release": "0.2.7",
+  "license": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "_release": "0.0.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.7",
-    "commit": "02233eaaf51f993c762f770e42fbe537872dd3fe"
+    "tag": "0.0.3",
+    "commit": "ac6882b331c64fb50874c8878a1428e2735d9edd"
   },
-  "_source": "https://github.com/matthewhudson/device.js.git",
-  "_target": "^0.2.7",
-  "_originalSource": "devicejs",
+  "_source": "https://github.com/soyjavi/package-device.js.git",
+  "_target": "^0.0.3",
+  "_originalSource": "device.js",
   "_direct": true
 }

@@ -901,13 +901,13 @@ fieldset {
   .container {
     width: 85%; } }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 360px) {
   html {
     font-size: 1.05em; }
   .container {
     width: 82%; } }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 420px) {
   html {
     font-size: 1.1em; }
   .container {
