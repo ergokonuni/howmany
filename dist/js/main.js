@@ -36,14 +36,18 @@ function textareaAutoresize__Init(){
 		});
 		textareaAutoresize(this);
 	});
+	$(window).on('resize', function(){
+		$('textarea[autoresize="on"]').trigger('change');
+		setTimeout(function(){
+			$('textarea[autoresize="on"]').trigger('change');
+		}, 200);
+	});
 };
-$(window).on('resize', function(){
-	$('textarea[autoresize="on"]').trigger('change');
-});
 function textareaAutoresize(el){
 	offset = el.offsetHeight - el.clientHeight;
 	$(el).css('height', 'auto');
 	$(el).css('height', el.scrollHeight + offset);
+	//console.log(el.scrollHeight);
 };
 /*
 function textareaAutoresize(el){
