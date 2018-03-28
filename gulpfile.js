@@ -32,7 +32,7 @@ gulp.task('browser-sync', function(){
 
 
 gulp.task('sass', function(){
-	return gulp.src('app/sass2/**/*.sass')
+	return gulp.src('app/sass/**/*.sass')
 		.pipe(sass({
 			includePaths: bourbon.includePaths
 		}).on('error', sass.logError))
@@ -47,8 +47,8 @@ gulp.task('sass', function(){
 
 gulp.task('css-libs', function(){
 	return gulp.src([
-			//'app/libs/normalize-css/normalize.css',
-			'app/libs/bootstrap/dist/css/bootstrap.min.css'
+			'app/libs/normalize-css/normalize.css'
+			//'app/libs/bootstrap/dist/css/bootstrap.min.css'
 			//'app/libs/owl.carousel/dist/assets/owl.carousel.min.css',
 			//'app/libs/owl.carousel/dist/assets/owl.theme.default.min.css',
 			//'app/libs/magnific-popup/dist/magnific-popup.css'
@@ -62,10 +62,10 @@ gulp.task('css-libs', function(){
 
 gulp.task('js-libs', function(){
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.slim.min.js',
+		'app/libs/jquery/dist/jquery.slim.min.js'
 		//'app/libs/popper.js/dist/umd/popper.min.js',
-		'app/libs/device.js/device.js',
-		'app/libs/bootstrap/bootstrap.min.js'
+		//'app/libs/device.js/device.js',
+		//'app/libs/bootstrap/bootstrap.min.js'
 		//'app/libs/bootstrap/bootstrap.bundle.min.js',
 		//'app/libs/owl.carousel/dist/owl.carousel.js',
 		//'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
@@ -115,7 +115,7 @@ gulp.task('img', function(){
 
 
 gulp.task('watch', ['sass', 'css-libs', 'js', 'js-libs', 'pug', 'html', 'img', 'browser-sync'], function(){
-	gulp.watch('app/sass2/**/*.sass', ['sass']);
+	gulp.watch('app/sass/**/*.sass', ['sass']);
 	gulp.watch('app/**/*.pug', ['pug']);
 	gulp.watch('app/**/*.html', ['html']);
 	gulp.watch('app/*.php', browserSync.reload);

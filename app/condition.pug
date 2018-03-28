@@ -1,0 +1,42 @@
+extends ./tpl/layout/__base.pug
+
+
+block title
+	- var page_title = "Condition";
+	title= page_title
+
+
+block main
+	
+	
+	// .page.cond
+	main.page.cond
+		
+		
+		// .container
+		div.container
+			
+			
+			div.block.b-water
+				h4 Water
+				div.wt-row
+					div.wt-label-holder
+						p.wt-label Mineral
+					div.wt-gauge-holder
+						div.gauge-back
+							div.gauge-front(style='width:0')
+				div.wt-row
+					div.wt-label-holder
+						p.wt-label Other
+					div.wt-gauge-holder
+						div.gauge-back
+							div.gauge-front(style='width:8%')
+				div.wt-row
+					div.wt-label-holder
+						p.wt-label Park
+					div.wt-gauge-holder
+						div.gauge-back
+							div.gauge-front(style='width:0')
+				
+				
+	// /.page.chart
