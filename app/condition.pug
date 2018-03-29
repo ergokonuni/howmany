@@ -9,34 +9,46 @@ block title
 block main
 	
 	
-	// .page.cond
-	main.page.cond
+	// .page.page-cond
+	main.page.page-cond
 		
 		
 		// .container
 		div.container
 			
 			
-			div.block.b-water
-				h4 Water
-				div.wt-row
-					div.wt-label-holder
-						p.wt-label Mineral
-					div.wt-gauge-holder
-						div.gauge-back
-							div.gauge-front(style='width:0')
-				div.wt-row
-					div.wt-label-holder
-						p.wt-label Other
-					div.wt-gauge-holder
-						div.gauge-back
-							div.gauge-front(style='width:8%')
-				div.wt-row
-					div.wt-label-holder
-						p.wt-label Park
-					div.wt-gauge-holder
-						div.gauge-back
-							div.gauge-front(style='width:0')
+			// card.card-wt
+			div.card.card-wt
+				
+				// .card__header
+				header.card__header
+					div.title-holder
+						h4.title Water water water water water
+					div.icon-holder 1
+					div.icon-holder 2
+					div.icon-holder 3
+					div.icon-holder 4
+				
+				// .card__body
+				section.card__body
+					div.wt-row
+						div.wt-label-holder
+							p.wt-label Mineral
+						div.wt-gauge-holder
+							div.gauge-back
+								div.gauge-front(style='width:0')
+					div.wt-row
+						div.wt-label-holder
+							p.wt-label Other
+						div.wt-gauge-holder
+							div.gauge-back
+								div.gauge-front(style='width:17%')
+					div.wt-row
+						div.wt-label-holder
+							p.wt-label Park
+						div.wt-gauge-holder
+							div.gauge-back
+								div.gauge-front(style='width:25%')
 				
 				
 	// /.page.chart

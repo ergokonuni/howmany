@@ -193,6 +193,70 @@ hr {
     .logo .dots .d3 {
       margin-left: -.055em; }
 
+.card {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.card__header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.55);
+  height: 3.2em;
+  line-height: 3.2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 1em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .card__header .title-holder {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    overflow: hidden; }
+  .card__header .title {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1em;
+    line-height: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin: 0;
+    background-color: #003300; }
+  .card__header .icon-holder {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    justify-self: flex-end;
+    width: 3.2em;
+    min-width: 3.2em;
+    max-width: 3.2em;
+    height: 3.2em;
+    text-align: center;
+    background-color: #330000; }
+
+.card__body {
+  padding: 1.5em 1em; }
+
 .header {
   width: 100%;
   height: 3.2em;
@@ -379,15 +443,14 @@ hr {
     text-align: center;
     color: rgba(255, 255, 255, 0.22); }
 
-.cond {
+.page-cond {
   padding: 0; }
-  .cond .container {
-    min-width: 100%;
-    max-width: 500px; }
-  .cond .block {
+  .page-cond .container {
+    min-width: 100%; }
+  .page-cond .block {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1em 1.75em; }
-  .cond .wt-row {
+  .page-cond .wt-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -401,31 +464,31 @@ hr {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    padding: 0.25em 0; }
-  .cond .wt-label-holder {
+    padding: 0.5em 0; }
+  .page-cond .wt-label-holder {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 6em;
             flex: 0 1 6em;
     text-align: right;
     padding: 0 1em 0 0; }
-  .cond .wt-gauge-holder {
+  .page-cond .wt-gauge-holder {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
     padding-top: 0.3em; }
-  .cond .gauge-back {
+  .page-cond .gauge-back {
     height: 1em;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35);
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35); }
-  .cond .gauge-front {
+  .page-cond .gauge-front {
     height: 1em;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 2px;
     -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
             box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
-  .cond .gauge-item {
+  .page-cond .gauge-item {
     display: inline-block;
     width: 1em;
     height: 1em;

@@ -1,12 +1,11 @@
-.cond {
+.page-cond {
   padding: 0; }
-  .cond .container {
-    min-width: 100%;
-    max-width: 500px; }
-  .cond .block {
+  .page-cond .container {
+    min-width: 100%; }
+  .page-cond .block {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1em 1.75em; }
-  .cond .wt-row {
+  .page-cond .wt-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,31 +19,31 @@
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    padding: 0.25em 0; }
-  .cond .wt-label-holder {
+    padding: 0.5em 0; }
+  .page-cond .wt-label-holder {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 6em;
             flex: 0 1 6em;
     text-align: right;
     padding: 0 1em 0 0; }
-  .cond .wt-gauge-holder {
+  .page-cond .wt-gauge-holder {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
     padding-top: 0.3em; }
-  .cond .gauge-back {
+  .page-cond .gauge-back {
     height: 1em;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35);
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35); }
-  .cond .gauge-front {
+  .page-cond .gauge-front {
     height: 1em;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 2px;
     -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
             box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
-  .cond .gauge-item {
+  .page-cond .gauge-item {
     display: inline-block;
     width: 1em;
     height: 1em;
