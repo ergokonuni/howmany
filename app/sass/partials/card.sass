@@ -4,6 +4,7 @@
 
 // .card
 .card
+	box-sizing: border-box
 	border-top: 1px solid rgba(255,255,255, .1)
 	border-bottom: 1px solid rgba(255,255,255, .1)
 
@@ -26,12 +27,16 @@
 	// .title-holder
 	.title-holder
 		flex: 0 1 100%
+		//width: 150px
+		//max-width: 100%
 		overflow: hidden
+		background-color: #000033
 	
 	// .title
 	.title
-		width: 100%
-		max-width: 100%
+		box-sizing: border-box
+		//width: 100px
+		//max-width: 100%
 		font-size: 1em
 		line-height: inherit
 		font-weight: 500
@@ -41,7 +46,10 @@
 		text-overflow: ellipsis
 		padding: 0
 		margin: 0
-		background-color: #003300
+		//background-color: #003300
+		span
+			overflow: hidden
+			text-overflow: ellipsis
 	
 	// .icon-holder
 	.icon-holder
@@ -51,7 +59,7 @@
 		width: $card_header_height
 		min-width: $card_header_height
 		max-width: $card_header_height
-		height: $card_header_height
+		//height: $card_header_height
 		text-align: center
 		background-color: #330000
 
