@@ -7,6 +7,8 @@
 	box-sizing: border-box
 	border-top: 1px solid rgba(255,255,255, .1)
 	border-bottom: 1px solid rgba(255,255,255, .1)
+.card-wt
+	border-top: none
 
 
 
@@ -17,25 +19,30 @@
 	height: $card_header_height
 	line-height: $card_header_height
 	border-bottom: 1px solid rgba(255,255,255, .1)
-	padding: 0 1em
 	user-select: none
-	display: flex
-	flex-direction: row
-	justify-content: flex-start
+	display: grid
+	grid-template-columns: auto max-content
+	grid-template-rows: 1fr
+	justify-content: stretch
+	align-content: stretch
+	justify-items: stretch
 	align-items: stretch
-
+	//background-color: #000011
+	
 	// .title-holder
 	.title-holder
-		flex: 0 1 100%
-		//width: 150px
+		//box-sizing: border-box
+		//width: 100%
 		//max-width: 100%
 		overflow: hidden
-		background-color: #000033
+		text-overflow: ellipsis
+		padding: 0 .6em
+		//background-color: #000044
 	
 	// .title
 	.title
 		box-sizing: border-box
-		//width: 100px
+		//width: 100%
 		//max-width: 100%
 		font-size: 1em
 		line-height: inherit
@@ -47,21 +54,31 @@
 		padding: 0
 		margin: 0
 		//background-color: #003300
-		span
-			overflow: hidden
-			text-overflow: ellipsis
 	
-	// .icon-holder
-	.icon-holder
-		flex: 0 1 auto
+	// .icons-holder
+	.icons-holder
 		box-sizing: border-box
-		justify-self: flex-end
+		display: grid
+		grid-template-columns: repeat(4, auto)
+		grid-template-rows: 1fr
+		justify-content: stretch
+		align-content: stretch
+		justify-items: stretch
+		align-items: stretch
+	
+	// .icon
+	.icon
+		box-sizing: border-box
 		width: $card_header_height
 		min-width: $card_header_height
 		max-width: $card_header_height
-		//height: $card_header_height
 		text-align: center
-		background-color: #330000
+		//background-color: #330000
+
+// Crutch :|
+.ff .card__header .title
+	white-space: normal
+	word-break: break-all
 
 
 
