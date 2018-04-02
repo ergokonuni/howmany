@@ -29,61 +29,76 @@
     <!-- /Favicon-->
   </head>
   <body>
-    <!-- .page.page-cond-->
-    <main class="page page-cond">
+    <!-- .page--cond-->
+    <main class="page page--cond">
       <!-- .container-->
       <div class="container">
         <!-- card.card-wt-->
         <div class="card card-wt">
-          <!-- .card__header-->
-          <header class="card__header">
-            <div class="title-holder">
-              <h4 class="title">Water water water water water water</h4>
+          <!-- .card--header-->
+          <header class="card--header">
+            <div class="title--holder">
+              <h4 class="title">Water</h4>
             </div>
-            <div class="icons-holder">
+            <div class="icons--holder">
               <div class="icon">1</div>
               <div class="icon">2</div>
               <div class="icon">3</div>
               <div class="icon">4</div>
             </div>
           </header>
-          <!-- .card__body-->
-          <section class="card__body">
-            <div class="wt-row">
-              <div class="wt-label-holder">
-                <p class="wt-label">Mineral</p>
+          <!-- .card--body-->
+          <section class="card--body">
+            <div class="gauge">
+              <div class="label--holder">Mineral<span>(0 L)</span></div>
+              <div class="gauge--holder">
+                <div class="gauge--layer-1">
+                  <div class="gauge--layer-2" style="width:0;"></div>
+                </div>
               </div>
-              <div class="wt-gauge-holder">
-                <div class="gauge-back">
-                  <div class="gauge-front" style="width:0;"></div>
+              <div class="label--holder">Other<span>(6 L)</span></div>
+              <div class="gauge--holder">
+                <div class="gauge--layer-1">
+                  <div class="gauge--layer-2" style="width:33.33%;"></div>
+                  <div class="gauge--val">6 L</div>
+                </div>
+              </div>
+              <div class="label--holder">Park<span>(1.5 L)</span></div>
+              <div class="gauge--holder">
+                <div class="gauge--layer-1">
+                  <div class="gauge--layer-2" style="width:8.33%;"></div>
+                  <div class="gauge--val">1.5 L</div>
                 </div>
               </div>
             </div>
-            <div class="wt-row">
-              <div class="wt-label-holder">
-                <p class="wt-label">Other</p>
-              </div>
-              <div class="wt-gauge-holder">
-                <div class="gauge-back">
-                  <div class="gauge-front" style="width:33.33%;"></div>
-                </div>
-              </div>
-            </div>
-            <div class="wt-row">
-              <div class="wt-label-holder">
-                <p class="wt-label">Park</p>
-              </div>
-              <div class="wt-gauge-holder">
-                <div class="gauge-back">
-                  <div class="gauge-front" style="width:11.11%;"></div>
-                </div>
-              </div>
-            </div>
+            <!--div.wt-row
+            div.wt-label-holder
+            	p.wt-label Mineral
+            div.wt-gauge-holder
+            	div.gauge-back
+            		div.gauge-front(style='width:0')
+            -->
+            <!--div.wt-row
+            div.wt-label-holder
+            	p.wt-label Other
+            div.wt-gauge-holder
+            	div.gauge-back
+            		div.gauge-front(style='width:33.33%')
+            -->
+            <!--div.wt-row
+            div.wt-label-holder
+            	p.wt-label Park
+            div.wt-gauge-holder
+            	div.gauge-back
+            		div.gauge-front(style='width:11.11%')
+            
+            
+            -->
           </section>
         </div>
       </div>
     </main>
-    <!-- /.page.chart-->
+    <!-- /.page--cond-->
     <!-- .header-->
     <header class="header"><a href="./index.html">Index</a><a href="./home.html">Home</a><a href="./condition.html">Cond</a><a href="./form.html">Form</a>
       <!--a(href='./layout.html') Layout--><a href="./text.html">Text</a>

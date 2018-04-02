@@ -9,8 +9,8 @@ block title
 block main
 	
 	
-	// .page.page-cond
-	main.page.page-cond
+	// .page--cond
+	main.page.page--cond
 		
 		
 		// .container
@@ -20,31 +20,49 @@ block main
 			// card.card-wt
 			div.card.card-wt
 				
-				// .card__header
-				header.card__header
-					div.title-holder
-						h4.title Water water water water water water
-					div.icons-holder
+				// .card--header
+				header.card--header
+					div.title--holder
+						h4.title Water
+					div.icons--holder
 						div.icon 1
 						div.icon 2
 						div.icon 3
 						div.icon 4
 				
-				// .card__body
-				section.card__body
-					div.wt-row
+				// .card--body
+				section.card--body
+					div.gauge
+						div.label--holder Mineral
+							span (0 L)
+						div.gauge--holder
+							div.gauge--layer-1
+								div.gauge--layer-2(style='width:0')
+						div.label--holder Other
+							span (6 L)
+						div.gauge--holder
+							div.gauge--layer-1
+								div.gauge--layer-2(style='width:33.33%')
+								div.gauge--val 6 L
+						div.label--holder Park
+							span (1.5 L)
+						div.gauge--holder
+							div.gauge--layer-1
+								div.gauge--layer-2(style='width:8.33%')
+								div.gauge--val 1.5 L
+					//div.wt-row
 						div.wt-label-holder
 							p.wt-label Mineral
 						div.wt-gauge-holder
 							div.gauge-back
 								div.gauge-front(style='width:0')
-					div.wt-row
+					//div.wt-row
 						div.wt-label-holder
 							p.wt-label Other
 						div.wt-gauge-holder
 							div.gauge-back
 								div.gauge-front(style='width:33.33%')
-					div.wt-row
+					//div.wt-row
 						div.wt-label-holder
 							p.wt-label Park
 						div.wt-gauge-holder
@@ -52,4 +70,4 @@ block main
 								div.gauge-front(style='width:11.11%')
 				
 				
-	// /.page.chart
+	// /.page--cond

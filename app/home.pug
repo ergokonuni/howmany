@@ -9,12 +9,12 @@ block title
 block main
 	
 	
-	// .page.home
-	main.page.home
+	// .page--home
+	main.page.page--home
 		
 		
-		// .home__logo
-		div.home__logo
+		// .home--logo
+		div.home--logo
 			div.container
 				p.logo
 					span.true
@@ -32,11 +32,11 @@ block main
 						span.d1 .
 						span.d2 .
 						span.d3 .
-		// /.home__logo
+		// /.home--logo
 		
 		
-		// .home__signin
-		fieldset.home__signin
+		// .home--signin
+		fieldset.home--signin
 			div.container
 				form(method='post' action='#')
 					
@@ -44,7 +44,7 @@ block main
 					// .field 'Login'
 					div.field
 						input.input(
-							name='auth__fld__login'
+							name='signin__fld__login'
 							placeholder='логин'
 							value=''
 							type='text'
@@ -57,7 +57,7 @@ block main
 					// .field 'Password'
 					div.field
 						input.input(
-							name='auth__fld__pwd'
+							name='signin__fld__pwd'
 							placeholder='пароль'
 							value=''
 							type='password'
@@ -70,7 +70,7 @@ block main
 					// .action
 					div.action
 						button.btn(
-							name='auth__btn__signin'
+							name='signin__btn__enter'
 							value='войти'
 							type='button'
 							tabindex=3)
@@ -78,18 +78,18 @@ block main
 					// /.action
 					
 					
-		// /.home__signin
+		// /.home--signin
 		
 		
-		// .home__links
-		div.home__links
+		// .home--links
+		div.home--links
 			div.container
 				ul.list
 					li.item
 						a.link(href='#' tabindex=4) Забыли пароль?
 					li.item
 						a.link(href='#' tabindex=5) Регистрация
-		// /.home__links
+		// /.home--links
 		
 		
-	// /.page.home
+	// /.page--home
