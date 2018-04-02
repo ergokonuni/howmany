@@ -31,7 +31,7 @@ body {
           align-items: stretch; }
 
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 1480px;
   margin: 0 auto;
   padding: 0 0; }
@@ -275,7 +275,7 @@ hr {
   grid-template-columns: -webkit-min-content auto;
   grid-template-columns: min-content auto;
   grid-template-rows: 1fr;
-  grid-gap: .9em 1.25em;
+  grid-gap: .9em 1em;
   -webkit-box-pack: stretch;
       -ms-flex-pack: stretch;
           justify-content: stretch;
@@ -285,34 +285,30 @@ hr {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
-
-.label--holder {
-  text-align: right;
-  white-space: nowrap; }
-  .label--holder .label {
-    font-size: .9em;
-    color: rgba(255, 255, 255, 0.65); }
-  .label--holder .value {
-    font-size: .6em;
-    margin-top: -.4em;
-    color: rgba(255, 255, 255, 0.35); }
-
-.gauge--holder {
-  padding: 0.25em 0 0 0; }
-
-.gauge--layer-1 {
-  height: 1.5em;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35); }
-
-.gauge--layer-2 {
-  height: 1.5em;
-  background-color: rgba(255, 255, 255, 0.55);
-  border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
-          box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
+  .gauge .label--holder {
+    text-align: right;
+    white-space: nowrap; }
+    .gauge .label--holder .label {
+      font-size: .9em;
+      color: rgba(255, 255, 255, 0.65); }
+    .gauge .label--holder .value {
+      font-size: .6em;
+      margin-top: -.4em;
+      color: rgba(255, 255, 255, 0.35); }
+  .gauge .gauge--holder {
+    padding: 0.25em 0 0 0; }
+  .gauge .gauge--layer-1 {
+    height: 1.5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35); }
+  .gauge .gauge--layer-2 {
+    height: 1.5em;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
+            box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
 
 .header {
   width: 100%;
@@ -508,52 +504,6 @@ hr {
   padding: 0; }
   .page--cond .container {
     min-width: 100%; }
-  .page--cond .block {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 1em 1.75em; }
-  .page--cond .wt-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    padding: 0.5em 0; }
-  .page--cond .wt-label-holder {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 6em;
-            flex: 0 1 6em;
-    text-align: right;
-    padding: 0 1em 0 0; }
-  .page--cond .wt-gauge-holder {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
-    padding-top: 0.2em; }
-  .page--cond .gauge-back {
-    height: 1.15em;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.35); }
-  .page--cond .gauge-front {
-    height: 1.15em;
-    background-color: rgba(255, 255, 255, 0.55);
-    border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
-            box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
-  .page--cond .gauge-item {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    background-color: rgba(255, 255, 255, 0.1); }
 
 .btn {
   -webkit-box-sizing: border-box;
