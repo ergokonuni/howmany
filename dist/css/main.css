@@ -32,7 +32,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1480px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 0; }
 
@@ -67,11 +67,11 @@ a {
 
 h1 {
   font-family: inherit;
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1;
   font-weight: 500;
   padding: 0;
-  margin: 0 0 .3em 0; }
+  margin: 0 0 .62em 0; }
 
 h2 {
   font-family: inherit;
@@ -79,7 +79,7 @@ h2 {
   line-height: 1.5;
   font-weight: 500;
   padding: 0;
-  margin: .3em 0; }
+  margin: .35em 0; }
 
 * + h2 {
   margin-top: 1.75em; }
@@ -112,7 +112,7 @@ p {
   p + p,
   p + ul,
   p + ol {
-    margin-top: 2.1em; }
+    margin-top: 2em; }
 
 em {
   font-style: italic; }
@@ -122,7 +122,7 @@ strong {
 
 ul,
 ol {
-  margin: 0 0 0 3em;
+  margin: 0 0 0 2em;
   padding: 0; }
   ul li,
   ol li {
@@ -383,7 +383,7 @@ hr {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: calc(3.2em + 1px) solid transparent;
-  padding: 3em 0;
+  padding: 2em 0;
   position: relative;
   grid-column: 1;
   grid-row: 1; }
@@ -1028,35 +1028,53 @@ fieldset {
   html {
     font-size: 1.1250em; }
   .container {
-    width: 80%; } }
+    width: 80%; }
+  .page {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em; } }
 
 @media only screen and (min-width: 600px) {
   html {
-    font-size: 1.1875em; } }
+    font-size: 1.1875em; }
+  .page {
+    padding-top: 3em;
+    padding-bottom: 3em; } }
 
 @media only screen and (min-width: 750px) {
   html {
     font-size: 1.25em; }
   .container {
-    width: 78%; } }
+    width: 78%; }
+  .page {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em; } }
 
 @media only screen and (min-width: 980px) {
   html {
     font-size: 1.3125em; }
   .container {
-    width: 77%; } }
+    width: 77%; }
+  .page {
+    padding-top: 4em;
+    padding-bottom: 4em; } }
 
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 1.3750em; }
   .container {
-    width: 76%; } }
+    width: 68%; }
+  .page {
+    padding-top: 4.5em;
+    padding-bottom: 4.5em; } }
 
 @media only screen and (min-width: 1500px) {
   html {
     font-size: 1.4375em; }
   .container {
-    width: 70%; } }
+    width: 65%; }
+  .page {
+    padding-top: 5em;
+    padding-bottom: 5em; } }
 
 @media only screen and (min-width: 1800px) {
   html {
