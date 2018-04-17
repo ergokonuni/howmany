@@ -202,6 +202,10 @@ hr {
 .card-wt {
   border-top: none; }
 
+.ff .card--header .title {
+  white-space: normal;
+  word-break: break-all; }
+
 .card--header {
   width: 100%;
   height: 3.2em;
@@ -242,9 +246,6 @@ hr {
     text-overflow: ellipsis;
     padding: 0;
     margin: 0; }
-  .card--header .ff .card--header .title {
-    white-space: normal;
-    word-break: break-all; }
   .card--header .icons--holder {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -269,7 +270,7 @@ hr {
     text-align: center; }
 
 .card--body {
-  padding: 2em 1em 2em 1em; }
+  padding: 2em 1em; }
 
 .gauge {
   display: grid;
@@ -311,12 +312,12 @@ hr {
     -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35);
             box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35); }
 
-.header {
+.app--header {
   width: 100%;
   height: 3.2em;
   line-height: 3.2em;
   color: rgba(255, 255, 255, 0.22);
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -327,21 +328,55 @@ hr {
   left: 0;
   top: 0;
   display: grid;
-  grid-template-columns: repeat(10, auto);
+  grid-template-columns: -webkit-min-content auto -webkit-min-content;
+  grid-template-columns: min-content auto min-content;
   grid-template-rows: 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  justify-items: center;
+  justify-items: stretch;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
-  .header .container {
+  .app--header .icon--holder {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: 1fr;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+    .app--header .icon--holder .icon {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 3.2em;
+      min-width: 3.2em;
+      max-width: 3.2em;
+      text-align: center;
+      background-color: #000033; }
+  .app--header .stretch--holder {
+    overflow: hidden; }
+    .app--header .stretch--holder .title {
+      font-size: inherit;
+      line-height: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 .5em;
+      margin: 0; }
+  .app--header .container {
     position: relative;
     min-height: 100%; }
-  .header a {
+  .app--header a {
     display: block;
     color: rgba(255, 255, 255, 0.22);
     padding: 0 .75em;
@@ -350,10 +385,10 @@ hr {
     text-transform: uppercase;
     text-decoration: none;
     vertical-align: middle; }
-    .header a:hover {
+    .app--header a:hover {
       color: rgba(255, 255, 255, 0.5); }
 
-.footer {
+.app--footer {
   width: 100%;
   height: 3.2em;
   line-height: 3.2em;
@@ -367,16 +402,16 @@ hr {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
-  .footer .container {
+  .app--footer .container {
     position: relative;
     min-height: 100%; }
-  .footer p {
+  .app--footer p {
     padding: 0;
     margin: 0; }
-  .footer a {
+  .app--footer a {
     color: inherit;
     text-decoration: underline; }
-    .footer a:hover {
+    .app--footer a:hover {
       text-decoration: none; }
 
 .page {
@@ -516,7 +551,7 @@ hr {
   color: rgba(255, 255, 255, 0.22); }
 
 .page--cond {
-  padding: 0; }
+  padding: 0 !important; }
   .page--cond .container {
     min-width: 100%; }
 

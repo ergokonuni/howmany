@@ -1,0 +1,85 @@
+@import "../__var"
+
+
+
+// .app--header
+.app--header
+	width: 100%
+	height: $header_height
+	line-height: $header_height
+	color: rgba(255,255,255, .22)
+	text-align: left
+	vertical-align: middle
+	user-select: none
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	position: absolute
+	left: 0
+	top: 0
+	display: grid
+	grid-template-columns: min-content auto min-content
+	grid-template-rows: 1fr
+	justify-content: stretch
+	align-content: stretch
+	justify-items: stretch
+	align-items: stretch
+	
+	
+	
+	// .icon--holder
+	.icon--holder
+		box-sizing: border-box
+		display: grid
+		grid-template-columns: repeat(10, auto)
+		grid-template-rows: 1fr
+		justify-content: stretch
+		align-content: stretch
+		justify-items: stretch
+		align-items: stretch
+		&.major
+		&.minor
+		
+		// .icon
+		.icon
+			box-sizing: border-box
+			width: $card_header_height
+			min-width: $card_header_height
+			max-width: $card_header_height
+			text-align: center
+			background-color: #000033
+	
+	
+	
+	// .stretch--holder
+	.stretch--holder
+		overflow: hidden
+
+		// .title
+		.title
+			font-size: inherit
+			line-height: inherit
+			overflow: hidden
+			text-overflow: ellipsis
+			white-space: nowrap
+			padding: 0 .5em
+			margin: 0
+	
+	
+	
+	// Container
+	.container
+		position: relative
+		min-height: 100%
+	
+	// Links
+	a
+		display: block
+		color: rgba(255,255,255, .22)
+		padding: 0 .75em
+		font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+		font-size: .8125em
+		//line-height: 1.25
+		text-transform: uppercase
+		text-decoration: none
+		vertical-align: middle
+		&:hover
+			color: rgba(255,255,255, .5)
