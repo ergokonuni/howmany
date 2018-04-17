@@ -10,11 +10,6 @@
 .card-wt
 	border-top: none
 
-// .title >crutch< :|
-.ff .card--header .title
-	white-space: normal
-	word-break: break-all
-
 
 
 // .card--header
@@ -36,29 +31,8 @@
 	
 	
 	
-	// .title--holder
-	.title--holder
-		overflow: hidden
-		text-overflow: ellipsis
-		padding: 0 1em
-	
-	// .title
-	.title
-		box-sizing: border-box
-		font-size: 1em
-		line-height: inherit
-		font-weight: 500
-		text-transform: uppercase
-		white-space: nowrap
-		overflow: hidden
-		text-overflow: ellipsis
-		padding: 0
-		margin: 0
-	
-	
-	
-	// .icons--holder
-	.icons--holder
+	// .icon--holder
+	.icon--holder
 		box-sizing: border-box
 		display: grid
 		grid-template-columns: repeat(10, auto)
@@ -67,14 +41,39 @@
 		align-content: stretch
 		justify-items: stretch
 		align-items: stretch
+		&.major
+		&.minor
+		
+		// .icon
+		.icon
+			box-sizing: border-box
+			width: $card_header_height
+			min-width: $card_header_height
+			max-width: $card_header_height
+			text-align: center
+			background-color: #000033
 	
-	// .icon
-	.icon
-		box-sizing: border-box
-		width: $card_header_height
-		min-width: $card_header_height
-		max-width: $card_header_height
-		text-align: center
+	
+	
+	// .stretch--holder
+	.stretch--holder
+		overflow: hidden
+		position: relative
+		
+		// .title
+		.title
+			box-sizing: border-box
+			position: absolute
+			width: 100%
+			font-size: 1em
+			line-height: inherit
+			//font-weight: 500
+			//text-transform: uppercase
+			overflow: hidden
+			text-overflow: ellipsis
+			white-space: nowrap
+			padding: 0 1em
+			margin: 0
 
 
 
