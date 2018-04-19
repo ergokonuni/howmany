@@ -358,8 +358,14 @@ hr {
       min-width: 3.2em;
       max-width: 3.2em;
       text-align: center;
+      position: relative; }
+    .app--header .icon--cell .icon {
+      display: block;
+      width: 50%;
+      height: 50%;
       position: relative;
-      background-color: #000033; }
+      left: 25%;
+      top: 25%; }
   .app--header .stretch--cell {
     overflow: hidden;
     position: relative; }
@@ -1214,6 +1220,29 @@ fieldset {
     opacity: 0;
     -webkit-transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0);
             transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0); } }
+
+.i--menu .line {
+  display: block;
+  width: 78%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.55);
+  position: absolute;
+  left: 11%; }
+
+.i--menu .l-1 {
+  top: calc(50% - 6px); }
+  @media only screen and (min-width: 750px) {
+    .i--menu .l-1 {
+      top: calc(50% - 7px); } }
+
+.i--menu .l-2 {
+  top: calc(50% - 1px); }
+
+.i--menu .l-3 {
+  top: calc(50% + 4px); }
+  @media only screen and (min-width: 750px) {
+    .i--menu .l-3 {
+      top: calc(50% + 5px); } }
 
 .modal-holder {
   -webkit-box-sizing: border-box;
