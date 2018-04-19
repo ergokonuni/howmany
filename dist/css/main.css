@@ -226,7 +226,7 @@ hr {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
-  .card--header .icon--holder {
+  .card--header .icon--cell {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: grid;
@@ -241,18 +241,19 @@ hr {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch; }
-    .card--header .icon--holder .icon {
+    .card--header .icon--cell .icon--holder {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       width: 3.2em;
       min-width: 3.2em;
       max-width: 3.2em;
       text-align: center;
+      position: relative;
       background-color: #000033; }
-  .card--header .stretch--holder {
+  .card--header .stretch--cell {
     overflow: hidden;
     position: relative; }
-    .card--header .stretch--holder .title {
+    .card--header .stretch--cell .title {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       position: absolute;
@@ -335,7 +336,7 @@ hr {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
-  .app--header .icon--holder {
+  .app--header .icon--cell {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: grid;
@@ -350,18 +351,19 @@ hr {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch; }
-    .app--header .icon--holder .icon {
+    .app--header .icon--cell .icon--holder {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       width: 3.2em;
       min-width: 3.2em;
       max-width: 3.2em;
       text-align: center;
+      position: relative;
       background-color: #000033; }
-  .app--header .stretch--holder {
+  .app--header .stretch--cell {
     overflow: hidden;
     position: relative; }
-    .app--header .stretch--holder .title {
+    .app--header .stretch--cell .title {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       position: absolute;

@@ -31,8 +31,8 @@
 	
 	
 	
-	// .icon--holder
-	.icon--holder
+	// .icon--cell
+	.icon--cell
 		box-sizing: border-box
 		display: grid
 		grid-template-columns: repeat(10, auto)
@@ -44,19 +44,23 @@
 		&.major
 		&.minor
 		
-		// .icon
-		.icon
+		// .icon--holder
+		.icon--holder
 			box-sizing: border-box
 			width: $card_header_height
 			min-width: $card_header_height
 			max-width: $card_header_height
 			text-align: center
+			position: relative
 			background-color: #000033
+		
+		// .icon
+		.icon
 	
 	
 	
-	// .stretch--holder
-	.stretch--holder
+	// .stretch--cell
+	.stretch--cell
 		overflow: hidden
 		position: relative
 		
