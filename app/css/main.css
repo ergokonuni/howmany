@@ -379,7 +379,7 @@ hr {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      padding: 0 .5em;
+      padding: 0;
       margin: 0; }
   .app--header .container {
     position: relative;
@@ -1223,17 +1223,23 @@ fieldset {
 
 .i--menu .line {
   display: block;
-  width: 78%;
+  width: 70%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.55);
   position: absolute;
-  left: 11%; }
+  left: 15%; }
+  @media only screen and (min-width: 1500px) {
+    .i--menu .line {
+      height: 3px; } }
 
 .i--menu .l-1 {
   top: calc(50% - 6px); }
   @media only screen and (min-width: 750px) {
     .i--menu .l-1 {
       top: calc(50% - 7px); } }
+  @media only screen and (min-width: 1500px) {
+    .i--menu .l-1 {
+      top: calc(50% - 8px); } }
 
 .i--menu .l-2 {
   top: calc(50% - 1px); }
@@ -1243,6 +1249,38 @@ fieldset {
   @media only screen and (min-width: 750px) {
     .i--menu .l-3 {
       top: calc(50% + 5px); } }
+  @media only screen and (min-width: 1500px) {
+    .i--menu .l-3 {
+      top: calc(50% + 6px); } }
+
+.i--more .dot {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.55);
+  position: absolute;
+  left: calc(50% - 2px); }
+  @media only screen and (min-width: 1500px) {
+    .i--more .dot {
+      width: 6px;
+      height: 6px;
+      left: calc(50% - 3px); } }
+
+.i--more .d-1 {
+  top: calc(50% - 9px); }
+  @media only screen and (min-width: 1500px) {
+    .i--more .d-1 {
+      top: calc(50% - 11px); } }
+
+.i--more .d-2 {
+  top: calc(50% - 2px); }
+
+.i--more .d-3 {
+  top: calc(50% + 5px); }
+  @media only screen and (min-width: 1500px) {
+    .i--more .d-3 {
+      top: calc(50% + 7px); } }
 
 .modal-holder {
   -webkit-box-sizing: border-box;
