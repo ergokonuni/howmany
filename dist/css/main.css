@@ -1253,6 +1253,44 @@ fieldset {
     .i--menu .l-3 {
       top: calc(50% + 6px); } }
 
+.i--back .line {
+  display: block;
+  width: 70%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.55);
+  position: absolute;
+  left: 15%; }
+  @media only screen and (min-width: 1500px) {
+    .i--back .line {
+      height: 3px; } }
+
+.i--back .l-1 {
+  top: calc(50% - 1px); }
+
+.i--back .l-2 {
+  top: calc(50% - 5px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 35%; }
+  @media only screen and (min-width: 750px) {
+    .i--back .l-2 {
+      top: calc(50% - 6px); } }
+  @media only screen and (min-width: 1500px) {
+    .i--back .l-2 {
+      top: calc(50% - 7px); } }
+
+.i--back .l-3 {
+  top: calc(50% + 3px);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 35%; }
+  @media only screen and (min-width: 750px) {
+    .i--back .l-3 {
+      top: calc(50% + 4px); } }
+  @media only screen and (min-width: 1500px) {
+    .i--back .l-3 {
+      top: calc(50% + 5px); } }
+
 .i--more .dot {
   display: block;
   width: 4px;
