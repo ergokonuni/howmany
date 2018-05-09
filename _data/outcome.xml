@@ -1,0 +1,8590 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<list>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>16:10</time>
+		<place>Zoo</place>
+		<title>Наполнитель</title>
+		<sum>40.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Наполнитель</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>filler</tag>
+		<tag>super-cat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>16:10</time>
+		<place>Zoo</place>
+		<title>Сухой Корм</title>
+		<sum>85.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>dry-food</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>15:45</time>
+		<place>АТБ</place>
+		<title>Гречка 1кг</title>
+		<sum>15.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>buckwheat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>15:45</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-08</date>
+		<time>15:45</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>15:30</time>
+		<place>Парикмахерская</place>
+		<title>Стрижка</title>
+		<sum>70.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>20.00</tip>
+		<category>Здоровье</category>
+		<subcategory>Стрижка</subcategory>
+		<tag>barber-shop</tag>
+		<tag>health</tag>
+		<tag>haircut</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>11:16</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.114 X 99.95)</title>
+		<sum>111.34</sum>
+		<discount></discount>
+		<moneybox>0.30</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>11:16</time>
+		<place>Сильпо</place>
+		<title>Колбаса Молочная (0.546 X 169.60)</title>
+		<sum>92.60</sum>
+		<discount></discount>
+		<moneybox>0.60</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>snag</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-08</date>
+		<time>11:16</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.210 X 209.90)</title>
+		<sum>44.08</sum>
+		<discount></discount>
+		<moneybox>0.08</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-07</date>
+		<time>19:43</time>
+		<place>АТБ</place>
+		<title>Банан (0.406 X 30.89)</title>
+		<sum>12.54</sum>
+		<discount>0.04</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-07</date>
+		<time>19:43</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-05-06</date>
+		<time>20:15</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-06</date>
+		<time>20:15</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-05-05</date>
+		<time>21:49</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-05</date>
+		<time>21:49</time>
+		<place>АТБ</place>
+		<title>Вода Разумный Выбор 6л</title>
+		<sum>18.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>rvybor-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-04</date>
+		<time>22:30</time>
+		<place>Север</place>
+		<title>Мороженное "Стакан Великан"</title>
+		<sum>13.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>sever</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>ice-milk</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Банан (0.290 X 30.89)</title>
+		<sum>8.96</sum>
+		<discount>0.06</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-04</date>
+		<time>21:45</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:05</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.618 X 99.95)</title>
+		<sum>161.72</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:05</time>
+		<place>Сильпо</place>
+		<title>Колбаса Молочная (0.468 X 169.60)</title>
+		<sum>79.37</sum>
+		<discount></discount>
+		<moneybox>0.27</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>snag</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:05</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.236 X 239.00)</title>
+		<sum>56.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:05</time>
+		<place>Сильпо</place>
+		<title>Банан (0.464 X 34.99)</title>
+		<sum>16.24</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:00</time>
+		<place>Дижон</place>
+		<title>Набор для очистки экранов</title>
+		<sum>55.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для техники</subcategory>
+		<tag>dijon</tag>
+		<tag>way-of-life</tag>
+		<tag>4tech</tag>
+		<tag>cleaning-kit</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>12:00</time>
+		<place>Дижон</place>
+		<title>Лупа (60mm, 3x)</title>
+		<sum>38.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Научное</subcategory>
+		<tag>dijon</tag>
+		<tag>way-of-life</tag>
+		<tag>4science</tag>
+		<tag>magnifier</tag>
+		<tag>loupe</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>11:29</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>11:29</time>
+		<place>АТБ</place>
+		<title>Лук Репчатый (0.336 X 4.55)</title>
+		<sum>1.53</sum>
+		<discount>0.08</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Овощи</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>vegetables</tag>
+		<tag>bow</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-03</date>
+		<time>11:29</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-02</date>
+		<time>20:59</time>
+		<place>АТБ</place>
+		<title>Пицца с колбасой</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Банан (0.304 X 33.99)</title>
+		<sum>10.33</sum>
+		<discount>0.03</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>21.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Йогурт 1.5%Ж 0.45л Яготинске</title>
+		<sum>14.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:40</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>6.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:27</time>
+		<place>Лотос</place>
+		<title>Зубная нить Oral-B 25m</title>
+		<sum>57.80</sum>
+		<discount>2.89</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>fairy</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>16:27</time>
+		<place>Лотос</place>
+		<title>Ватные палочки Cleanic 200шт</title>
+		<sum>18.65</sum>
+		<discount>0.93</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>cotton-buds</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-04-30</date>
+		<time>16:27</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-30</date>
+		<time>15:45</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 6л</title>
+		<sum>32.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>21:00</time>
+		<place>Север</place>
+		<title>Мороженное "Стакан Великан"</title>
+		<sum>13.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>sever</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>ice-milk</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>18:54</time>
+		<place>АТБ</place>
+		<title>Пицца с колбасой</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-29</date>
+		<time>18:54</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.730 X 99.95)</title>
+		<sum>72.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Скумбрия (0.460 X 69.90)</title>
+		<sum>32.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Рыба</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fish</tag>
+		<tag>scomber</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Колбаса Молочная (0.332 X 169.60)</title>
+		<sum>56.31</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>snag</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.216 X 239.00)</title>
+		<sum>51.62</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Банан (0.932 X 30.99)</title>
+		<sum>28.88</sum>
+		<discount></discount>
+		<moneybox>0.64</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Чай Карпатский</title>
+		<sum>35.69</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Чай</subcategory>
+		<tag>silpo</tag>
+		<tag>drinks</tag>
+		<tag>tea</tag>
+		<tag>karpatian-tea</tag>
+	</item>
+
+
+	<item qt="2">
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.89</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-29</date>
+		<time>17:47</time>
+		<place>Сильпо</place>
+		<title>Корм "Whiskas"</title>
+		<sum>6.99</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>whiskas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-28</date>
+		<time>22:58</time>
+		<place>АТБ</place>
+		<title>Пицца с колбасой</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-28</date>
+		<time>22:58</time>
+		<place>АТБ</place>
+		<title>Булка с вишней</title>
+		<sum>2.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-28</date>
+		<time>22:58</time>
+		<place>АТБ</place>
+		<title>Булка с вишней</title>
+		<sum>2.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Банан (0.306 X 33.99)</title>
+		<sum>10.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Корм "Whiskas"</title>
+		<sum>8.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>whiskas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-27</date>
+		<time>21:06</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-26</date>
+		<time>13:40</time>
+		<place>Online</place>
+		<title>Счета (Vodafone)</title>
+		<sum>7.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Vodafone</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>vodafone</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>KitKat 40г</title>
+		<sum>9.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Корм "Whiskas"</title>
+		<sum>8.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>whiskas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>20:33</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-25</date>
+		<time>19:38</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-25</date>
+		<time>19:38</time>
+		<place>АТБ</place>
+		<title>Булка с вишней</title>
+		<sum>2.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-25</date>
+		<time>19:38</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-22</date>
+		<time>21:01</time>
+		<place>АТБ</place>
+		<title>Батон 300г</title>
+		<sum>5.45</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-22</date>
+		<time>21:01</time>
+		<place>АТБ</place>
+		<title>Банан (0.330 X 31.49)</title>
+		<sum>10.39</sum>
+		<discount>0.04</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-22</date>
+		<time>21:01</time>
+		<place>АТБ</place>
+		<title>KitKat 40г</title>
+		<sum>9.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (Инет)</title>
+		<sum>95.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Инет</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>inet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (ПКС Вода)</title>
+		<sum>215.59</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Вода</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-water</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (ПКС Коммуналка)</title>
+		<sum>202.49</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Коммуналка</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-yard</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (Электричество)</title>
+		<sum>118.27</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Электричество</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>electricity</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (Газ)</title>
+		<sum>22.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Газ</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>gas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-20</date>
+		<time>18:30</time>
+		<place>Online</place>
+		<title>Счета (Vodafone)</title>
+		<sum>25.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Vodafone</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>vodafone</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-18</date>
+		<time>12:34</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-18</date>
+		<time>11:53</time>
+		<place>АТБ</place>
+		<title>Вода Разумный Выбор 6л</title>
+		<sum>18.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>rvybor-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-18</date>
+		<time>11:53</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>7.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-18</date>
+		<time>11:53</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-16</date>
+		<time>20:31</time>
+		<place>Оптовик</place>
+		<title>Йогурт 1.5%Ж 0.45л Яготинске</title>
+		<sum>19.68</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-16</date>
+		<time>20:31</time>
+		<place>Оптовик</place>
+		<title>Творог 9% Степной (0.404 X 64.50)</title>
+		<sum>26.06</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-16</date>
+		<time>20:31</time>
+		<place>Оптовик</place>
+		<title>Eden Joy 40г</title>
+		<sum>7.08</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>eden-joy</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-16</date>
+		<time>20:31</time>
+		<place>Оптовик</place>
+		<title>Nesquick 25г</title>
+		<sum>8.28</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>nesquick</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-16</date>
+		<time>20:31</time>
+		<place>Оптовик</place>
+		<title>Пакет (м)</title>
+		<sum>1.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>optovik</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-15</date>
+		<time>19:10</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-15</date>
+		<time>19:10</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-14</date>
+		<time>11:08</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.038 X 99.95)</title>
+		<sum>103.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-13</date>
+		<time>12:40</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.262 X 99.95)</title>
+		<sum>26.19</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-13</date>
+		<time>12:40</time>
+		<place>Сильпо</place>
+		<title>Сардельки Молочные (0.604 X 146.70)</title>
+		<sum>88.61</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-13</date>
+		<time>12:40</time>
+		<place>Сильпо</place>
+		<title>Банан (0.470 X 34.99)</title>
+		<sum>16.45</sum>
+		<discount></discount>
+		<moneybox>0.85</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-13</date>
+		<time>12:40</time>
+		<place>Сильпо</place>
+		<title>Хек (0.910 X 66.50)</title>
+		<sum>60.52</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Рыба</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fish</tag>
+		<tag>hake</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-13</date>
+		<time>12:40</time>
+		<place>Сильпо</place>
+		<title>Скумбрия (0.398 X 69.90)</title>
+		<sum>27.82</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Рыба</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fish</tag>
+		<tag>scomber</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-18</date>
+		<time>14:08</time>
+		<place>Сильпо</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.89</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-12</date>
+		<time>14:55</time>
+		<place>Оптовик</place>
+		<title>Йогурт 1.5%Ж 0.45л Яготинске</title>
+		<sum>19.68</sum>
+		<discount>0.20</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-12</date>
+		<time>14:55</time>
+		<place>Оптовик</place>
+		<title>Творог 9% Степной (0.416 X 64.50)</title>
+		<sum>26.83</sum>
+		<discount>0.27</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-12</date>
+		<time>14:55</time>
+		<place>Оптовик</place>
+		<title>Батон 300г</title>
+		<sum>5.88</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-04-12</date>
+		<time>14:55</time>
+		<place>Оптовик</place>
+		<title>Eden Joy 40г</title>
+		<sum>7.08</sum>
+		<discount>0.07</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>eden-joy</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-04-11</date>
+		<time>13:55</time>
+		<place>Патио</place>
+		<title>Гвоздика (Рус)</title>
+		<sum>20.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Подарки</subcategory>
+		<tag>patio</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>flowers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>21:24</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 6л</title>
+		<sum>31.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:18</time>
+		<place>Лотос</place>
+		<title>Мыльница</title>
+		<sum>16.00</sum>
+		<discount>0.80</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>soap-dish</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:18</time>
+		<place>Лотос</place>
+		<title>Зубная паста Biomed</title>
+		<sum>49.10</sum>
+		<discount>2.46</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>toothpaste</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-09</date>
+		<time>18:18</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Банан (0.656 X 34.99)</title>
+		<sum>22.95</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>7.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>6.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Корм "Club 4 Paws"</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>club4paws</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>9.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-09</date>
+		<time>18:08</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-08</date>
+		<time>19:44</time>
+		<place>Оптовик</place>
+		<title>Йогурт 1.5%Ж 0.45л Яготинске</title>
+		<sum>19.68</sum>
+		<discount>0.20</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-08</date>
+		<time>19:44</time>
+		<place>Оптовик</place>
+		<title>Банан (0.492 X 40.62)</title>
+		<sum>19.99</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-08</date>
+		<time>19:44</time>
+		<place>Оптовик</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.18</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>optovik</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-05</date>
+		<time>11:50</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.314 X 99.44)</title>
+		<sum>31.22</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-05</date>
+		<time>11:50</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.214 X 159.90)</title>
+		<sum>34.22</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-05</date>
+		<time>11:50</time>
+		<place>Сильпо</place>
+		<title>Банан (0.294 X 32.94)</title>
+		<sum>9.68</sum>
+		<discount></discount>
+		<moneybox>0.88</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-03</date>
+		<time>20:03</time>
+		<place>Оптовик</place>
+		<title>Йогурт 1.5%Ж 0.45л Яготинске</title>
+		<sum>19.68</sum>
+		<discount>0.20</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-03</date>
+		<time>20:03</time>
+		<place>Оптовик</place>
+		<title>Батон 400г</title>
+		<sum>9.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-03</date>
+		<time>20:03</time>
+		<place>Оптовик</place>
+		<title>Hyper 35г</title>
+		<sum>5.22</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>hyper</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-03</date>
+		<time>20:03</time>
+		<place>Оптовик</place>
+		<title>Eden Joy 40г</title>
+		<sum>7.08</sum>
+		<discount>0.07</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>eden-joy</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-01</date>
+		<time>15:59</time>
+		<place>АТБ</place>
+		<title>Вода Разумный Выбор 6л</title>
+		<sum>18.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>rvybor-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-04-01</date>
+		<time>15:50</time>
+		<place>Новая Почта</place>
+		<title>Батарея (доставка)</title>
+		<sum>35.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>nova-poshta</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>battery</tag>
+		<tag>delivery</tag>
+	</item>
+
+
+	<item>
+		<date>2018-04-01</date>
+		<time>15:30</time>
+		<place>Парикмахерская</place>
+		<title>Стрижка</title>
+		<sum>60.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>20.00</tip>
+		<category>Здоровье</category>
+		<subcategory>Стрижка</subcategory>
+		<tag>barber-shop</tag>
+		<tag>health</tag>
+		<tag>haircut</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>13:14</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.476 X 84.96)</title>
+		<sum>125.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>13:14</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.336 X 95.73)</title>
+		<sum>32.17</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>13:14</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.192 X 239.00)</title>
+		<sum>45.89</sum>
+		<discount></discount>
+		<moneybox>0.61</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>13:14</time>
+		<place>Сильпо</place>
+		<title>Банан (0.472 X 32.94)</title>
+		<sum>15.55</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-30</date>
+		<time>13:14</time>
+		<place>Сильпо</place>
+		<title>Кофе Carte Noire 2г</title>
+		<sum>4.69</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>silpo</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>carte-noire</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:52</time>
+		<place>Ассоль</place>
+		<title>Банан (0.736 X 37.62)</title>
+		<sum>27.69</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:52</time>
+		<place>Ассоль</place>
+		<title>Творог 0% Симби+ (0.454 X 46.66)</title>
+		<sum>20.73</sum>
+		<discount>0.21</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:41</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:41</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:41</time>
+		<place>АТБ</place>
+		<title>Банан (0.354 X 36.99)</title>
+		<sum>13.09</sum>
+		<discount>0.04</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:41</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-30</date>
+		<time>12:41</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-29</date>
+		<time>19:09</time>
+		<place>Оптовик</place>
+		<title>Йогурт 2.5%Ж 0.5л Степной</title>
+		<sum>13.14</sum>
+		<discount>0.13</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-29</date>
+		<time>19:09</time>
+		<place>Оптовик</place>
+		<title>Батон 300г</title>
+		<sum>5.88</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-28</date>
+		<time>20:42</time>
+		<place>АТБ</place>
+		<title>Банан (0.216 X 36.99)</title>
+		<sum>7.99</sum>
+		<discount>0.09</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-28</date>
+		<time>20:42</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-28</date>
+		<time>20:42</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>9.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-27</date>
+		<time>23:35</time>
+		<place>Online</place>
+		<title>Батарея (vseplus.com)</title>
+		<sum>133.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>3.00</commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>online</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>battery</tag>
+		<tag>vseplus</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Сосиски Куриные (0.300 X 117.70)</title>
+		<sum>35.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Сгущенка 500мл Своя Линия</title>
+		<sum>31.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>condensed-milk</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>9.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:38</time>
+		<place>АТБ</place>
+		<title>Корм "Cat&Go"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>cat&go</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:18</time>
+		<place>Оптовик</place>
+		<title>Йогурт 2.5%Ж 0.5л Степной</title>
+		<sum>13.14</sum>
+		<discount>0.13</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:18</time>
+		<place>Оптовик</place>
+		<title>Творог 9% Степной (0.502 X 64.50)</title>
+		<sum>32.38</sum>
+		<discount>0.32</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>20:18</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария (0.368 X 33.05)</title>
+		<sum>12.16</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-26</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Вода Разумный Выбор 6л</title>
+		<sum>18.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>rvybor-6</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-02-25</date>
+		<time>19:55</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-25</date>
+		<time>19:55</time>
+		<place>АТБ</place>
+		<title>Шоколад Любимов 85г</title>
+		<sum>16.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>chocolate</tag>
+		<tag>lyubimov</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-25</date>
+		<time>19:55</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-25</date>
+		<time>19:55</time>
+		<place>АТБ</place>
+		<title>Банан (0.558 X 36.99)</title>
+		<sum>20.64</sum>
+		<discount>0.04</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-25</date>
+		<time>19:55</time>
+		<place>АТБ</place>
+		<title>Шоколад Любимов 85г</title>
+		<sum>17.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>chocolate</tag>
+		<tag>lyubimov</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-22</date>
+		<time>22:07</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 6л</title>
+		<sum>31.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-22</date>
+		<time>11:39</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.314 X 95.70)</title>
+		<sum>30.05</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-22</date>
+		<time>11:39</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.136 X 179.90)</title>
+		<sum>24.47</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>11:39</time>
+		<place>Сильпо</place>
+		<title>Банан (0.788 X 39.99)</title>
+		<sum>31.51</sum>
+		<discount>0.97</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>11:14</time>
+		<place>Новая Почта</place>
+		<title>Тачскрин (доставка)</title>
+		<sum>35.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>nova-poshta</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>touchscreen</tag>
+		<tag>delivery</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-22</date>
+		<time>11:09</time>
+		<place>Ассоль</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>21.60</sum>
+		<discount>0.22</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-22</date>
+		<time>11:09</time>
+		<place>Ассоль</place>
+		<title>Творог 9% Симби+ (0.488 X 49.98)</title>
+		<sum>24.39</sum>
+		<discount>0.24</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>Овсянка 600г</title>
+		<sum>20.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>oatmeal</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>Сгущенка 500мл Своя Линия</title>
+		<sum>31.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>condensed-milk</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>Масло(пдсл) Олейна 500мл</title>
+		<sum>20.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Масло</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>oil</tag>
+		<tag>oleina</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>KitKat 40г</title>
+		<sum>8.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-20</date>
+		<time>21:23</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-20</date>
+		<time>20:53</time>
+		<place>Оптовик</place>
+		<title>Хлеб Рижский 350г</title>
+		<sum>7.56</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-19</date>
+		<time>13:24</time>
+		<place>Ассоль</place>
+		<title>KitKat Чанки 42г</title>
+		<sum>13.80</sum>
+		<discount>0.14</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-19</date>
+		<time>12:57</time>
+		<place>Сильпо</place>
+		<title>Банан (0.884 X 39.99)</title>
+		<sum>35.35</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-19</date>
+		<time>12:57</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.288 X 99.95)</title>
+		<sum>128.74</sum>
+		<discount></discount>
+		<moneybox>0.91</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>22:30</time>
+		<place>Online</place>
+		<title>Тачскрин (vseplus.com)</title>
+		<sum>87.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>3.00</commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>online</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>touchscreen</tag>
+		<tag>vseplus</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>20:00</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 6л</title>
+		<sum>31.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>14:08</time>
+		<place>АТБ</place>
+		<title>Гречка 1кг</title>
+		<sum>17.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>buckwheat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>14:08</time>
+		<place>АТБ</place>
+		<title>Сахар 1кг</title>
+		<sum>13.85</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сахар</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sugar</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-03-18</date>
+		<time>14:08</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>14:08</time>
+		<place>АТБ</place>
+		<title>Лезвия Gillette Mach 3</title>
+		<sum>133.90</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>blade</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-18</date>
+		<time>13:55</time>
+		<place>Сильпо</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>13:55</time>
+		<place>Сильпо</place>
+		<title>Сникерс 112.5г</title>
+		<sum>16.96</sum>
+		<discount></discount>
+		<moneybox>0.26</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>13:21</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-18</date>
+		<time>13:21</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-18</date>
+		<time>13:21</time>
+		<place>АТБ</place>
+		<title>Сникерс 112.5г</title>
+		<sum>20.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>15:11</time>
+		<place>Сильпо</place>
+		<title>Банан (0.388 X 39.99)</title>
+		<sum>15.52</sum>
+		<discount></discount>
+		<moneybox>0.12</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>15:11</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.262 X 149.90)</title>
+		<sum>39.27</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>15:11</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.674 X 95.70)</title>
+		<sum>64.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>15:11</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.206 X 99.95)</title>
+		<sum>20.59</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>14:30</time>
+		<place>Новая Почта</place>
+		<title>Экран (доставка)</title>
+		<sum>36.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>nova-poshta</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>display</tag>
+		<tag>delivery</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>12:55</time>
+		<place>Zoo</place>
+		<title>Наполнитель</title>
+		<sum>40.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Наполнитель</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>filler</tag>
+		<tag>super-cat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>12:49</time>
+		<place>Ассоль</place>
+		<title>Хлеб Алексеевский 350г</title>
+		<sum>17.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>12:33</time>
+		<place>Лотос</place>
+		<title>Fairy</title>
+		<sum>23.10</sum>
+		<discount>1.16</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>fairy</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>12:33</time>
+		<place>Лотос</place>
+		<title>Зубная нить Oral-B 25m</title>
+		<sum>57.80</sum>
+		<discount>2.89</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>fairy</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-16</date>
+		<time>12:33</time>
+		<place>Лотос</place>
+		<title>Губки Фрекен Бок 5г</title>
+		<sum>17.60</sum>
+		<discount>0.88</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>sponge</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-16</date>
+		<time>12:33</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обухов</title>
+		<sum>6.00</sum>
+		<discount>0.30</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-16</date>
+		<time>12:33</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-14</date>
+		<time>19:44</time>
+		<place>Ассоль</place>
+		<title>Хлеб Рижский 350г</title>
+		<sum>7.56</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-14</date>
+		<time>19:44</time>
+		<place>Ассоль</place>
+		<title>Кофе Carte Noire 2г</title>
+		<sum>4.68</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>assol</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>carte-noire</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-14</date>
+		<time>11:07</time>
+		<place>Online</place>
+		<title>Счета (Газ)</title>
+		<sum>22.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Газ</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>gas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-14</date>
+		<time>11:03</time>
+		<place>Online</place>
+		<title>Экран (vseplus.com)</title>
+		<sum>283.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>3.00</commission>
+		<tip></tip>
+		<category>Техника</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>online</tag>
+		<tag>tech</tag>
+		<tag>repair</tag>
+		<tag>GT-S7262</tag>
+		<tag>display</tag>
+		<tag>vseplus</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-13</date>
+		<time>19:49</time>
+		<place>Оптовик</place>
+		<title>Кефир 2.5%Ж 1л Степной</title>
+		<sum>22.44</sum>
+		<discount>0.22</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-13</date>
+		<time>19:49</time>
+		<place>Оптовик</place>
+		<title>KitKat 40г</title>
+		<sum>10.86</sum>
+		<discount>0.11</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-13</date>
+		<time>18:05</time>
+		<place>Сильпо</place>
+		<title>Банан (0.436 X 31.91)</title>
+		<sum>13.91</sum>
+		<discount></discount>
+		<moneybox>0.09</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>19:35</time>
+		<place>Оптовик</place>
+		<title>KitKat Чанки 42г</title>
+		<sum>12.24</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>19:35</time>
+		<place>Оптовик</place>
+		<title>Творог 0% Симби+ (0.506 X 43.86)</title>
+		<sum>22.19</sum>
+		<discount>0.22</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>19:35</time>
+		<place>Оптовик</place>
+		<title>Хлеб Рижский 350г</title>
+		<sum>7.56</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>12:20</time>
+		<place>Online</place>
+		<title>Счета (Инет)</title>
+		<sum>95.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Инет</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>inet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>12:20</time>
+		<place>Online</place>
+		<title>Счета (ПКС Вода)</title>
+		<sum>253.38</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Вода</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-water</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>12:20</time>
+		<place>Online</place>
+		<title>Счета (ПКС Коммуналка)</title>
+		<sum>202.49</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Коммуналка</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-yard</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>12:20</time>
+		<place>Online</place>
+		<title>Счета (Электричество)</title>
+		<sum>68.88</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Электричество</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>electricity</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-12</date>
+		<time>12:20</time>
+		<place>Online</place>
+		<title>Счета (Газ)</title>
+		<sum>22.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Газ</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>gas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-11</date>
+		<time>15:42</time>
+		<place>Сильпо</place>
+		<title>Яблоко (0.932 X 26.99)</title>
+		<sum>25.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Fruits</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>apple</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-11</date>
+		<time>15:42</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.560 X 99.95)</title>
+		<sum>55.97</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-11</date>
+		<time>15:42</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.182 X 205.20)</title>
+		<sum>37.35</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-11</date>
+		<time>15:42</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.458 X 99.44)</title>
+		<sum>45.54</sum>
+		<discount></discount>
+		<moneybox>0.99</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-11</date>
+		<time>14:41</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-11</date>
+		<time>14:41</time>
+		<place>АТБ</place>
+		<title>Шоколад Millennium 90г</title>
+		<sum>19.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>chocolate</tag>
+		<tag>millennium</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-09</date>
+		<time>12:07</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.968 X 99.95)</title>
+		<sum>96.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-09</date>
+		<time>12:07</time>
+		<place>Сильпо</place>
+		<title>Банан (0.378 X 37.99)</title>
+		<sum>14.36</sum>
+		<discount></discount>
+		<moneybox>0.89</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-08</date>
+		<time>20:08</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 1.5л</title>
+		<sum>10.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-1.5</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-08</date>
+		<time>20:08</time>
+		<place>АТБ</place>
+		<title>Корм "Kitekat"</title>
+		<sum>6.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>kitekat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-08</date>
+		<time>20:08</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-08</date>
+		<time>19:52</time>
+		<place>Оптовик</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>20.70</sum>
+		<discount>0.21</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:48</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 1.5л</title>
+		<sum>10.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-1.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:40</time>
+		<place>Ассоль</place>
+		<title>Высевки Овсяные</title>
+		<sum>14.94</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>assol</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bran</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:40</time>
+		<place>Ассоль</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.42</sum>
+		<discount>0.03</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>assol</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:40</time>
+		<place>Ассоль</place>
+		<title>Кофе Carte Noire 2г</title>
+		<sum>4.68</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>assol</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>carte-noire</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:25</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:25</time>
+		<place>АТБ</place>
+		<title>Лук Репчатый (0.526 X 4.95)</title>
+		<sum>2.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Овощи</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>vegetables</tag>
+		<tag>bow</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>15:25</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="6">
+		<date>2018-03-07</date>
+		<time>15:25</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Гречка</title>
+		<sum>18.09</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>buckwheat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Банан (0.598 X 35.35)</title>
+		<sum>21.14</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.178 X 99.95)</title>
+		<sum>117.74</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.250 X 164.90)</title>
+		<sum>41.23</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Сосиски Филейные (0.474 X 99.44)</title>
+		<sum>47.13</sum>
+		<discount></discount>
+		<moneybox>0.99</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>sausage</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-03-07</date>
+		<time>14:35</time>
+		<place>Сильпо</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.89</sum>
+		<discount></discount>
+		<moneybox>0.11</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-06</date>
+		<time>15:38</time>
+		<place>Оптовик</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>20.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-03-06</date>
+		<time>15:38</time>
+		<place>Оптовик</place>
+		<title>Творог 18% Симби+ (0.448 X 47.46)</title>
+		<sum>21.26</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-03-06</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 1.5л</title>
+		<sum>10.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-1.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>11.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>16.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Банан (0.702 X 41.99)</title>
+		<sum>29.48</sum>
+		<discount>0.08</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>31.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>6.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>17:05</time>
+		<place>АТБ</place>
+		<title>Мусорные мешки 35л 50шт</title>
+		<sum>18.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>trash-package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>16:50</time>
+		<place>Лотос</place>
+		<title>Зубная паста Biomed</title>
+		<sum>39.28</sum>
+		<discount>1.96</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>toothpaste</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-22</date>
+		<time>16:50</time>
+		<place>Лотос</place>
+		<title>Губки Фрекен Бок 5г</title>
+		<sum>16.50</sum>
+		<discount>0.83</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>sponge</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-22</date>
+		<time>16:50</time>
+		<place>Лотос</place>
+		<title>Ватные палочки Siela 200шт</title>
+		<sum>21.99</sum>
+		<discount>1.10</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>cotton-buds</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-22</date>
+		<time>16:50</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обухов</title>
+		<sum>6.00</sum>
+		<discount>0.30</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-02-22</date>
+		<time>16:50</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (Инет)</title>
+		<sum>95.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Инет</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>inet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (ПКС Вода)</title>
+		<sum>265.06</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Вода</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-water</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (ПКС Коммуналка)</title>
+		<sum>202.49</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Коммуналка</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-yard</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (Электричество)</title>
+		<sum>90.44</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Электричество</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>electricity</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (Газ)</title>
+		<sum>22.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Газ</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>gas</tag>
+	</item>
+
+
+	<item>
+		<date>2018-02-20</date>
+		<time>23:00</time>
+		<place>Online</place>
+		<title>Счета (Vodafone)</title>
+		<sum>44.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Vodafone</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>vodafone</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-20</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>9.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>План</title>
+		<sum>200.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Развлечения</category>
+		<subcategory>План</subcategory>
+		<tag>home</tag>
+		<tag>fun</tag>
+		<tag>ganja</tag>
+	</item>
+	
+	
+	<item qt="5">
+		<date>2018-02-19</date>
+		<time>13:07</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>13:07</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 1.5л</title>
+		<sum>10.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-1.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>13:07</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 0.5л</title>
+		<sum>7.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-0.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>12:48</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария Грона (0.374 X 41.52)</title>
+		<sum>15.53</sum>
+		<discount>0.16</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>12:48</time>
+		<place>Оптовик</place>
+		<title>Мажор (0.254 X 71.28)</title>
+		<sum>18.11</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>major</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-19</date>
+		<time>12:48</time>
+		<place>Оптовик</place>
+		<title>Мажор (0.252 X 71.28)</title>
+		<sum>17.96</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>major</tag>
+	</item>
+	
+	
+	<item qt="7">
+		<date>2018-02-18</date>
+		<time>17:47</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-18</date>
+		<time>17:47</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-18</date>
+		<time>17:47</time>
+		<place>АТБ</place>
+		<title>Банан (0.336 X 41.99)</title>
+		<sum>14.11</sum>
+		<discount>0.01</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-18</date>
+		<time>17:47</time>
+		<place>АТБ</place>
+		<title>Сникерс 50г</title>
+		<sum>9.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-18</date>
+		<time>17:47</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:45</time>
+		<place>Сильпо</place>
+		<title>Хек (0.792 X 85.90)</title>
+		<sum>68.03</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Рыба</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fish</tag>
+		<tag>hake</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:45</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.012 X 99.95)</title>
+		<sum>101.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:45</time>
+		<place>Сильпо</place>
+		<title>Банан (1.180 X 40.99)</title>
+		<sum>48.37</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:45</time>
+		<place>Сильпо</place>
+		<title>Салат (Листья)</title>
+		<sum>24.99</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Зелень</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>greenery</tag>
+		<tag>lettuce-leaves</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:30</time>
+		<place>Дижон</place>
+		<title>Скотч</title>
+		<sum>15.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Липкое</subcategory>
+		<tag>dijon</tag>
+		<tag>way-of-life</tag>
+		<tag>sticky</tag>
+		<tag>scotch</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-17</date>
+		<time>15:21</time>
+		<place>Аптека №59</place>
+		<title>Визин 5% 15мл</title>
+		<sum>89.25</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Здоровье</category>
+		<subcategory>Фармацевтика</subcategory>
+		<tag>pharmacy-59</tag>
+		<tag>health</tag>
+		<tag>pharmacy</tag>
+		<tag>visin</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-14</date>
+		<time>21:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>12.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-14</date>
+		<time>20:42</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария Грона (0.450 X 41.52)</title>
+		<sum>18.68</sum>
+		<discount>0.19</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-14</date>
+		<time>20:42</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария Грона (0.408 X 41.52)</title>
+		<sum>16.94</sum>
+		<discount>0.17</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-14</date>
+		<time>20:42</time>
+		<place>Оптовик</place>
+		<title>Мажор (0.254 X 71.28)</title>
+		<sum>18.11</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>major</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-14</date>
+		<time>20:24</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>16.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-14</date>
+		<time>20:24</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="10">
+		<date>2018-02-14</date>
+		<time>20:24</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-14</date>
+		<time>20:24</time>
+		<place>АТБ</place>
+		<title>Т/бмг Обухов</title>
+		<sum>5.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-13</date>
+		<time>20:44</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>30.90</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-13</date>
+		<time>20:44</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-13</date>
+		<time>20:44</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+
+
+	<item>
+		<date>2018-02-13</date>
+		<time>20:44</time>
+		<place>АТБ</place>
+		<title>Банан (0.436 X 38.99)</title>
+		<sum>17.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="8">
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Сникерс 112.5г</title>
+		<sum>16.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-10</date>
+		<time>19:07</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-08</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>11.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-07</date>
+		<time>14:37</time>
+		<place>АТБ</place>
+		<title>Хлеб 350г</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-02-07</date>
+		<time>14:37</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-06</date>
+		<time>11:19</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.830 X 99.95)</title>
+		<sum>82.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-05</date>
+		<time>20:00</time>
+		<place>Секрет</place>
+		<title>План</title>
+		<sum>200.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Развлечения</category>
+		<subcategory>План</subcategory>
+		<tag>secret</tag>
+		<tag>fun</tag>
+		<tag>ganja</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-05</date>
+		<time>11:59</time>
+		<place>Ассоль</place>
+		<title>Высевки Mega Mix</title>
+		<sum>36.24</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>assol</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bran</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-05</date>
+		<time>11:59</time>
+		<place>Ассоль</place>
+		<title>Банан (0.622 X 38.76)</title>
+		<sum>24.11</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>assol</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-04</date>
+		<time>20:45</time>
+		<place>АТБ</place>
+		<title>Банан (0.222 X 38.99)</title>
+		<sum>8.66</sum>
+		<discount>0.06</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-04</date>
+		<time>20:45</time>
+		<place>АТБ</place>
+		<title>Яйца Квочка С0 10шт.</title>
+		<sum>30.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Яйца</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>eggs</tag>
+		<tag>kvochka-C0</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:24</time>
+		<place>Оптовик</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>19.68</sum>
+		<discount>0.20</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:24</time>
+		<place>Оптовик</place>
+		<title>Творог 9% Степной (0.548 X 64.50)</title>
+		<sum>35.35</sum>
+		<discount>0.35</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:24</time>
+		<place>Оптовик</place>
+		<title>Крекер (0.406 X 45.60)</title>
+		<sum>18.51</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:24</time>
+		<place>Оптовик</place>
+		<title>Шарики со сгущенкой (0.128 X 104.52)</title>
+		<sum>13.38</sum>
+		<discount>0.13</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>milky-balls</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:24</time>
+		<place>Оптовик</place>
+		<title>Шарики со сгущенкой (0.140 X 104.52)</title>
+		<sum>14.63</sum>
+		<discount>0.14</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>milky-balls</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:01</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-03</date>
+		<time>20:01</time>
+		<place>АТБ</place>
+		<title>Банан (0.350 X 38.99)</title>
+		<sum>13.65</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+
+
+	<item>
+		<date>2018-02-03</date>
+		<time>20:01</time>
+		<place>АТБ</place>
+		<title>Сникерс 112.5г</title>
+		<sum>16.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item qt="6">
+		<date>2018-02-03</date>
+		<time>20:01</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-02-03</date>
+		<time>20:01</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-02</date>
+		<time>11:51</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-02</date>
+		<time>11:51</time>
+		<place>АТБ</place>
+		<title>Банан (0.406 X 38.99)</title>
+		<sum>15.83</sum>
+		<discount>0.08</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+
+
+	<item>
+		<date>2018-02-02</date>
+		<time>11:51</time>
+		<place>АТБ</place>
+		<title>Сникерс 112.5г</title>
+		<sum>16.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-02</date>
+		<time>11:51</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-02</date>
+		<time>11:51</time>
+		<place>АТБ</place>
+		<title>Корм "Club 4 Paws"</title>
+		<sum>7.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>club4paws</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-01</date>
+		<time>11:44</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария Грона (0.438 X 41.52)</title>
+		<sum>18.19</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+
+
+	<item>
+		<date>2018-02-01</date>
+		<time>11:44</time>
+		<place>Оптовик</place>
+		<title>Куриное Филе (0.452 X 80.00)</title>
+		<sum>36.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-02-01</date>
+		<time>10:47</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-29</date>
+		<time>19:21</time>
+		<place>Оптовик</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>19.68</sum>
+		<discount>0.20</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-29</date>
+		<time>19:21</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария (0.424 X 40.44)</title>
+		<sum>17.15</sum>
+		<discount>0.17</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-29</date>
+		<time>19:21</time>
+		<place>Оптовик</place>
+		<title>Творог 0% Симби+ (0.420 X 40.80)</title>
+		<sum>17.14</sum>
+		<discount>0.17</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>19:17</time>
+		<place>Сильпо</place>
+		<title>Хек (1.086 X 87.90)</title>
+		<sum>95.46</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Рыба</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fish</tag>
+		<tag>hake</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>19:17</time>
+		<place>Сильпо</place>
+		<title>Куриный Фарш (0.516 X 98.99)</title>
+		<sum>51.08</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-farce</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>19:17</time>
+		<place>Сильпо</place>
+		<title>Сметана 15%Ж 205г Простоквашино</title>
+		<sum>12.79</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:56</time>
+		<place>Оптовик</place>
+		<title>Шарики со сгущенкой (0.126 X 104.52)</title>
+		<sum>13.17</sum>
+		<discount>0.13</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>milky-balls</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:56</time>
+		<place>Оптовик</place>
+		<title>Крекер (0.388 X 45.60)</title>
+		<sum>17.69</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:30</time>
+		<place>АТБ</place>
+		<title>Банан (0.944 X 38.99)</title>
+		<sum>36.81</sum>
+		<discount>0.01</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:30</time>
+		<place>АТБ</place>
+		<title>Макароны Riscossa 500г</title>
+		<sum>20.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>riscossa</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:30</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-28</date>
+		<time>12:30</time>
+		<place>АТБ</place>
+		<title>Сникерс 50г</title>
+		<sum>9.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-01-28</date>
+		<time>12:30</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-26</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б) 1/2-Пучок</title>
+		<sum>40.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item qt="8">
+		<date>2018-01-26</date>
+		<time>15:38</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.55</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+
+
+	<item qt="2">
+		<date>2018-01-26</date>
+		<time>15:38</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>6.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-26</date>
+		<time>15:38</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-26</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Банан (0.588 X 38.99)</title>
+		<sum>22.93</sum>
+		<discount>0.03</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-26</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Сникерс 50г</title>
+		<sum>9.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>snickers</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-26</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Сыр Плавленный 90г</title>
+		<sum>12.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-01-26</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-25</date>
+		<time>12:11</time>
+		<place>Новая Почта</place>
+		<title>Коробки</title>
+		<sum>93.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Коробки</subcategory>
+		<tag>nova-poshta</tag>
+		<tag>way-of-life</tag>
+		<tag>boxes</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-25</date>
+		<time>20:00</time>
+		<place>Секрет</place>
+		<title>План</title>
+		<sum>200.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Развлечения</category>
+		<subcategory>План</subcategory>
+		<tag>secret</tag>
+		<tag>fun</tag>
+		<tag>ganja</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-24</date>
+		<time>10:59</time>
+		<place>АТБ</place>
+		<title>Хлеб 600г</title>
+		<sum>9.75</sum>
+		<discount>0.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-24</date>
+		<time>10:59</time>
+		<place>АТБ</place>
+		<title>KitKat 40г</title>
+		<sum>8.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>kitkat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-24</date>
+		<time>10:40</time>
+		<place>Оптовик</place>
+		<title>Куриное Филе (0.800 X 80.00)</title>
+		<sum>64.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-23</date>
+		<time>13:00</time>
+		<place>Zoo</place>
+		<title>Сухой Корм</title>
+		<sum>78.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>dry-food</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>13:10</time>
+		<place>Оптовик</place>
+		<title>Кефир 1%Ж 1л Степной</title>
+		<sum>19.68</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>kefir</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>13:10</time>
+		<place>Оптовик</place>
+		<title>Творог 9% Степной (0.348 X 67.32)</title>
+		<sum>23.43</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>curd</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>13:10</time>
+		<place>Оптовик</place>
+		<title>Зажигалка Cricket</title>
+		<sum>9.78</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Огонь</subcategory>
+		<tag>optovik</tag>
+		<tag>way-of-life</tag>
+		<tag>fire</tag>
+		<tag>lighter</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-22</date>
+		<time>13:20</time>
+		<place>Север</place>
+		<title>Спички 10крб</title>
+		<sum>5.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Огонь</subcategory>
+		<tag>optovik</tag>
+		<tag>way-of-life</tag>
+		<tag>fire</tag>
+		<tag>match</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Банан (1.810 X 37.99)</title>
+		<sum>68.76</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>20.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Сыр Плавленный 90г</title>
+		<sum>13.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Драже 30г</title>
+		<sum>4.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>dragee</tag>
+	</item>
+	
+	
+	<item qt="6">
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-22</date>
+		<time>12:43</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-20</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>14.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (Инет)</title>
+		<sum>95.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Инет</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>inet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (ПКС Вода)</title>
+		<sum>682.88</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Вода</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-water</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (ПКС Коммуналка)</title>
+		<sum>708.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>ПКС Коммуналка</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>pks-yard</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (Электричество)</title>
+		<sum>80.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Электричество</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>electricity</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (Газ)</title>
+		<sum>22.96</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission>1.00</commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Газ</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>gas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (Vodafone)</title>
+		<sum>40.99</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Vodafone</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>vodafone</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>21:50</time>
+		<place>Online</place>
+		<title>Счета (Kyivstar)</title>
+		<sum>19.43</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Vodafone</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>kyivstar</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>18:44</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>18:44</time>
+		<place>АТБ</place>
+		<title>Драже 30г</title>
+		<sum>3.50</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>dragee</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>18:44</time>
+		<place>АТБ</place>
+		<title>Драже 50г</title>
+		<sum>2.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>dragee</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-19</date>
+		<time>18:44</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-19</date>
+		<time>18:44</time>
+		<place>АТБ</place>
+		<title>Корм "Whiskas"</title>
+		<sum>8.10</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>whiskas</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-17</date>
+		<time>11:19</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>4.15</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Сахар 1кг</title>
+		<sum>13.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сахар</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sugar</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Банан (0.638 X 35.79)</title>
+		<sum>22.83</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Мыло Хозяйственное 140г Sarma</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+		<tag>sarma</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Перчатки Хозяйственные</title>
+		<sum>17.45</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для туалета</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>4wc</tag>
+		<tag>gloves</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-16</date>
+		<time>11:23</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-15</date>
+		<time>20:00</time>
+		<place>Дом</place>
+		<title>Пицца Цезарь(Б)</title>
+		<sum>73.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip>8.00</tip>
+		<category>Еда</category>
+		<subcategory>Фаст-фуд</subcategory>
+		<tag>home</tag>
+		<tag>food</tag>
+		<tag>fast-food</tag>
+		<tag>pizza</tag>
+		<tag>milana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-15</date>
+		<time>18:00</time>
+		<place>Ремонт обуви</place>
+		<title>Ремонт рюкзака</title>
+		<sum>50.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Вещи</category>
+		<subcategory>Ремонт</subcategory>
+		<tag>shoe-repair</tag>
+		<tag>things</tag>
+		<tag>repair</tag>
+		<tag>backpack</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-14</date>
+		<time>19:45</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>7.55</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-14</date>
+		<time>19:45</time>
+		<place>АТБ</place>
+		<title>Банан (0.476 X 35.79)</title>
+		<sum>17.04</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-14</date>
+		<time>19:45</time>
+		<place>АТБ</place>
+		<title>Сыр Плавленный 90г</title>
+		<sum>13.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-01-14</date>
+		<time>19:45</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-14</date>
+		<time>19:45</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>7.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-14</date>
+		<time>19:18</time>
+		<place>Оптовик</place>
+		<title>Чай красный 105г</title>
+		<sum>17.52</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Чай</subcategory>
+		<tag>optovik</tag>
+		<tag>drinks</tag>
+		<tag>tea</tag>
+		<tag>red-tea</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>20.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Банан (0.256 X 33.99)</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Йогурт 1.5%Ж 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Йогурт 1%Ж 400г</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>yogurt</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-12</date>
+		<time>13:03</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-11</date>
+		<time>17:31</time>
+		<place>АТБ</place>
+		<title>Овсянка 600г</title>
+		<sum>19.35</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>oatmeal</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-11</date>
+		<time>17:31</time>
+		<place>АТБ</place>
+		<title>Апельсин (0.954 X 22.99)</title>
+		<sum>21.93</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>orange</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-11</date>
+		<time>17:31</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-01-11</date>
+		<time>17:31</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-11</date>
+		<time>17:31</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-10</date>
+		<time>15:52</time>
+		<place>АТБ</place>
+		<title>Вода 6л</title>
+		<sum>17.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>water-6</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-10</date>
+		<time>13:56</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.416 X 99.95)</title>
+		<sum>141.53</sum>
+		<discount></discount>
+		<moneybox>0.05</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-10</date>
+		<time>13:56</time>
+		<place>Сильпо</place>
+		<title>Банан (0.528 X 23.99)</title>
+		<sum>12.67</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-09</date>
+		<time>18:12</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>3.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-01-09</date>
+		<time>18:12</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>18:12</time>
+		<place>АТБ</place>
+		<title>Мандарин (0.554 X 33.99)</title>
+		<sum>18.83</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>mandarin</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:46</time>
+		<place>Оптовик</place>
+		<title>Печенье Мария Грона (0.366 X 38.94)</title>
+		<sum>14.25</sum>
+		<discount>0.14</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:46</time>
+		<place>Оптовик</place>
+		<title>Печенье Ушко (0.404 X 46.68)</title>
+		<sum>18.86</sum>
+		<discount>0.19</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:46</time>
+		<place>Оптовик</place>
+		<title>Печенье-сендвич Грона Наполеон (0.350 X 51.00)</title>
+		<sum>17.85</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:10</time>
+		<place>Zoo</place>
+		<title>Наполнитель</title>
+		<sum>40.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Наполнитель</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>filler</tag>
+		<tag>super-cat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:01</time>
+		<place>Лотос</place>
+		<title>Зубная паста Biomed</title>
+		<sum>49.10</sum>
+		<discount>2.46</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>toothpaste</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-09</date>
+		<time>17:01</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:01</time>
+		<place>Лотос</place>
+		<title>Фольга</title>
+		<sum>12.55</sum>
+		<discount>0.63</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>sponge</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-09</date>
+		<time>17:01</time>
+		<place>Лотос</place>
+		<title>Салфетки</title>
+		<sum>17.20</sum>
+		<discount>0.86</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для кухни</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4kitchen</tag>
+		<tag>napkin</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-07</date>
+		<time>17:21</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>3.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-07</date>
+		<time>17:21</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-07</date>
+		<time>17:21</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-07</date>
+		<time>17:21</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item qt="8">
+		<date>2018-01-06</date>
+		<time>17:01</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.55</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-06</date>
+		<time>17:01</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-06</date>
+		<time>17:01</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-05</date>
+		<time>13:13</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (0.612 X 99.95)</title>
+		<sum>61.17</sum>
+		<discount></discount>
+		<moneybox>0.83</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-05</date>
+		<time>13:00</time>
+		<place>Секрет</place>
+		<title>План</title>
+		<sum>400.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Развлечения</category>
+		<subcategory>План</subcategory>
+		<tag>secret</tag>
+		<tag>fun</tag>
+		<tag>ganja</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-01-05</date>
+		<time>12:47</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.55</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-05</date>
+		<time>12:47</time>
+		<place>АТБ</place>
+		<title>Батон 200г</title>
+		<sum>3.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:25</time>
+		<place>Оптовик</place>
+		<title>Банан (0.604 X 30.00)</title>
+		<sum>18.12</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:25</time>
+		<place>Оптовик</place>
+		<title>Печенье Ушко (0.376 X 46.68)</title>
+		<sum>17.55</sum>
+		<discount>0.18</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>optovik</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>cookie</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:25</time>
+		<place>Оптовик</place>
+		<title>Вода Миргородская 0.5л</title>
+		<sum>6.30</sum>
+		<discount>0.06</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>optovik</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>mirgorod-0.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>20.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Гречка 1кг</title>
+		<sum>18.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>buckwheat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Lion 42г</title>
+		<sum>5.60</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-03</date>
+		<time>12:05</time>
+		<place>АТБ</place>
+		<title>Мыло 100г</title>
+		<sum>5.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>soap</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-02</date>
+		<time>12:39</time>
+		<place>Лотос</place>
+		<title>Стиральный порошок 3кг Gala</title>
+		<sum>78.86</sum>
+		<discount>3.94</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для ванной</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4bathroom</tag>
+		<tag>washing-powder</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-01-02</date>
+		<time>12:39</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обухов</title>
+		<sum>5.45</sum>
+		<discount>0.27</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-02</date>
+		<time>12:39</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-01</date>
+		<time>12:42</time>
+		<place>АТБ</place>
+		<title>Макароны Чумак 400г</title>
+		<sum>20.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Гарнир</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>garnish</tag>
+		<tag>pasta</tag>
+		<tag>chumak</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-01-01</date>
+		<time>12:42</time>
+		<place>АТБ</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.30</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-01</date>
+		<time>12:42</time>
+		<place>АТБ</place>
+		<title>Корм "Felix"</title>
+		<sum>8.70</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>atb</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>felix</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-01-01</date>
+		<time>12:42</time>
+		<place>АТБ</place>
+		<title>Пакет (м)</title>
+		<sum>0.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Пакеты</subcategory>
+		<tag>atb</tag>
+		<tag>way-of-life</tag>
+		<tag>packages</tag>
+		<tag>package</tag>
+	</item>
+	
+	
+</list>

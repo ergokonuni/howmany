@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<list>
+	
+	
+	<money>
+		<total>30800</total>
+		<now>18400</now>
+		<cy>UAH</cy>
+		<food>5500</food>
+		<bill>3200</bill>
+		<health>4000</health>
+		<water>2000</water>
+		<kitchen>1000</kitchen>
+		<way-of-life>500</way-of-life>
+		<card>2000</card>
+	</money>
+	
+	
+	<wt>
+		<total>54</total>
+		<unit>L</unit>
+		<mineral>0</mineral>
+		<other>0</other>
+		<park>1</park>
+	</wt>
+	
+	
+</list>

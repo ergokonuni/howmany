@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "author": "Ergo Konuni",
+  "author": "Ergo Konuni <ergo.konuni@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
@@ -30,6 +30,7 @@
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^5.0.1",
     "node-bourbon": "^4.2.8",
+    "require-dir": "^1.0.0",
     "vinyl-ftp": "^0.6.0"
   },
   "dependencies": {},

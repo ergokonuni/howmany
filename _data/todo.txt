@@ -1,0 +1,40 @@
+  
+  
+  TARGETS:
+    -  Starter Pack
+  
+  
+  TODO:
+    +  CS:  Good Font-Size em's
+    +  CS:  Typography
+    +  CS:  Container Size & Page Padding
+    +  CS:  App-Header (Layout)
+    +  CS:  Card-Header (Layout)
+    +  CS:  Icon Menu
+    +  CS:  Icon More
+    +  CS:  Icon Back
+    -  CS:  Good Vars
+    -  CS:  Good Ideas from Bootstrap CSS
+    -  CS:  Pixel Ratio
+    -  CS:  Switch from Full-Width to Space
+    -  JS:  HTML Classes (br, sz, os, ori)
+    -  CS:  Signin Form (from flex to css-grid)
+    -  XX:  Glyph Icons
+    -  JS:  Load Data from XML
+    -  XX:  SVG Icons
+    -  XX:  PNG → SVG
+    -  XX:  P:  Condition
+    -  XX:  Form (Data-List) (C)
+    -  XX:  Form (Radio/CB) (C)
+    -  XX:  Form (Select) (C)
+    -  XX:  Look'n'Feel (D)(C)
+    -  JS:  Loading... (Logo) (C)
+    -  JS:  Loading... (Top Line) (C)
+    -  XX:  Menu (C)(D)
+    -  XX:  Icons Interactive (C)
+  
+  
+  BUG FIX:
+    -  JS:  Textarea AH (copy/paste not calling)
+  
+  

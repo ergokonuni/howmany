@@ -2,13 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "D:\\OpenServer\\domains\\truestory\\app"
-		},
-		{
-			"path": "D:\\OpenServer\\domains\\truestory\\data"
-		},
-		{
-			"path": "D:\\OpenServer\\domains\\truestory\\dist"
+			"path": "D:\\OpenServer\\domains\\truestory"
 		}
 	]
 }

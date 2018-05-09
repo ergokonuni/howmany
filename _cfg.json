@@ -1,0 +1,22 @@
+{
+  "paths": {
+    "src": {
+      "root": "app/",
+      "css": "app/css/",
+      "img": "app/img/",
+      "js": "app/js/",
+      "libs": "app/libs/",
+      "sass": "app/sass/",
+      "tpl": "app/tpl/"
+    },
+    "dist": {
+      "root": "dist/",
+      "css": "dist/css/",
+      "img": "dist/img/",
+      "js": "dist/js/",
+      "libs": "dist/libs/",
+      "sass": "dist/sass/",
+      "tpl": "dist/tpl/"
+    }
+  }
+}
