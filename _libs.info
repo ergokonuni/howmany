@@ -1,0 +1,12 @@
+bower i <package-name> --save
+-----------------------------
+bootstrap
+current-device
+device.js
+font-awesome
+jquery
+magnific-popup
+materialize
+normalize-css
+owl.carousel
+popper.js
