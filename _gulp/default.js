@@ -3,7 +3,4 @@ var paths = require('../_cfg.json').paths;
 
 
 
-gulp.task('default', function(){
-	console.log('worked');
-	console.log(paths.dist.root);
-});
+gulp.task('default', ['watch']);

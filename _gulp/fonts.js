@@ -4,8 +4,8 @@ var browserSync = require('browser-sync');
 
 
 
-gulp.task('js', function(){
-	return gulp.src(paths.src.js + '**/*')
-		.pipe(gulp.dest(paths.dist.js))
+gulp.task('fonts', function(){
+	return gulp.src(paths.src.fonts + '**/*')
+		.pipe(gulp.dest(paths.dist.fonts))
 		.pipe(browserSync.reload({stream: true}));
 });

@@ -20,5 +20,6 @@ gulp.task('js-libs', function(){
 		.pipe(concat('libs.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(paths.src.js))
-		.pipe(gulp.dest(paths.dist.js));
+		.pipe(gulp.dest(paths.dist.js))
+		.pipe(browserSync.reload({stream: true}));
 });

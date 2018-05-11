@@ -3,6 +3,7 @@
     "src": {
       "root": "src/",
       "css": "src/css/",
+      "fonts": "src/fonts/",
       "img": "src/img/",
       "js": "src/js/",
       "libs": "src/libs/",
@@ -12,6 +13,7 @@
     "dist": {
       "root": "dist/",
       "css": "dist/css/",
+      "fonts": "dist/fonts/",
       "img": "dist/img/",
       "js": "dist/js/",
       "libs": "dist/libs/",

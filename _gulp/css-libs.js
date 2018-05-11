@@ -19,5 +19,6 @@ gulp.task('css-libs', function(){
 		.pipe(concat('libs.min.css'))
 		.pipe(cleanCSS())
 		.pipe(gulp.dest(paths.src.css))
-		.pipe(gulp.dest(paths.dist.css));
+		.pipe(gulp.dest(paths.dist.css))
+		.pipe(browserSync.reload({stream: true}));
 });
