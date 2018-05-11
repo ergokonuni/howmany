@@ -1,0 +1,16 @@
+.theme--day body {
+  color: rgba(0, 0, 0, 0.55);
+  background-color: #fff; }
+
+.theme--day .app--header {
+  color: rgba(0, 0, 0, 0.22);
+  border-bottom-color: rgba(0, 0, 0, 0.1); }
+
+.theme--day .i--menu .line {
+  background-color: rgba(0, 0, 0, 0.55); }
+
+.theme--day .i--back .line {
+  background-color: rgba(0, 0, 0, 0.55); }
+
+.theme--day .i--more .dot {
+  background-color: rgba(0, 0, 0, 0.55); }
