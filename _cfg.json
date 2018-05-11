@@ -1,13 +1,13 @@
 {
   "paths": {
     "src": {
-      "root": "app/",
-      "css": "app/css/",
-      "img": "app/img/",
-      "js": "app/js/",
-      "libs": "app/libs/",
-      "sass": "app/sass/",
-      "tpl": "app/tpl/"
+      "root": "src/",
+      "css": "src/css/",
+      "img": "src/img/",
+      "js": "src/js/",
+      "libs": "src/libs/",
+      "sass": "src/sass/",
+      "tpl": "src/tpl/"
     },
     "dist": {
       "root": "dist/",
@@ -17,6 +17,12 @@
       "libs": "dist/libs/",
       "sass": "dist/sass/",
       "tpl": "dist/tpl/"
+    },
+    "libs": {
+      "root": "_libs/"
+    },
+    "data": {
+      "root": "_data/"
     }
   }
 }
