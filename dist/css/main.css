@@ -46,7 +46,9 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  font-weight: 400; }
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
+  background-color: #fff; }
 
 a {
   color: white;
@@ -316,7 +318,8 @@ hr {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  border-bottom: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.22);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   left: 0;
   top: 0;
@@ -1221,6 +1224,7 @@ fieldset {
   display: block;
   width: 70%;
   height: 2px;
+  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   left: 15%; }
   @media only screen and (min-width: 1500px) {
@@ -1252,6 +1256,7 @@ fieldset {
   display: block;
   width: 70%;
   height: 2px;
+  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   left: 15%; }
   @media only screen and (min-width: 1500px) {
@@ -1290,6 +1295,7 @@ fieldset {
   width: 4px;
   height: 4px;
   border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.55);
   position: absolute;
   left: calc(50% - 2px); }
   @media only screen and (min-width: 1500px) {
@@ -1389,6 +1395,19 @@ fieldset {
 
 .modal-test {
   text-align: center; }
+
+html {
+  --key-color: #000;
+  --bg-color: #fff;
+  --active-color: #ee75ca; }
+
+.theme--night {
+  --key-color: #fff;
+  --bg-color: #111; }
+
+.theme--purple {
+  --key-color: #fff;
+  --bg-color: #371253; }
 
 .theme--day body {
   color: rgba(0, 0, 0, 0.55);
