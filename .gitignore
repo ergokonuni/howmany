@@ -3,13 +3,13 @@
 *.zip
 .idea
 .sass-cache/
+/_data/
+/_libs/
+/data/
+/libs/
 /nbproject/
 /nbproject/private/
 /node_modules/
-/data/
-/libs/
-/_data/
-/_libs/
 /tmp/
 *.tmp
 *~
