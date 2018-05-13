@@ -1,6 +1,5 @@
 .theme--night {
-  --key-color: white;
-  --key-alpha: 0.55;
-  --text-color: rgba(255, 255, 255, 0.55);
-  --bg-color: #111;
-  --active-color: #ee75ca; }
+  --key-color: 255,255,255;
+  --key-alpha: 0.45;
+  --bg-color: 17,17,17;
+  --active-color: 238,117,202; }

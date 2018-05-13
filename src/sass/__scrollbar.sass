@@ -12,15 +12,15 @@
 	::-webkit-scrollbar
 		width: 24px
 		height: 24px
-		background-color: var(--bg-color)
+		background-color: #{'rgb(var(--bg-color))'};
 		&:vertical
-			//border-left: 1px solid rgba(var(--key-color), .1)
+			border-left: 1px solid #{'rgba(var(--key-color), .1)'};
 		&:horizontal
-			//border-top: 1px solid rgba(var(--key-color), .1)
+			border-top: 1px solid #{'rgba(var(--key-color), .1)'};
 		&-corner
-			background-color: var(--key-color)
-			//border-left: 1px solid rgba(var(--key-color), .1)
-			//border-top: 1px solid rgba(var(--key-color), .1)
+			background-color: #{'rgb(var(--key-color))'};
+			border-left: 1px solid #{'rgba(var(--key-color), .1)'};
+			border-top: 1px solid #{'rgba(var(--key-color), .1)'};
 		&-resizer
 			//background: none
 		&-track
@@ -28,16 +28,15 @@
 		&-track-piece
 			//background: none
 		&-thumb
-			//background-color: rgba(var(--key-color), .1)
+			background-color: #{'rgba(var(--key-color), .12)'};
 			&:vertical
-				//box-shadow: inset 1px 0 0 0 rgba(var(--key-color), .1), inset 8px 8px 0 0 var(--bg-color), inset -8px -8px 0 0 var(--bg-color)
+				box-shadow: inset 1px 0 0 0 #{'rgba(var(--key-color), .1)'}, inset 6px 6px 0 0 #{'rgb(var(--bg-color))'}, inset -6px -6px 0 0 #{'rgb(var(--bg-color))'};
 			&:horizontal
-				//box-shadow: inset 0 1px 0 0 rgba(var(--key-color), .1), inset 8px 8px 0 0 var(--bg-color), inset -8px -8px 0 0 var(--bg-color)
-		&-thumb
+				box-shadow: inset 0 1px 0 0 #{'rgba(var(--key-color), .1)'}, inset 6px 6px 0 0 #{'rgb(var(--bg-color))'}, inset -6px -6px 0 0 #{'rgb(var(--bg-color))'};
 			&:hover
-				//background-color: rgba(var(--key-color), .15)
+				background-color: #{'rgba(var(--key-color), .25)'};
 			&:active
-				//background-color: rgba(var(--active-color), .8)
+				background-color: #{'rgba(var(--active-color), .8)'};
 	
 	
 	
@@ -50,9 +49,9 @@
 			border: none
 		&-thumb
 			&:vertical
-				box-shadow: inset 4px 4px 0 0 var(--bg-color), inset -4px -4px 0 0 var(--bg-color)
+				box-shadow: inset 4px 4px 0 0 #{'rgb(var(--bg-color))'}, inset -4px -4px 0 0 #{'rgb(var(--bg-color))'};
 			&:horizontal
-				box-shadow: inset 4px 4px 0 0 var(--bg-color), inset -4px -4px 0 0 var(--bg-color)
+				box-shadow: inset 4px 4px 0 0 #{'rgb(var(--bg-color))'}, inset -4px -4px 0 0 #{'rgb(var(--bg-color))'};
 	
 	
 	

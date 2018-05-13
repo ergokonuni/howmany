@@ -1,6 +1,5 @@
 .theme--purple {
-  --key-color: white;
+  --key-color: 255,255,255;
   --key-alpha: 0.55;
-  --text-color: rgba(255, 255, 255, 0.55);
-  --bg-color: #371253;
-  --active-color: #ee75ca; }
+  --bg-color: 55,18,83;
+  --active-color: 238,117,202; }
