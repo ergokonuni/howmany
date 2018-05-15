@@ -5,8 +5,8 @@
 // .card
 .card
 	box-sizing: border-box
-	border-top: 1px solid rgba(255,255,255, .1)
-	border-bottom: 1px solid rgba(255,255,255, .1)
+	border-top: 1px solid #{'rgba(var(--key-color), .1)'};
+	border-bottom: 1px solid #{'rgba(var(--key-color), .1)'};
 .card-wt
 	border-top: none
 
@@ -15,12 +15,13 @@
 // .card--header
 .card--header
 	width: 100%
-	height: $card_header_height
-	line-height: $card_header_height
-	color: rgba(255,255,255, .55)
+	height: var(--card-header-height)
+	line-height: var(--card-header-height)
+	//color: rgba(255,255,255, .55)
+	color: #{'rgba(var(--key-color), var(--key-alpha))'};
 	vertical-align: middle
 	user-select: none
-	border-bottom: 1px solid rgba(255,255,255, .1)
+	border-bottom: 1px solid #{'rgba(var(--key-color), .1)'};
 	display: grid
 	grid-template-columns: auto min-content
 	grid-template-rows: 1fr
@@ -47,12 +48,12 @@
 		// .icon--holder
 		.icon--holder
 			box-sizing: border-box
-			width: $card_header_height
-			min-width: $card_header_height
-			max-width: $card_header_height
+			width: var(--card-header-height)
+			min-width: var(--card-header-height)
+			max-width: var(--card-header-height)
 			text-align: center
 			position: relative
-			background-color: #000033
+			//background-color: #000033
 		
 		// .icon
 		.icon

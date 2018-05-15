@@ -5,11 +5,11 @@
 // .app--header
 .app--header
 	width: 100%
-	height: $header_height
-	line-height: $header_height
+	height: var(--header-height)
+	line-height: var(--header-height)
 	vertical-align: middle
 	user-select: none
-	color: #{'rgba(var(--key-color), .22)'};
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .3))'};
 	border-bottom: 1px solid #{'rgba(var(--key-color), .1)'};
 	position: absolute
 	left: 0
@@ -40,9 +40,9 @@
 		// .icon--holder
 		.icon--holder
 			box-sizing: border-box
-			width: $card_header_height
-			min-width: $card_header_height
-			max-width: $card_header_height
+			width: var(--header-height)
+			min-width: var(--header-height)
+			max-width: var(--header-height)
 			text-align: center
 			position: relative
 			//background-color: #000033

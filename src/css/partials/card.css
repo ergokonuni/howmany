@@ -1,23 +1,34 @@
+html {
+  --body-min-width: 300px;
+  --container-width: 90%;
+  --container-max-width: 900px;
+  --container-border: 0;
+  --header-height: 3.2em;
+  --footer-height: 3.2em;
+  --card-header-height: 3.2em;
+  --card-footer-height: 3.2em;
+  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
+
 .card {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  border-top: 1px solid rgba(var(--key-color), .1);
+  border-bottom: 1px solid rgba(var(--key-color), .1); }
 
 .card-wt {
   border-top: none; }
 
 .card--header {
   width: 100%;
-  height: 3.2em;
-  line-height: 3.2em;
-  color: rgba(255, 255, 255, 0.55);
+  height: var(--card-header-height);
+  line-height: var(--card-header-height);
+  color: rgba(var(--key-color), var(--key-alpha));
   vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(var(--key-color), .1);
   display: grid;
   grid-template-columns: auto -webkit-min-content;
   grid-template-columns: auto min-content;
@@ -49,12 +60,11 @@
     .card--header .icon--cell .icon--holder {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
-      width: 3.2em;
-      min-width: 3.2em;
-      max-width: 3.2em;
+      width: var(--card-header-height);
+      min-width: var(--card-header-height);
+      max-width: var(--card-header-height);
       text-align: center;
-      position: relative;
-      background-color: #000033; }
+      position: relative; }
   .card--header .stretch--cell {
     overflow: hidden;
     position: relative; }
