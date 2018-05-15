@@ -9,11 +9,11 @@
   padding: 0;
   margin: 0; }
   .logo .true {
-    color: rgba(var(--key-color), calc(var(--key-alpha) + .15)); }
+    color: rgba(var(--key-color), calc(var(--key-alpha) + .3)); }
     .logo .true .r {
       margin-left: -.104em; }
   .logo .story {
-    color: rgba(var(--key-color), calc(var(--key-alpha) - .25));
+    color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
     position: relative;
     top: -.23em;
     left: -.21em; }
@@ -26,7 +26,7 @@
       content: '';
       display: block; }
   .logo .dots {
-    color: rgba(var(--key-color), calc(var(--key-alpha) - .25));
+    color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
     position: absolute;
     margin-top: -.23em;
     margin-left: -.21em; }

@@ -22,14 +22,14 @@
     .gauge .label--holder .value {
       font-size: .6em;
       margin-top: -.4em;
-      color: rgba(var(--key-color), calc(var(--key-alpha) - .2)); }
+      color: rgba(var(--key-color), calc(var(--key-alpha) - .25)); }
   .gauge .gauge--holder {
     padding: 0.25em 0 0 0; }
   .gauge .gauge--layer-back {
     height: 1.5em;
-    background-color: rgba(var(--key-color), .2);
+    background-color: rgba(var(--key-color), calc(var(--key-alpha) - .45));
     border-radius: 2px; }
   .gauge .gauge--layer-front {
     height: 1.5em;
-    background-color: rgba(var(--key-color), .5);
+    background-color: rgba(var(--key-color), calc(var(--key-alpha) - .1));
     border-radius: 2px; }
