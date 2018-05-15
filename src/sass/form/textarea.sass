@@ -1,39 +1,8 @@
-// Default
-$text_color: rgba(255,255,255, .85)
-$placeholder_color: rgba(255,255,255, .4)
-$border_color: rgba(255,255,255, .08)
-// Hover
-$text_color_hover: rgba(255,255,255, .85)
-$placeholder_color_hover: rgba(255,255,255, .4)
-$border_color_hover: rgba(255,255,255, .15)
-// Focus
-$text_color_focus: rgba(255,255,255, .85)
-$placeholder_color_focus: rgba(255,255,255, .4)
-$border_color_focus: rgba(238,117,202, .8)
-
-
-// Disabled
-$disabled_text_color: rgba(255,255,255, .2)
-
-
-// Error Default
-$error_text_color: rgba(228,106,106, .75)
-$error_border_color: rgba(228,106,106, .75)
-// Error Hover
-$error_text_color_hover: rgba(228,106,106, .75)
-$error_border_color_hover: rgba(228,106,106, .75)
-// Error Focus
-$error_text_color_focus: rgba(228,106,106, .75)
-$error_border_color_focus: rgba(228,106,106, .75)
-
-
-
-
 // Textarea
 .textarea
 	box-sizing: border-box
 	display: inline-block
-	font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+	font-family: var(--font-cond)
 	font-size: 1.18em
 	line-height: 1.25
 	word-break: normal
@@ -43,7 +12,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 	height: auto
 	max-height: 7.67em
 	background: none
-	color: $text_color
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .3))'};
 	padding: 1.05em .75em .44em .75em
 	margin: 0
 	outline: 0
@@ -79,7 +48,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			display: block
 			width: 100%
 			height: 1px
-			background-color: $border_color
+			background-color: #{'rgba(var(--key-color), .1)'};
 			position: absolute
 			left: 0
 			top: 0
@@ -92,7 +61,7 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			display: block
 			width: 100%
 			height: 2px
-			background-color: $border_color_focus
+			background-color: #{'rgba(var(--active-color), .8)'};
 			position: absolute
 			left: 0
 			top: 0
@@ -100,15 +69,15 @@ $error_border_color_focus: rgba(228,106,106, .75)
 			transform: translate3d(0,0,0) translate(0, 2px) scale(1.11, 1.11)
 	// Hover
 	&:hover
-		color: $text_color_hover
+		color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .3))'};
 		& + .brd
 			// 1st layer
 			&:before
-				background-color: $border_color_hover
+				background-color: #{'rgba(var(--key-color), .15)'};
 				height: 2px
 	// Focus
 	&:focus
-		color: $text_color_focus
+		color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .3))'};
 		& + .brd
 			// 1st layer
 			&:before
@@ -122,16 +91,16 @@ $error_border_color_focus: rgba(228,106,106, .75)
 				opacity: 1
 	// Disabled
 	&:disabled
-		color: $disabled_text_color !important
+		color: #{'rgba(var(--key-color), .2) !important'};
 		cursor: default !important
 		& + .brd
 			// 1st layer
 			&:before
-				background-color: $border_color !important
+				background-color: #{'rgba(var(--key-color), .1) !important'};
 				height: 1px !important
 	// Error
 	&.error
-		color: $error_text_color
+		color: #{'rgba(var(--error-color), .75)'};
 		font-style: italic
 
 
@@ -139,51 +108,51 @@ $error_border_color_focus: rgba(228,106,106, .75)
 
 // Placeholder (Webkit)
 .textarea::-webkit-input-placeholder
-	color: $placeholder_color
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 	opacity: 1
 	transition: all .175s ease-in-out
 .textarea:hover::-webkit-input-placeholder
-	color: $placeholder_color_hover
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:focus::-webkit-input-placeholder
-	color: $placeholder_color_focus
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:disabled::-webkit-input-placeholder
-	color: $disabled_text_color
+	color: #{'rgba(var(--key-color), .2)'};
 
 
 // Placeholder (Mozilla (Old))
 .textarea:-moz-placeholder
-	color: $placeholder_color
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 	opacity: 1
 	transition: all .175s ease-in-out
 .textarea:hover:-moz-placeholder
-	color: $placeholder_color_hover
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:focus:-moz-placeholder
-	color: $placeholder_color_focus
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:disabled:-moz-placeholder
-	color: $disabled_text_color
+	color: #{'rgba(var(--key-color), .2)'};
 
 
 // Placeholder (Mozilla (New))
 .textarea::-moz-placeholder
-	color: $placeholder_color
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 	opacity: 1
 	transition: all .175s ease-in-out
 .textarea:hover::-moz-placeholder
-	color: $placeholder_color_hover
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:focus::-moz-placeholder
-	color: $placeholder_color_focus
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:disabled::-moz-placeholder
-	color: $disabled_text_color
+	color: #{'rgba(var(--key-color), .2)'};
 
 
 // Placeholder (MS)
 .textarea:-ms-input-placeholder
-	color: $placeholder_color
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 	opacity: 1
 	transition: all .175s ease-in-out
 .textarea:hover:-ms-input-placeholder
-	color: $placeholder_color_hover
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:focus:-ms-input-placeholder
-	color: $placeholder_color_focus
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .15))'};
 .textarea:disabled:-ms-input-placeholder
-	color: $disabled_text_color
+	color: #{'rgba(var(--key-color), .2)'};

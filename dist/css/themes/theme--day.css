@@ -13,4 +13,5 @@ html {
   --key-color: 0,0,0;
   --key-alpha: 0.65;
   --bg-color: 255,255,255;
-  --active-color: 238,117,202; }
+  --active-color: 238,117,202;
+  --error-color: 228,106,106; }

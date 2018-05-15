@@ -1,11 +1,10 @@
 // .app--footer
 .app--footer
 	width: 100%
-	height: $footer_height
-	line-height: $footer_height
-	border-top: 1px solid rgba(255,255,255, .1)
-	color: rgba(255,255,255, .25)
-	background-color: #333
+	height: var(--footer-height)
+	line-height: var(--footer-height)
+	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .3))'};
+	border-top: 1px solid #{'rgba(var(--key-color), .1)'};
 	position: absolute
 	left: 0
 	bottom: 0
