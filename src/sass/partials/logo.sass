@@ -1,6 +1,6 @@
 // Logo
 .logo
-	font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif
+	font-family: var(--font-cond)
 	font-size: 2em
 	line-height: 1
 	font-weight: 300
@@ -11,12 +11,12 @@
 	margin: 0
 	// true
 	.true
-		color: rgba(255,255,255, .7)
+		color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .15))'};
 		.r
 			margin-left: -.104em
 	// story
 	.story
-		color: rgba(255,255,255, .3)
+		color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .25))'};
 		position: relative
 		top: -.23em
 		left: -.21em
@@ -30,7 +30,7 @@
 			display: block
 	// ...
 	.dots
-		color: rgba(255,255,255, .3)
+		color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .25))'};
 		position: absolute
 		margin-top: -.23em
 		margin-left: -.21em

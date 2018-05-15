@@ -9,7 +9,7 @@ html {
   --card-footer-height: 3.2em;
   --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
 
-html {
+.theme--day {
   --key-color: 0,0,0;
   --key-alpha: 0.65;
   --bg-color: 255,255,255;

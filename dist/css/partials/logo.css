@@ -1,5 +1,5 @@
 .logo {
-  font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+  font-family: var(--font-cond);
   font-size: 2em;
   line-height: 1;
   font-weight: 300;
@@ -9,11 +9,11 @@
   padding: 0;
   margin: 0; }
   .logo .true {
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(var(--key-color), calc(var(--key-alpha) + .15)); }
     .logo .true .r {
       margin-left: -.104em; }
   .logo .story {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(var(--key-color), calc(var(--key-alpha) - .25));
     position: relative;
     top: -.23em;
     left: -.21em; }
@@ -26,7 +26,7 @@
       content: '';
       display: block; }
   .logo .dots {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(var(--key-color), calc(var(--key-alpha) - .25));
     position: absolute;
     margin-top: -.23em;
     margin-left: -.21em; }
