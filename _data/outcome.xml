@@ -3,6 +3,328 @@
 	
 	
 	<item>
+		<date>2018-05-18</date>
+		<time>13:30</time>
+		<place>Online</place>
+		<title>Счета (Электричество)</title>
+		<sum>22.68</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Счета</category>
+		<subcategory>Электричество</subcategory>
+		<tag>online</tag>
+		<tag>bill</tag>
+		<tag>electricity</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-17</date>
+		<time>11:33</time>
+		<place>Лотос</place>
+		<title>Стиральный порошок 3кг Losk</title>
+		<sum>121.04</sum>
+		<discount>6.05</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Для ванной</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>4bathroom</tag>
+		<tag>washing-powder</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-17</date>
+		<time>11:33</time>
+		<place>Лотос</place>
+		<title>Зубная паста Biomed</title>
+		<sum>40.12</sum>
+		<discount>2.00</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>toothpaste</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-04-09</date>
+		<time>18:18</time>
+		<place>Лотос</place>
+		<title>Т/бмг Обуховка</title>
+		<sum>2.49</sum>
+		<discount>0.12</discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Быт</category>
+		<subcategory>Мыльно-рыльное</subcategory>
+		<tag>lotos</tag>
+		<tag>way-of-life</tag>
+		<tag>soapface</tag>
+		<tag>bumf</tag>
+	</item>
+	
+	
+	<item qt="4">
+		<date>2018-05-17</date>
+		<time>11:26</time>
+		<place>АТБ</place>
+		<title>Плюшка Святкова</title>
+		<sum>3.75</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>bun</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-17</date>
+		<time>11:26</time>
+		<place>АТБ</place>
+		<title>Lion King 84г</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Люди</category>
+		<subcategory>Угощения</subcategory>
+		<tag>atb</tag>
+		<tag>people</tag>
+		<tag>presents</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-17</date>
+		<time>11:26</time>
+		<place>АТБ</place>
+		<title>Lion King 84г</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="3">
+		<date>2018-05-17</date>
+		<time>11:26</time>
+		<place>АТБ</place>
+		<title>Кофе Jacobs 1.8г</title>
+		<sum>3.20</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Кофе</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>coffee</tag>
+		<tag>jacobs</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-17</date>
+		<time>11:15</time>
+		<place>Zoo</place>
+		<title>Капли</title>
+		<sum>30.00</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Капли</subcategory>
+		<tag>zoo</tag>
+		<tag>cat</tag>
+		<tag>filler</tag>
+		<tag>super-cat</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-16</date>
+		<time>20:41</time>
+		<place>АТБ</place>
+		<title>Батон 400г</title>
+		<sum>8.90</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Выпечка</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>baked</tag>
+		<tag>bread</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-16</date>
+		<time>20:41</time>
+		<place>АТБ</place>
+		<title>Lion King 84г</title>
+		<sum>11.80</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Сладости</subcategory>
+		<tag>atb</tag>
+		<tag>food</tag>
+		<tag>sweets</tag>
+		<tag>lion</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-16</date>
+		<time>20:41</time>
+		<place>АТБ</place>
+		<title>Вода Моршинська 1.5л</title>
+		<sum>10.40</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Напитки</category>
+		<subcategory>Вода</subcategory>
+		<tag>atb</tag>
+		<tag>drinks</tag>
+		<tag>water</tag>
+		<tag>morsh-1.5</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-14</date>
+		<time>12:34</time>
+		<place>Сильпо</place>
+		<title>Куриное Филе (1.178 X 83.99)</title>
+		<sum>98.94</sum>
+		<discount></discount>
+		<moneybox>0.60</moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Мясо</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>chicken-fillet</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-14</date>
+		<time>12:34</time>
+		<place>Сильпо</place>
+		<title>Колбаса Молочная (0.578 X 169.60)</title>
+		<sum>98.03</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Meat</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>meat</tag>
+		<tag>snag</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-14</date>
+		<time>12:34</time>
+		<place>Сильпо</place>
+		<title>Сыр 45%Ж (0.238 X 149.90)</title>
+		<sum>35.68</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Молочное</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>milky</tag>
+		<tag>cheese</tag>
+	</item>
+	
+	
+	<item>
+		<date>2018-05-14</date>
+		<time>12:34</time>
+		<place>Сильпо</place>
+		<title>Банан (0.666 X 32.99)</title>
+		<sum>21.97</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Еда</category>
+		<subcategory>Фрукты</subcategory>
+		<tag>silpo</tag>
+		<tag>food</tag>
+		<tag>fruits</tag>
+		<tag>banana</tag>
+	</item>
+	
+	
+	<item qt="2">
+		<date>2018-05-14</date>
+		<time>12:34</time>
+		<place>Сильпо</place>
+		<title>Корм "Мяу"</title>
+		<sum>6.89</sum>
+		<discount></discount>
+		<moneybox></moneybox>
+		<commission></commission>
+		<tip></tip>
+		<category>Кот</category>
+		<subcategory>Еда</subcategory>
+		<tag>silpo</tag>
+		<tag>cat</tag>
+		<tag>food</tag>
+		<tag>myau</tag>
+	</item>
+	
+	
+	<item>
 		<date>2018-05-12</date>
 		<time>21:12</time>
 		<place>АТБ</place>
@@ -63,7 +385,7 @@
 		<date>2018-05-12</date>
 		<time>21:12</time>
 		<place>АТБ</place>
-		<title>Lion 84г</title>
+		<title>Lion King 84г</title>
 		<sum>11.80</sum>
 		<discount></discount>
 		<moneybox></moneybox>
@@ -197,7 +519,7 @@
 		<date>2018-05-11</date>
 		<time>21:39</time>
 		<place>АТБ</place>
-		<title>Lion 84г</title>
+		<title>Lion King 84г</title>
 		<sum>11.80</sum>
 		<discount></discount>
 		<moneybox></moneybox>

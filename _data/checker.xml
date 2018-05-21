@@ -471,6 +471,26 @@
 			<date>2018-05-13</date>
 			<time>11:15</time>
 		</item>
+		<item>
+			<date>2018-05-14</date>
+			<time>09:30</time>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time>10:10</time>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<time>10:45</time>
+		</item>
+		<item>
+			<date>2018-05-17</date>
+			<time>09:15</time>
+		</item>
+		<item>
+			<date>2018-05-18</date>
+			<time>09:40</time>
+		</item>
 	</wu>
 	
 	
@@ -709,6 +729,13 @@
 		<item>
 			<date>2018-05-12</date>
 			<msg>АТБ, Моршинская 1.5Л x 2</msg>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<msg>АТБ, Моршинская 1.5Л x 2</msg>
+		</item>
+		<item>
+			<date>2018-05-17</date>
 		</item>
 	</wt>
 	
@@ -1371,12 +1398,72 @@
 		</item>
 		<item>
 			<date>2018-05-13</date>
-			<time-length>00:35</time-length>
+			<time-length>00:45</time-length>
 			<msg>(TS):  Outcome.xml</msg>
 		</item>
 		<item>
 			<date>2018-05-13</date>
-			<time-length>00:XX</time-length>
+			<time-length>00:15</time-length>
+			<msg>(TS):  Checker.xml</msg>
+		</item>
+		<item>
+			<date>2018-05-13</date>
+			<time-length>01:00</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-13</date>
+			<time-length>01:20</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time-length>00:45</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time-length>00:15</time-length>
+			<msg>Monthly Time Calc</msg>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time-length>00:45</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time-length>00:35</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<time-length>01:10</time-length>
+			<msg>(TS):  Themes</msg>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<time-length>00:30</time-length>
+			<msg>(?):  Sass (Manual)</msg>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<time-length>00:30</time-length>
+			<msg>(?):  Pug (Manual)</msg>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<time-length>00:10</time-length>
+			<msg>(?):  CSS-tricks</msg>
+		</item>
+		<item>
+			<date>2018-05-18</date>
+			<time-length>00:20</time-length>
+			<msg>(TS):  Outcome.xml</msg>
+		</item>
+		<item>
+			<date>2018-05-18</date>
+			<time-length>00:10</time-length>
 			<msg>(TS):  Checker.xml</msg>
 		</item>
 	</j>
@@ -1587,6 +1674,12 @@
 		<item>
 			<date>2018-05-10</date>
 		</item>
+		<item>
+			<date>2018-05-14</date>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+		</item>
 	</tbs>
 	
 	
@@ -1695,6 +1788,9 @@
 		</item>
 		<item>
 			<date>2018-05-11</date>
+		</item>
+		<item>
+			<date>2018-05-16</date>
 		</item>
 	</sh>
 	
@@ -1831,6 +1927,21 @@
 		</item>
 		<item>
 			<date>2018-05-13</date>
+		</item>
+		<item>
+			<date>2018-05-14</date>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+		</item>
+		<item>
+			<date>2018-05-17</date>
+		</item>
+		<item>
+			<date>2018-05-18</date>
 		</item>
 	</mw>
 	
@@ -1988,6 +2099,18 @@
 		</item>
 		<item>
 			<date>2018-05-13</date>
+		</item>
+		<item>
+			<date>2018-05-14</date>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+		</item>
+		<item>
+			<date>2018-05-17</date>
+		</item>
+		<item>
+			<date>2018-05-18</date>
 		</item>
 	</md>
 	
@@ -2168,6 +2291,21 @@
 		<item>
 			<date>2018-05-11</date>
 		</item>
+		<item>
+			<date>2018-05-14</date>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+		</item>
+		<item>
+			<date>2018-05-17</date>
+		</item>
+		<item>
+			<date>2018-05-18</date>
+		</item>
 	</sm>
 	
 	
@@ -2268,6 +2406,15 @@
 		<item>
 			<date>2018-05-11</date>
 		</item>
+		<item>
+			<date>2018-05-14</date>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+		</item>
+		<item>
+			<date>2018-05-18</date>
+		</item>
 	</g>
 	
 	
@@ -2301,6 +2448,9 @@
 		</item>
 		<item>
 			<date>2018-05-10</date>
+		</item>
+		<item>
+			<date>2018-05-15</date>
 		</item>
 	</w>
 	
@@ -2373,6 +2523,31 @@
 		</item>
 		<item>
 			<date>2018-05-13</date>
+			<weight>63</weight>
+			<unit>kg</unit>
+		</item>
+		<item>
+			<date>2018-05-14</date>
+			<weight>63</weight>
+			<unit>kg</unit>
+		</item>
+		<item>
+			<date>2018-05-15</date>
+			<weight>63</weight>
+			<unit>kg</unit>
+		</item>
+		<item>
+			<date>2018-05-16</date>
+			<weight>63.5</weight>
+			<unit>kg</unit>
+		</item>
+		<item>
+			<date>2018-05-17</date>
+			<weight>63</weight>
+			<unit>kg</unit>
+		</item>
+		<item>
+			<date>2018-05-18</date>
 			<weight>63</weight>
 			<unit>kg</unit>
 		</item>

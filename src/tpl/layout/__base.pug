@@ -2,44 +2,56 @@
 
 
 doctype html
+//- html
 html.desktop.win.theme--day
 	block html
 		
 		
+		//- head
 		head
 			block head
 				
+				//- title
 				block title
 					title= page_title
 				
+				//- meta
 				block meta
 					include ./meta.pug
 				
+				//- css
 				block css
 					include ./css.pug
 				
+				//- favicon
 				block favicon
 					include ./favicon.pug
 		
 		
+		//- body
 		body
 			block body
 				
 				
+				//- main
 				block main
 				
 				
+				//- app--header
 				block app--header
 					include ./_app--header.pug
 				
 				
+				//- app--footer
 				//block app--footer
 					//include ./_app--footer.pug
 				
 				
+				//- modal
 				//block modal
 					//include ../modal/__base.pug
 				
 				
+				//- js
 				block js
 					include ./js.pug
