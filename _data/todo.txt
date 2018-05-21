@@ -15,7 +15,7 @@
     +  CS:  Icon Back
     +  JS:  Gulp Config
     ~  CS:  Good Vars
-    ~  CS:  Themes (Dark & Light)
+    ~  CS:  Themes
     -  CS:  Good Ideas from Bootstrap CSS
     -  CS:  Pixel Ratio
     -  CS:  Switch from Full-Width to Space

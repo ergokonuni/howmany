@@ -1,29 +1,19 @@
-=keyframes($name)
-	@-webkit-keyframes #{$name}
-		@content
-	@-moz-keyframes #{$name}
-		@content
-	@-ms-keyframes #{$name}
-		@content
-	@keyframes #{$name}
-		@content
-
-
-
-+keyframes(btn_focus)
+// link_focus
+@keyframes link_focus
 	0%
 		opacity: 0
 		transform: translate3d(0,0,0) translate(0, 2px) scale(1.11, 1.11)
 	38%
-		opacity: .62
-		transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
+		opacity: .55
+		transform: translate3d(0,0,0) translate(0, 0) scale(.9, .9)
 	100%
 		opacity: 0
-		transform: translate3d(0,0,0) translate(0, 0) scale(1.11, 1.11)
+		transform: translate3d(0,0,0) translate(0, 0) scale(1, 1)
 
 
 
-+keyframes(bgcolor_isVisible)
+// bgcolor_isVisible
+@keyframes bgcolor_isVisible
 	0%
 		background-color: rgba(0,0,0, 0)
 	100%
@@ -37,7 +27,8 @@
 
 
 
-+keyframes(modal_isVisible)
+// modal_isVisible
+@keyframes modal_isVisible
 	0%
 		opacity: 0
 		transform: translate3d(0,0,0) scale(1.03,1.03) translate(0,0)
@@ -47,7 +38,10 @@
 		opacity: 1
 		transform: translate3d(0,0,0) scale(1,1) translate(0,0)
 
-+keyframes(modal_isHidden)
+
+
+// modal_isHidden
+@keyframes modal_isHidden
 	0%
 		opacity: 1
 		transform: translate3d(0,0,0) scale(1,1) translate(0,0)

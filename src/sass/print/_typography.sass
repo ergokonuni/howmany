@@ -15,17 +15,45 @@ body
 
 
 a
+	position: relative
+	display: inline-block
 	color: #{'rgba(var(--link-color), 1)'};
 	text-decoration: underline
-	transition: color .15s ease-in-out
+	transition: all .175s ease-in-out
+	&:before
+		transition: transform .175s ease-in-out, opacity .1s ease-in-out, box-shadow .1s ease-in-out, border-color .175s ease-in-out, border-width .175s ease-in-out, background-color .175s ease-in-out
+		content: ''
+		//box-sizing: border-box
+		display: block
+		width: 100%
+		height: 100%
+		padding: 2px 20px 4px 20px
+		border: 2px solid #{'rgba(var(--active-color), .8)'};
+		border-radius: 5px
+		position: absolute
+		left: -22px
+		top: -5px
+		opacity: 0
 	&:hover
 		color: #{'rgba(var(--link-hover-color), 1)'};
 	&:focus
 		outline: none
+		&:before
+			transition-duration: .175s
+			animation: link_focus .3s linear
 	&:active
 		background-color: none
 		box-shadow: none
 		outline: none
+		&:before
+			transition-duration: .175s
+			animation: link_focus .3s linear
+			//transition-duration: .075s
+			//transform: scale(0.92, 0.92)
+			//border-color: #{'rgba(var(--active-color), .95)'};
+			//box-shadow: 0 0 5px 2px #{'rgba(var(--active-color), .2)'};
+			//background-color: #{'rgba(var(--active-color), .03)'};
+			//opacity: 1
 
 
 
