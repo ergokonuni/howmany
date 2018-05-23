@@ -1,2 +1,2 @@
 # TrueStory
-My real-real true story... :)
+My real-real true story...
