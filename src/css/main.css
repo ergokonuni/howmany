@@ -40,7 +40,8 @@ html {
   --link-color: 0,84,255;
   --link-hover-color: 33,137,255;
   --active-color: 238,117,202;
-  --error-color: 228,106,106; }
+  --error-color: 228,106,106;
+  --menu-bg-color: 255,255,255; }
 
 html {
   --body-min-width: 300px;
@@ -60,7 +61,8 @@ html {
   --link-color: 91,172,255;
   --link-hover-color: 47,150,255;
   --active-color: 238,117,202;
-  --error-color: 228,106,106; }
+  --error-color: 228,106,106;
+  --menu-bg-color: 17,17,17; }
 
 html {
   --body-min-width: 300px;
@@ -80,7 +82,8 @@ html {
   --link-color: 49,146,255;
   --link-hover-color: 33,137,255;
   --active-color: 238,117,202;
-  --error-color: 228,106,106; }
+  --error-color: 228,106,106;
+  --menu-bg-color: 255,255,255; }
 
 html {
   font-size: 100%;
@@ -573,6 +576,31 @@ html {
     text-decoration: underline; }
     .app--footer a:hover {
       text-decoration: none; }
+
+html {
+  --body-min-width: 300px;
+  --container-width: 90%;
+  --container-max-width: 900px;
+  --container-border: 0;
+  --header-height: 3.2em;
+  --footer-height: 3.2em;
+  --card-header-height: 3.2em;
+  --card-footer-height: 3.2em;
+  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
+
+.app--menu {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-right: 1px solid rgba(var(--key-color), .08);
+  background-color: rgba(var(--menu-bg-color), 1);
+  overflow: auto;
+  width: 17em;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(-17em, 0);
+          transform: translate(-17em, 0); }
 
 .page {
   -webkit-box-sizing: border-box;
@@ -1144,7 +1172,7 @@ html {
   .desktop.win ::-webkit-scrollbar:horizontal {
     border-top: 1px solid rgba(var(--key-color), .1); }
   .desktop.win ::-webkit-scrollbar-corner {
-    background-color: rgb(var(--key-color));
+    background-color: rgb(var(--bg-color));
     border-left: 1px solid rgba(var(--key-color), .1);
     border-top: 1px solid rgba(var(--key-color), .1); }
   .desktop.win ::-webkit-scrollbar-thumb {
