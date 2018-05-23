@@ -1,6 +1,9 @@
 $(document).ready(function(){
+	
 	deviceOrientation__Init();
+	appMenu__Init();
 	textareaAutoresize__Init();
+
 });
 
 
@@ -8,9 +11,12 @@ $(document).ready(function(){
 
 // DEVICE ORIENTATION
 function deviceOrientation__Init(){
+	
 	docWidth   = $(document).width();
 	docHeight  = $(document).height();
+	
 	$('html').removeClass('portrait landscape square');
+	
 	if (docWidth > docHeight) {
 		$('html').addClass('landscape');
 	} else if (docWidth < docHeight) {
@@ -18,8 +24,10 @@ function deviceOrientation__Init(){
 	} else if (docWidth == docHeight) {
 		$('html').addClass('square');
 	}
+	
 	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
 	//console.log('HTML Class: ' + $('html').attr('class'));
+
 };
 $(window).on('resize', function(){
 	deviceOrientation__Init();
@@ -28,48 +36,90 @@ $(window).on('resize', function(){
 
 
 
+// APP MENU
+function appMenu__Init(){
+	
+	toggle  = $('.i--menu');
+	panel   = $('.app--menu');
+	overlay = $('.overlay');
+
+	toggle.on('click', function(){
+		
+		if (panel.hasClass('isHidden')) {
+			panel.removeClass('isHidden').addClass('isVisible');
+			$('body').addClass('toRight');
+		}
+
+		else if (panel.hasClass('isVisible')) {
+			panel.removeClass('isVisible').addClass('isHidden');
+			$('body').removeClass('toRight');
+		}
+
+	});
+
+}
+
+
+
+
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
+	
 	$('textarea[autoresize="on"]').each(function(){
 		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
 		textareaAutoresize(this);
 	});
+	
 	$(window).on('resize', function(){
 		$('textarea[autoresize="on"]').trigger('change');
 		setTimeout(function(){
 			$('textarea[autoresize="on"]').trigger('change');
 		}, 200);
 	});
+
 };
+
 function textareaAutoresize(el){
+	
 	offset = el.offsetHeight - el.clientHeight;
+	
 	$(el).css('height', 'auto');
 	$(el).css('height', el.scrollHeight + offset);
+	
 	//console.log(el.scrollHeight);
+
 };
 /*
 function textareaAutoresize(el){
+	
 	if ($(el).length > 0) {
+		
 		textarea__hidden = $(el).parent().find('.textarea__hidden');
+		
 		if (!textarea__hidden.length > 0) {
 			textarea__hidden__html = '<div class="textarea textarea__hidden"></div>';
 			$(el).parent().append(textarea__hidden__html);
 		}
+		
 		str = $(el).val();
 		str_splited = str.split('\n');
 		str_replaced = '';
+		
 		for (i = 0; i < str_splited.length; i++) {
 			str_replaced += str_splited[i].replace(/[<>]/g, '_').replace(/\s\s/g, ' &nbsp;');
 			str_replaced += '<br/>';
 		}
+		
 		textarea__hidden.html(str_replaced);
 		textarea__pd__top = $(el).css('padding-top');
 		textarea__pd__bottom = $(el).css('padding-bottom');
 		textarea__height = parseFloat(textarea__hidden.height()) + parseFloat(textarea__pd__top) + parseFloat(textarea__pd__bottom) + .1;
 		$(el).css({'height':textarea__height});
+		
 	}
+	
 };
 */
 
