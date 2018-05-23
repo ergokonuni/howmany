@@ -3,6 +3,29 @@
 
 
 
+// .icon
+.icon
+	display: block
+	box-sizing: border-box
+	text-align: center
+	position: relative
+	transition: all .175s ease-in-out
+	background: none
+	padding: 0
+	margin: 0
+	outline: 0 !important
+	border: 0
+	border-radius: 0
+	box-shadow: none
+	text-shadow: none
+	cursor: default
+	&:hover
+		.line,
+		.dot
+			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .20))'};
+
+
+
 // .i--menu
 .i--menu
 	
@@ -11,6 +34,7 @@
 		width: 70%
 		height: 2px
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+		transition: all .175s ease-in-out
 		position: absolute
 		left: 15%
 		@media only screen and (min-width : 1500px)
@@ -43,6 +67,7 @@
 		width: 70%
 		height: 2px
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+		transition: all .175s ease-in-out
 		position: absolute
 		left: 15%
 		@media only screen and (min-width : 1500px)
@@ -80,6 +105,7 @@
 		height: 4px
 		border-radius: 50%
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+		transition: all .175s ease-in-out
 		position: absolute
 		left: calc(50% - 2px)
 		@media only screen and (min-width : 1500px)
