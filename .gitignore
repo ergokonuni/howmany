@@ -5,7 +5,7 @@
 .sass-cache/
 _data/*.xml
 _libs/
-data/
+data/xml
 libs/
 nbproject/
 nbproject/private/
