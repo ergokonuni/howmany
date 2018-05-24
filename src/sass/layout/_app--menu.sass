@@ -22,3 +22,38 @@
 		transform: translate(17em,0)
 	&.isHidden
 		transform: translate(0,0)
+	
+	// .list
+	.list
+		user-select: none
+		.item
+			display: block
+			position: relative
+			border-bottom: 1px solid #{'rgba(var(--key-color), .08)'};
+			padding: 0 calc(var(--header-height) / 4) 0 calc(var(--header-height))
+			text-decoration: none
+			white-space: nowrap
+			vertical-align: middle
+			height: var(--header-height)
+			line-height: var(--header-height)
+			//&:first-child
+				//border-top: 1px solid #{'rgba(var(--key-color), .08)'};
+			&:before
+				display: none
+			&:after
+				display: block
+				content: ''
+				width: calc(var(--header-height) / 2)
+				height: calc(var(--header-height) / 2)
+				background-color: #{'rgba(var(--key-color), .12)'};
+				border-radius: 50%
+				position: absolute
+				left: calc(var(--header-height) / 4)
+				top: calc(var(--header-height) / 4)
+			&:hover,
+			&:focus
+				background-color: #{'rgba(var(--key-color), .05)'};
+			&:focus
+				box-shadow: inset 0 0 0 2px #{'rgba(var(--active-color), .6)'};
+			&:active
+				background-color: #{'rgba(var(--key-color), .1)'};

@@ -60,7 +60,11 @@ function appMenu__Init(){
 		}
 
 	});
-
+	
+	panel.find('.list .item').on('click', function(){
+		return false;
+	});
+	
 }
 
 
