@@ -10,15 +10,15 @@
 	overflow: auto
 	//width: calc(100% - 40px)
 	width: 17em
-	height: 100vh
+	height: calc(100% - var(--header-height) - 1px)
 	//min-width: 280px
 	//max-width: 360px
 	//box-shadow: 0 0 30px rgba(0,0,0, .5), 1px 0 3px rgba(0,0,0, .15)
 	position: fixed
 	left: -17em
-	top: 0
+	bottom: 0
 	transition: transform .75s var(--bezier)
 	&.isVisible
-		//transform: translate(17em,0)
+		transform: translate(17em,0)
 	&.isHidden
-		//transform: translate(0,0)
+		transform: translate(0,0)

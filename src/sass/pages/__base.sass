@@ -13,6 +13,16 @@
 	grid-row: 1
 	//justify-self: stretch
 	//align-self: stretch
+	transition: all .75s var(--bezier)
+	&.toRight
+		transform: translate(17em,0)
+		opacity: .2
+	&.toLeft
+		transform: translate(-17em,0)
+		opacity: .2
+	&.toCenter
+		transform: translate(0,0)
+		opacity: 1
 	img
 		max-width: 100%
 	table

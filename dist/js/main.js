@@ -42,17 +42,21 @@ function appMenu__Init(){
 	toggle  = $('.i--menu');
 	panel   = $('.app--menu');
 	overlay = $('.overlay');
+	page    = $('.page');
+	body    = $('body');
 
 	toggle.on('click', function(){
 		
 		if (panel.hasClass('isHidden')) {
 			panel.removeClass('isHidden').addClass('isVisible');
-			$('body').addClass('toRight');
+			page.removeClass('toCenter').addClass('toRight');
+			body.addClass('x-hidden');
 		}
 
 		else if (panel.hasClass('isVisible')) {
 			panel.removeClass('isVisible').addClass('isHidden');
-			$('body').removeClass('toRight');
+			page.removeClass('.toRight').addClass('toCenter');
+			body.removeClass('x-hidden');
 		}
 
 	});
