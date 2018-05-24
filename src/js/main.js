@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	
 	deviceOrientation__Init();
+	//appHeader__Init();
 	appMenu__Init();
 	textareaAutoresize__Init();
 
@@ -32,6 +33,41 @@ function deviceOrientation__Init(){
 $(window).on('resize', function(){
 	deviceOrientation__Init();
 });
+
+
+
+
+// APP HEADER
+function appHeader__Init(){
+
+	var scrollTop = 0;
+	var scrollDirection = 0;
+
+	$(window).on('scroll', function(e){
+		
+		if ($(this).scrollTop() > scrollTop) { scrollDirection = 1; }
+		else if ($(this).scrollTop() < scrollTop) { scrollDirection = -1; }
+		else { scrollDirection = 0; }
+		
+		scrollTop = $(this).scrollTop();
+		fixedHeader(scrollDirection);
+
+	});
+
+	function fixedHeader(scrollDirection){
+		
+		header = $('.app--header');
+		
+		if (scrollDirection > 0){
+			header.addClass('isHidden').removeClass('isVisible');
+		}
+		else if (scrollDirection < 0){
+			header.addClass('isVisible').removeClass('isHidden');
+		}
+
+	}
+
+}
 
 
 
