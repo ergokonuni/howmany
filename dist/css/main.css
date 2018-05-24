@@ -472,9 +472,13 @@ html {
           user-select: none;
   color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
   border-bottom: 1px solid rgba(var(--key-color), .08);
-  position: absolute;
+  background-color: rgb(var(--bg-color));
+  position: fixed;
   left: 0;
-  top: 0;
+  top: calc(var(--header-height) * -1);
+  -webkit-transform: translate(0, var(--header-height));
+          transform: translate(0, var(--header-height));
+  z-index: 100;
   display: grid;
   grid-template-columns: -webkit-min-content auto -webkit-min-content;
   grid-template-columns: min-content auto min-content;
