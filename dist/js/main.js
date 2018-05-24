@@ -49,14 +49,14 @@ function appMenu__Init(){
 		
 		if (panel.hasClass('isHidden')) {
 			panel.removeClass('isHidden').addClass('isVisible');
-			page.removeClass('toCenter').addClass('toRight');
-			body.addClass('x-hidden');
+			body.addClass('xy-hidden')
+			//body.removeClass('toCenter').addClass('toRight');
 		}
 
 		else if (panel.hasClass('isVisible')) {
 			panel.removeClass('isVisible').addClass('isHidden');
-			page.removeClass('.toRight').addClass('toCenter');
-			body.removeClass('x-hidden');
+			body.removeClass('xy-hidden');
+			//body.removeClass('.toRight').addClass('toCenter');
 		}
 
 	});

@@ -8,6 +8,7 @@
 	//height: 0
 	padding: 2em 0
 	position: relative
+	z-index: 50
 	//background-color: #330000
 	grid-column: 1
 	grid-row: 1
@@ -16,13 +17,13 @@
 	transition: transform .75s var(--bezier), opacity .75s var(--bezier)
 	&.toRight
 		transform: translate(17em,0)
-		opacity: .2
+		//opacity: .2
 	&.toLeft
 		transform: translate(-17em,0)
-		opacity: .2
+		//opacity: .2
 	&.toCenter
 		transform: translate(0,0)
-		opacity: 1
+		//opacity: 1
 	img
 		max-width: 100%
 	table

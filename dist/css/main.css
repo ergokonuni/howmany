@@ -11,28 +11,6 @@ html {
   --card-footer-height: 3.2em;
   --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .theme--day {
   --key-color: 0,0,0;
   --key-alpha: 0.65;
@@ -41,18 +19,8 @@ html {
   --link-hover-color: 33,137,255;
   --active-color: 238,117,202;
   --error-color: 228,106,106;
-  --menu-bg-color: 255,255,255; }
-
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
+  --menu-bg-color: 255,255,255;
+  --overlay-bg-color: 255,255,255; }
 
 .theme--night {
   --key-color: 255,255,255;
@@ -62,18 +30,8 @@ html {
   --link-hover-color: 47,150,255;
   --active-color: 238,117,202;
   --error-color: 228,106,106;
-  --menu-bg-color: 17,17,17; }
-
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
+  --menu-bg-color: 17,17,17;
+  --overlay-bg-color: 17,17,17; }
 
 .theme--purple {
   --key-color: 255,255,255;
@@ -83,7 +41,8 @@ html {
   --link-hover-color: 33,137,255;
   --active-color: 238,117,202;
   --error-color: 228,106,106;
-  --menu-bg-color: 55,18,83; }
+  --menu-bg-color: 55,18,83;
+  --overlay-bg-color: 55,18,83; }
 
 html {
   font-size: 100%;
@@ -117,10 +76,16 @@ body {
   justify-items: stretch;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
-          align-items: stretch;
-  overflow-x: hidden; }
-  body.x-hidden {
-    overflow-x: hidden; }
+          align-items: stretch; }
+  body.toRight {
+    -webkit-transform: translate(17em, 0);
+            transform: translate(17em, 0); }
+  body.toLeft {
+    -webkit-transform: translate(-17em, 0);
+            transform: translate(-17em, 0); }
+  body.toCenter {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
 
 .container {
   width: var(--container-width);
@@ -131,8 +96,32 @@ body {
 .clear {
   clear: both; }
 
-.overflow-hidden {
+.x-hidden {
+  overflow-x: hidden; }
+
+.y-hidden {
+  overflow-y: hidden; }
+
+.xy-hidden {
   overflow: hidden; }
+
+.x-scroll {
+  overflow-x: scroll; }
+
+.y-scroll {
+  overflow-y: scroll; }
+
+.xy-scroll {
+  overflow: scroll; }
+
+.x-auto {
+  overflow-x: auto; }
+
+.y-auto {
+  overflow-y: auto; }
+
+.xy-auto {
+  overflow: auto; }
 
 html {
   --font-reg: 'Roboto', Arial, sans-serif;
@@ -277,17 +266,6 @@ hr {
   border-top: 1px solid #777;
   -webkit-box-shadow: none;
           box-shadow: none; }
-
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
 
 .logo {
   font-family: var(--font-cond);
@@ -450,17 +428,6 @@ html {
     background-color: rgba(var(--key-color), calc(var(--key-alpha) - .1));
     border-radius: 2px; }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .app--header {
   width: 100%;
   height: var(--header-height);
@@ -547,17 +514,6 @@ html {
     position: relative;
     min-height: 100%; }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .app--footer {
   width: 100%;
   height: var(--footer-height);
@@ -583,17 +539,6 @@ html {
     .app--footer a:hover {
       text-decoration: none; }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .app--menu {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -605,16 +550,11 @@ html {
   position: fixed;
   left: -17em;
   bottom: 0;
+  z-index: 100;
   -webkit-transition: -webkit-transform 0.75s var(--bezier);
   transition: -webkit-transform 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
-  .app--menu.isVisible {
-    -webkit-transform: translate(17em, 0);
-            transform: translate(17em, 0); }
-  .app--menu.isHidden {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
   .app--menu .list {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -656,6 +596,7 @@ html {
   border-top: calc(var(--header-height) + 1px) solid transparent;
   padding: 2em 0;
   position: relative;
+  z-index: 50;
   grid-column: 1;
   grid-row: 1;
   -webkit-transition: opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
@@ -664,16 +605,13 @@ html {
   transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
   .page.toRight {
     -webkit-transform: translate(17em, 0);
-            transform: translate(17em, 0);
-    opacity: .2; }
+            transform: translate(17em, 0); }
   .page.toLeft {
     -webkit-transform: translate(-17em, 0);
-            transform: translate(-17em, 0);
-    opacity: .2; }
+            transform: translate(-17em, 0); }
   .page.toCenter {
     -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 1; }
+            transform: translate(0, 0); }
   .page img {
     max-width: 100%; }
   .page table {
@@ -1216,17 +1154,6 @@ fieldset {
   .form .action .btn {
     min-width: 50%; }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .desktop.win ::-webkit-scrollbar {
   width: 24px;
   height: 24px;
@@ -1274,17 +1201,6 @@ html {
   scrollbar-arrow-color: #4b2a65;
   scrollbar-shadow-color: #51316a;
   scrollbar-dark-shadow-color: #51316a; }
-
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
 
 @media only screen and (min-width: 300px) {
   html {
@@ -1452,17 +1368,6 @@ html {
     -webkit-transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0);
             transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0); } }
 
-html {
-  --body-min-width: 300px;
-  --container-width: 90%;
-  --container-max-width: 900px;
-  --container-border: 0;
-  --header-height: 3.2em;
-  --footer-height: 3.2em;
-  --card-header-height: 3.2em;
-  --card-footer-height: 3.2em;
-  --bezier: cubic-bezier(0.4, 0, 0.2, 1); }
-
 .icon--holder {
   display: block;
   -webkit-box-sizing: border-box;
@@ -1589,6 +1494,18 @@ html {
   @media only screen and (min-width: 1500px) {
     .i--more .d-3 {
       top: calc(50% + 7px); } }
+
+.overlay {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(var(--overlay-bg-color), .8);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90; }
 
 .modal-holder {
   -webkit-box-sizing: border-box;

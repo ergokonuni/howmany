@@ -1,7 +1,3 @@
-@import "../__var"
-
-
-
 // .app--menu
 .app--menu
 	box-sizing: border-box
@@ -17,11 +13,12 @@
 	position: fixed
 	left: -17em
 	bottom: 0
+	z-index: 100
 	transition: transform .75s var(--bezier)
 	&.isVisible
-		transform: translate(17em,0)
+		//transform: translate(17em,0)
 	&.isHidden
-		transform: translate(0,0)
+		//transform: translate(0,0)
 	
 	// .list
 	.list
