@@ -21,10 +21,10 @@
             -  Tabindex
             -  Both Menus
             -  Animation
-            -  Height
-            -  List Icons
             -  Alt Icons
+            -  List Icons
             -  Design
+            -  Height
     -  XX:  Glyph Icons
     -  XX:  SVG Icons
     -  XX:  PNG → SVG
