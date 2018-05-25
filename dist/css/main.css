@@ -529,10 +529,9 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-right: 1px solid rgba(var(--key-color), .08);
-  background-color: rgba(var(--menu-bg-color), 1);
   overflow: auto;
   width: 17em;
-  height: calc(100% - var(--header-height) - 1px);
+  height: 100%;
   position: fixed;
   left: -17em;
   bottom: 0;
@@ -576,10 +575,45 @@ html {
       .app--menu .list .item:active {
         background-color: rgba(var(--key-color), .1); }
 
+.screen {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+  border-top: calc(var(--header-height) + 1px) solid transparent;
+  position: relative;
+  z-index: 45;
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-transition: opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
+  transition: opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
+  transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier);
+  transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
+  .screen.toRight {
+    -webkit-transform: translate(17em, 0);
+            transform: translate(17em, 0); }
+  .screen.toLeft {
+    -webkit-transform: translate(-17em, 0);
+            transform: translate(-17em, 0); }
+  .screen.toCenter {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+
 .page {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-top: calc(var(--header-height) + 1px) solid transparent;
   padding: 2em 0;
   position: relative;
   z-index: 50;
@@ -589,15 +623,6 @@ html {
   transition: opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
-  .page.toRight {
-    -webkit-transform: translate(17em, 0);
-            transform: translate(17em, 0); }
-  .page.toLeft {
-    -webkit-transform: translate(-17em, 0);
-            transform: translate(-17em, 0); }
-  .page.toCenter {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
   .page img {
     max-width: 100%; }
   .page table {

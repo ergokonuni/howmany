@@ -1,7 +1,39 @@
+// Screen
+.screen
+	box-sizing: border-box
+	max-width: 100%
+	min-height: 100%
+	//height: 0
+	border-top: calc(var(--header-height) + 1px) solid transparent
+	//border-bottom: var(--footer-height) solid transparent
+	position: relative
+	z-index: 45
+	grid-column: 1
+	grid-row: 1
+	display: grid
+	grid-template-columns: 1fr
+	grid-template-rows: 1fr
+	justify-content: stretch
+	align-content: stretch
+	justify-items: stretch
+	align-items: stretch
+	transition: transform .75s var(--bezier), opacity .75s var(--bezier)
+	&.toRight
+		transform: translate(17em,0)
+		//opacity: .2
+	&.toLeft
+		transform: translate(-17em,0)
+		//opacity: .2
+	&.toCenter
+		transform: translate(0,0)
+		//opacity: 1
+
+
+
 // Page
 .page
 	box-sizing: border-box
-	border-top: calc(var(--header-height) + 1px) solid transparent
+	//border-top: calc(var(--header-height) + 1px) solid transparent
 	//border-bottom: var(--footer-height) solid transparent
 	//width: 100%
 	//min-height: 100%
@@ -15,15 +47,6 @@
 	//justify-self: stretch
 	//align-self: stretch
 	transition: transform .75s var(--bezier), opacity .75s var(--bezier)
-	&.toRight
-		transform: translate(17em,0)
-		//opacity: .2
-	&.toLeft
-		transform: translate(-17em,0)
-		//opacity: .2
-	&.toCenter
-		transform: translate(0,0)
-		//opacity: 1
 	img
 		max-width: 100%
 	table

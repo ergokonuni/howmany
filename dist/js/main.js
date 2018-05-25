@@ -80,11 +80,12 @@ function appMenu__Init(){
 	toggle    = $('.i--menu');
 	panel     = $('.app--menu');
 	overlay   = $('.overlay');
+	screen    = $('.screen');
 	page      = $('.page');
 	header    = $('.app--header');
 	header_pd = header.css('padding-right');
 	body      = $('body');
-	body_mg   = body.css('margin-right');
+	body_pd   = body.css('padding-right');
 	html      = $('html');
 	
 	toggle.on('click', function(){
@@ -101,16 +102,16 @@ function appMenu__Init(){
 				// Scrollbar dancing on desktops with Windows
 				
 				body.removeClass('xy-hidden');
-				doc_width_before = $(window).width();
+				doc_width_before = $(document).width();
 				body.addClass('xy-hidden');
-				doc_width_after = $(window).width();
+				doc_width_after = $(document).width();
 				scroll_width = doc_width_after - doc_width_before;
-				body.css({'margin-right': parseFloat(body_mg) + scroll_width});
+				body.css({'margin-right': parseFloat(body_pd) + scroll_width});
 				header.css({'padding-right': parseFloat(header_pd) + scroll_width});
-
+				
 			}
 			
-			//body.removeClass('toCenter').addClass('toRight');
+			screen.removeClass('toCenter').addClass('toRight');
 		}
 
 		else if (panel.hasClass('isVisible')) {
@@ -118,18 +119,33 @@ function appMenu__Init(){
 			// Panel is Visible. Hiding it...
 
 			panel.removeClass('isVisible').addClass('isHidden');
-			body.removeClass('xy-hidden');
-			
-			if (html.hasClass('desktop win')) {
-				
-				// Scrollbar dancing on desktops with Windows
-				
-				body.css({'margin-right': body_mg});
-				header.css({'padding-right': header_pd});
-				
-			}
+			screen.removeClass('toRight').addClass('toCenter');
 
-			//body.removeClass('.toRight').addClass('toCenter');
+			anim_time = 0
+			anim_times = screen.css('transition-duration');
+			anim_times = anim_times.split(', ');
+			
+			for (i = 0; i < anim_times.length; i++) {
+				val = parseFloat(anim_times[i]) * 1000;
+				if (anim_time < val) {
+					anim_time = val;
+				}
+			}
+			
+			setTimeout(function(){
+
+				if (html.hasClass('desktop win')) {
+					
+					// Scrollbar dancing on desktops with Windows
+					
+					body.css({'margin-right': body_pd});
+					header.css({'padding-right': header_pd});
+					
+				}
+
+				body.removeClass('xy-hidden');
+
+			}, anim_time);
 
 		}
 

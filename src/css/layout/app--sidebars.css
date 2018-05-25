@@ -2,10 +2,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-right: 1px solid rgba(var(--key-color), .08);
-  background-color: rgba(var(--menu-bg-color), 1);
   overflow: auto;
   width: 17em;
-  height: calc(100% - var(--header-height) - 1px);
+  height: 100%;
   position: fixed;
   left: -17em;
   bottom: 0;
