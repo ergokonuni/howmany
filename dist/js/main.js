@@ -75,24 +75,52 @@ function appHeader__Init(){
 // APP MENU
 function appMenu__Init(){
 	
-	toggle  = $('.i--menu');
-	panel   = $('.app--menu');
-	overlay = $('.overlay');
-	page    = $('.page');
-	body    = $('body');
+	toggle    = $('.i--menu');
+	panel     = $('.app--menu');
+	overlay   = $('.overlay');
+	page      = $('.page');
+	header    = $('.app--header');
+	header_pd = header.css('padding-right');
+	body      = $('body');
+	body_mg   = body.css('margin-right');
+	html      = $('html');
 
 	toggle.on('click', function(){
 		
 		if (panel.hasClass('isHidden')) {
+
 			panel.removeClass('isHidden').addClass('isVisible');
-			body.addClass('xy-hidden')
+			body.addClass('xy-hidden');
+			
+			if (html.hasClass('desktop win')) {
+				
+				body.removeClass('xy-hidden');
+				doc_width_before = $(window).width();
+				body.addClass('xy-hidden');
+				doc_width_after = $(window).width();
+				scroll_width = doc_width_after - doc_width_before;
+				body.css({'margin-right': parseFloat(body_mg) + scroll_width});
+				header.css({'padding-right': parseFloat(header_pd) + scroll_width});
+
+			}
+			
 			//body.removeClass('toCenter').addClass('toRight');
 		}
 
 		else if (panel.hasClass('isVisible')) {
+			
 			panel.removeClass('isVisible').addClass('isHidden');
 			body.removeClass('xy-hidden');
+			
+			if (html.hasClass('desktop win')) {
+				
+				body.css({'margin-right': body_mg});
+				header.css({'padding-right': header_pd});
+				
+			}
+
 			//body.removeClass('.toRight').addClass('toCenter');
+
 		}
 
 	});
@@ -108,8 +136,10 @@ function appMenu__Init(){
 
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
-	
-	$('textarea[autoresize="on"]').each(function(){
+
+	textarea = $('textarea[autoresize="on"]');
+
+	textarea.each(function(){
 		$(this).on('input keydown keyup change', function(){
 			textareaAutoresize(this);
 		});
@@ -117,9 +147,9 @@ function textareaAutoresize__Init(){
 	});
 	
 	$(window).on('resize', function(){
-		$('textarea[autoresize="on"]').trigger('change');
+		textarea.trigger('change');
 		setTimeout(function(){
-			$('textarea[autoresize="on"]').trigger('change');
+			textarea.trigger('change');
 		}, 200);
 	});
 
