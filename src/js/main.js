@@ -33,6 +33,7 @@ function deviceOrientation__Init(){
 $(window).on('resize', function(){
 	deviceOrientation__Init();
 });
+// / DEVICE ORIENTATION
 
 
 
@@ -65,9 +66,10 @@ function appHeader__Init(){
 			header.addClass('isVisible').removeClass('isHidden');
 		}
 
-	}
+	};
 
-}
+};
+// / APP HEADER
 
 
 
@@ -84,15 +86,19 @@ function appMenu__Init(){
 	body      = $('body');
 	body_mg   = body.css('margin-right');
 	html      = $('html');
-
+	
 	toggle.on('click', function(){
 		
-		if (panel.hasClass('isHidden')) {
-
+		if (!panel.hasClass('isVisible')) {
+			
+			// Panel is Hidden. Showing it...
+			
 			panel.removeClass('isHidden').addClass('isVisible');
 			body.addClass('xy-hidden');
 			
 			if (html.hasClass('desktop win')) {
+				
+				// Scrollbar dancing on desktops with Windows
 				
 				body.removeClass('xy-hidden');
 				doc_width_before = $(window).width();
@@ -109,10 +115,14 @@ function appMenu__Init(){
 
 		else if (panel.hasClass('isVisible')) {
 			
+			// Panel is Visible. Hiding it...
+
 			panel.removeClass('isVisible').addClass('isHidden');
 			body.removeClass('xy-hidden');
 			
 			if (html.hasClass('desktop win')) {
+				
+				// Scrollbar dancing on desktops with Windows
 				
 				body.css({'margin-right': body_mg});
 				header.css({'padding-right': header_pd});
@@ -129,7 +139,8 @@ function appMenu__Init(){
 		return false;
 	});
 	
-}
+};
+// / APP MENU
 
 
 
@@ -153,18 +164,16 @@ function textareaAutoresize__Init(){
 		}, 200);
 	});
 
-};
-
-function textareaAutoresize(el){
-	
-	offset = el.offsetHeight - el.clientHeight;
-	
-	$(el).css('height', 'auto');
-	$(el).css('height', el.scrollHeight + offset);
-	
-	//console.log(el.scrollHeight);
+	function textareaAutoresize(el){
+		offset = el.offsetHeight - el.clientHeight;
+		$(el).css('height', 'auto');
+		$(el).css('height', el.scrollHeight + offset);
+		//console.log(el.scrollHeight);
+	};
 
 };
+// / TEXTAREA AUTORESIZE
+
 /*
 function textareaAutoresize(el){
 	

@@ -1,0 +1,26 @@
+.app--footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: var(--footer-height);
+  line-height: var(--footer-height);
+  color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
+  border-top: 1px solid rgba(var(--key-color), .08);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .app--footer .container {
+    position: relative;
+    min-height: 100%; }
+  .app--footer p {
+    padding: 0;
+    margin: 0; }
+  .app--footer a {
+    color: inherit;
+    text-decoration: underline; }
+    .app--footer a:hover {
+      text-decoration: none; }

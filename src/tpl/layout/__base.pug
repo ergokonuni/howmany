@@ -33,8 +33,20 @@ html.desktop.win.theme--day
 			block body
 				
 				
-				//- main
-				block main
+				// .screen
+				div.screen
+					
+					
+					//- main
+					block main
+					
+					
+					//- app--sidebars
+					block app--sidebars
+						include ./_app--sidebars.pug
+					
+					
+				// /.screen
 				
 				
 				//- app--header
@@ -45,11 +57,6 @@ html.desktop.win.theme--day
 				//- app--footer
 				//block app--footer
 					//include ./_app--footer.pug
-				
-				
-				//- app--menu
-				block app--menu
-					include ./_app--menu.pug
 				
 				
 				//- modal

@@ -1,0 +1,99 @@
+.app--header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
+  border-bottom: 1px solid rgba(var(--key-color), .08);
+  background-color: rgb(var(--bg-color));
+  -webkit-transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
+  transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
+  transition: transform 0.5s var(--bezier), opacity 0.75s var(--bezier);
+  transition: transform 0.5s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
+  position: fixed;
+  left: 0;
+  top: calc(var(--header-height) * -1 - 1px);
+  -webkit-transform: translate(0, calc(var(--header-height) + 1px));
+          transform: translate(0, calc(var(--header-height) + 1px));
+  z-index: 100;
+  display: grid;
+  grid-template-columns: -webkit-min-content auto -webkit-min-content;
+  grid-template-columns: min-content auto min-content;
+  grid-template-rows: 1fr;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .app--header.isVisible {
+    opacity: 1;
+    -webkit-transform: translate(0, calc(var(--header-height) + 1px));
+            transform: translate(0, calc(var(--header-height) + 1px)); }
+  .app--header.isHidden {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  .app--header .icon--cell {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: 1fr;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+    .app--header .icon--cell .icon--holder {
+      width: var(--header-height);
+      min-width: var(--header-height);
+      max-width: var(--header-height); }
+      .app--header .icon--cell .icon--holder:hover {
+        background-color: rgba(var(--key-color), .05); }
+      .app--header .icon--cell .icon--holder:focus {
+        background-color: rgba(var(--key-color), .05);
+        -webkit-box-shadow: inset 0 0 0 2px rgba(var(--active-color), .6);
+                box-shadow: inset 0 0 0 2px rgba(var(--active-color), .6); }
+      .app--header .icon--cell .icon--holder:active {
+        background-color: rgba(var(--key-color), .1);
+        -webkit-box-shadow: inset 0 0 0 2px rgba(var(--active-color), .9);
+                box-shadow: inset 0 0 0 2px rgba(var(--active-color), .9); }
+      .app--header .icon--cell .icon--holder .icon--glyph {
+        display: block;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: 25%;
+        top: 25%; }
+  .app--header .stretch--cell {
+    overflow: hidden;
+    position: relative; }
+    .app--header .stretch--cell .title {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      position: absolute;
+      width: 100%;
+      font-size: inherit;
+      line-height: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 calc(var(--header-height) / 4);
+      margin: 0; }
+  .app--header .container {
+    position: relative;
+    min-height: 100%; }
