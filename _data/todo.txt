@@ -14,17 +14,26 @@
     +  CS:  Icon More
     +  CS:  Icon Back
     +  JS:  Gulp Config
-    ~  CS:  Good Vars
-    ~  CS:  Themes
+    +  CS:  Good Vars
+    +  CS:  Themes
+    ~  XX:  Menu:
+            -  Overlay
+            -  Tabindex
+            -  Both Menus
+            -  Animation
+            -  Height
+            -  List Icons
+            -  Alt Icons
+            -  Design
+    -  XX:  Glyph Icons
+    -  XX:  SVG Icons
+    -  XX:  PNG → SVG
     -  CS:  Good Ideas from Bootstrap CSS
     -  CS:  Pixel Ratio
     -  CS:  Switch from Full-Width to Space
     -  JS:  HTML Classes (br, sz, os, ori)
     -  CS:  Signin Form (from flex to css-grid)
-    -  XX:  Glyph Icons
     -  JS:  Load Data from XML
-    -  XX:  SVG Icons
-    -  XX:  PNG → SVG
     -  XX:  P:  Condition
     -  XX:  Form (Data-List) (C)
     -  XX:  Form (Radio/CB) (C)
