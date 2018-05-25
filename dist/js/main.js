@@ -94,9 +94,6 @@ function appMenu__Init(){
 			
 			// Panel is Hidden. Showing it...
 			
-			panel.removeClass('isHidden').addClass('isVisible');
-			body.addClass('xy-hidden');
-			
 			if (html.hasClass('desktop win')) {
 				
 				// Scrollbar dancing on desktops with Windows
@@ -105,13 +102,19 @@ function appMenu__Init(){
 				doc_width_before = $(document).width();
 				body.addClass('xy-hidden');
 				doc_width_after = $(document).width();
+				body.removeClass('xy-hidden');
 				scroll_width = doc_width_after - doc_width_before;
 				body.css({'margin-right': parseFloat(body_pd) + scroll_width});
 				header.css({'padding-right': parseFloat(header_pd) + scroll_width});
 				
 			}
 			
+			body.addClass('xy-hidden');
+			panel.removeClass('isHidden').addClass('isVisible');
+			//overlay.removeClass('isNone').addClass('isBlock');
+			//overlay.removeClass('isHidden').addClass('isVisible');
 			screen.removeClass('toCenter').addClass('toRight');
+
 		}
 
 		else if (panel.hasClass('isVisible')) {
@@ -119,6 +122,7 @@ function appMenu__Init(){
 			// Panel is Visible. Hiding it...
 
 			panel.removeClass('isVisible').addClass('isHidden');
+			//overlay.removeClass('isVisible').addClass('isHidden');
 			screen.removeClass('toRight').addClass('toCenter');
 
 			anim_time = 0
@@ -143,6 +147,7 @@ function appMenu__Init(){
 					
 				}
 
+				//overlay.removeClass('isBlock').addClass('isNone');
 				body.removeClass('xy-hidden');
 
 			}, anim_time);

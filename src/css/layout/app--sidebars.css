@@ -1,3 +1,24 @@
+.overlay {
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(var(--overlay-bg-color), .8);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  -webkit-transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier);
+  transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier);
+  -webkit-animation: overlay_isVisible 0.75s var(--bezier);
+          animation: overlay_isVisible 0.75s var(--bezier); }
+  .overlay.isVisible {
+    background-color: rgba(var(--overlay-bg-color), .8); }
+  .overlay.isHidden {
+    background-color: rgba(var(--overlay-bg-color), 0); }
+
 .app--menu {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

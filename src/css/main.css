@@ -61,10 +61,6 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-  -webkit-transition: -webkit-transform 0.75s var(--bezier);
-  transition: -webkit-transform 0.75s var(--bezier);
-  transition: transform 0.75s var(--bezier);
-  transition: transform 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -77,15 +73,6 @@ body {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
-  body.toRight {
-    -webkit-transform: translate(17em, 0);
-            transform: translate(17em, 0); }
-  body.toLeft {
-    -webkit-transform: translate(-17em, 0);
-            transform: translate(-17em, 0); }
-  body.toCenter {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
 
 .container {
   width: var(--container-width);
@@ -524,6 +511,27 @@ html {
     text-decoration: underline; }
     .app--footer a:hover {
       text-decoration: none; }
+
+.overlay {
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(var(--overlay-bg-color), .8);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  -webkit-transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier);
+  transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier);
+  -webkit-animation: overlay_isVisible 0.75s var(--bezier);
+          animation: overlay_isVisible 0.75s var(--bezier); }
+  .overlay.isVisible {
+    background-color: rgba(var(--overlay-bg-color), .8); }
+  .overlay.isHidden {
+    background-color: rgba(var(--overlay-bg-color), 0); }
 
 .app--menu {
   -webkit-box-sizing: border-box;
@@ -1286,32 +1294,41 @@ fieldset {
 .clearfix {
   clear: both; }
 
+.isBlock {
+  display: block !important; }
+
+.isInlineBlock {
+  display: inline-block !important; }
+
+.isNone {
+  display: none !important; }
+
 .x-hidden {
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 .y-hidden {
-  overflow-y: hidden; }
+  overflow-y: hidden !important; }
 
 .xy-hidden {
-  overflow: hidden; }
+  overflow: hidden !important; }
 
 .x-scroll {
-  overflow-x: scroll; }
+  overflow-x: scroll !important; }
 
 .y-scroll {
-  overflow-y: scroll; }
+  overflow-y: scroll !important; }
 
 .xy-scroll {
-  overflow: scroll; }
+  overflow: scroll !important; }
 
 .x-auto {
-  overflow-x: auto; }
+  overflow-x: auto !important; }
 
 .y-auto {
-  overflow-y: auto; }
+  overflow-y: auto !important; }
 
 .xy-auto {
-  overflow: auto; }
+  overflow: auto !important; }
 
 .icon--holder {
   display: block;
@@ -1468,6 +1485,30 @@ fieldset {
     -webkit-transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1);
             transform: translate3d(0, 0, 0) translate(0, 0) scale(1, 1); } }
 
+@-webkit-keyframes overlay_isVisible {
+  0% {
+    background-color: rgba(var(--overlay-bg-color), 0); }
+  100% {
+    background-color: rgba(var(--overlay-bg-color), .8); } }
+
+@keyframes overlay_isVisible {
+  0% {
+    background-color: rgba(var(--overlay-bg-color), 0); }
+  100% {
+    background-color: rgba(var(--overlay-bg-color), .8); } }
+
+@-webkit-keyframes overlay_isHidden {
+  0% {
+    background-color: rgba(var(--overlay-bg-color), .8); }
+  100% {
+    background-color: rgba(var(--overlay-bg-color), 0); } }
+
+@keyframes overlay_isHidden {
+  0% {
+    background-color: rgba(var(--overlay-bg-color), .8); }
+  100% {
+    background-color: rgba(var(--overlay-bg-color), 0); } }
+
 @-webkit-keyframes bgcolor_isVisible {
   0% {
     background-color: transparent; }
@@ -1535,18 +1576,6 @@ fieldset {
     opacity: 0;
     -webkit-transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0);
             transform: translate3d(0, 0, 0) scale(0.97, 0.97) translate(0, 0); } }
-
-.overlay {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: rgba(var(--overlay-bg-color), .8);
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 90; }
 
 .modal-holder {
   -webkit-box-sizing: border-box;
