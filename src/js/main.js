@@ -80,12 +80,11 @@ function appMenu__Init(){
 	toggle    = $('.i--menu');
 	panel     = $('.app--menu');
 	overlay   = $('.overlay');
-	screen    = $('.screen');
 	page      = $('.page');
 	header    = $('.app--header');
-	header_pd = header.css('padding-right');
+	header_pd = parseFloat(header.css('padding-right'));
 	body      = $('body');
-	body_pd   = body.css('padding-right');
+	body_pd   = parseFloat(body.css('padding-right'));
 	html      = $('html');
 	
 	toggle.on('click', function(){
@@ -104,16 +103,17 @@ function appMenu__Init(){
 				doc_width_after = $(document).width();
 				body.removeClass('xy-hidden');
 				scroll_width = doc_width_after - doc_width_before;
-				body.css({'margin-right': parseFloat(body_pd) + scroll_width});
-				header.css({'padding-right': parseFloat(header_pd) + scroll_width});
+				body.css({'margin-right': body_pd + scroll_width});
+				header.css({'padding-right': header_pd + scroll_width});
 				
 			}
 			
 			body.addClass('xy-hidden');
 			panel.removeClass('isHidden').addClass('isVisible');
-			//overlay.removeClass('isNone').addClass('isBlock');
-			//overlay.removeClass('isHidden').addClass('isVisible');
-			screen.removeClass('toCenter').addClass('toRight');
+			overlay.removeClass('isNone').addClass('isBlock');
+			setTimeout(function(){
+				overlay.removeClass('isHidden').addClass('isVisible');
+			}, 10);
 
 		}
 
@@ -122,11 +122,10 @@ function appMenu__Init(){
 			// Panel is Visible. Hiding it...
 
 			panel.removeClass('isVisible').addClass('isHidden');
-			//overlay.removeClass('isVisible').addClass('isHidden');
-			screen.removeClass('toRight').addClass('toCenter');
+			overlay.removeClass('isVisible').addClass('isHidden');
 
 			anim_time = 0
-			anim_times = screen.css('transition-duration');
+			anim_times = overlay.css('transition-duration');
 			anim_times = anim_times.split(', ');
 			
 			for (i = 0; i < anim_times.length; i++) {
@@ -147,7 +146,7 @@ function appMenu__Init(){
 					
 				}
 
-				//overlay.removeClass('isBlock').addClass('isNone');
+				overlay.removeClass('isBlock').addClass('isNone');
 				body.removeClass('xy-hidden');
 
 			}, anim_time);

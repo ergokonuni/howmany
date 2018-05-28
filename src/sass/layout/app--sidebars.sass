@@ -3,6 +3,7 @@
 	display: none
 	box-sizing: border-box
 	background-color: #{'rgba(var(--overlay-bg-color), .8)'};
+	opacity: 0
 	width: 100%
 	height: 100%
 	overflow: auto
@@ -11,37 +12,48 @@
 	top: 0
 	z-index: 90
 	transition: background-color .75s var(--bezier), opacity .75s var(--bezier)
-	animation: overlay_isVisible .75s var(--bezier)
 	&.isVisible
-		background-color: #{'rgba(var(--overlay-bg-color), .8)'};
+		opacity: 1
 	&.isHidden
-		background-color: #{'rgba(var(--overlay-bg-color), 0)'};
+		opacity: 0
 
 
 
 // .app--menu
 .app--menu
 	box-sizing: border-box
-	border-right: 1px solid #{'rgba(var(--key-color), .08)'};
-	//background-color: #{'rgba(var(--menu-bg-color), 1)'};
+	//border-right: 1px solid #{'rgba(var(--key-color), .08)'};
+	background-color: #{'rgba(var(--menu-bg-color), 1)'};
+	box-shadow: 0 0 3em rgba(0,0,0, .35), 0 0 1px rgba(0,0,0, .5)
 	overflow: auto
 	width: 17em
 	height: 100%
 	//height: calc(100% - var(--header-height) - 1px)
 	position: fixed
-	left: -17em
+	left: -21em
 	bottom: 0
-	z-index: 100
+	z-index: 200
 	transition: transform .75s var(--bezier)
 	&.isVisible
-		//transform: translate(17em,0)
+		transform: translate(21em,0)
 	&.isHidden
-		//transform: translate(0,0)
+		transform: translate(0,0)
+	
+	// .ava
+	.ava
+		background-color: #{'rgba(var(--key-color), .12)'};
+		background-position: center center
+		background-size: cover
+		height: 8.5em
+		overflow: hidden
+		img
+			width: 100%
 	
 	// .list
 	.list
 		user-select: none
 		.item
+			box-sizing: border-box
 			display: block
 			position: relative
 			border-bottom: 1px solid #{'rgba(var(--key-color), .08)'};
