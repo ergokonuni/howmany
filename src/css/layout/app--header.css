@@ -18,9 +18,9 @@
   transition: transform 0.5s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
   position: fixed;
   left: 0;
-  top: calc(var(--header-height) * -1 - 1px);
-  -webkit-transform: translate(0, calc(var(--header-height) + 1px));
-          transform: translate(0, calc(var(--header-height) + 1px));
+  top: calc(var(--header-height) * -1);
+  -webkit-transform: translate(0, var(--header-height));
+          transform: translate(0, var(--header-height));
   z-index: 100;
   display: grid;
   grid-template-columns: -webkit-min-content auto -webkit-min-content;
@@ -37,8 +37,8 @@
           align-items: stretch; }
   .app--header.isVisible {
     opacity: 1;
-    -webkit-transform: translate(0, calc(var(--header-height) + 1px));
-            transform: translate(0, calc(var(--header-height) + 1px)); }
+    -webkit-transform: translate(0, var(--header-height));
+            transform: translate(0, var(--header-height)); }
   .app--header.isHidden {
     opacity: 0;
     -webkit-transform: translate(0, 0);

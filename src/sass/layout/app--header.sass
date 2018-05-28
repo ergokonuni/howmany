@@ -12,8 +12,8 @@
 	transition: transform .5s var(--bezier), opacity .75s var(--bezier)
 	position: fixed
 	left: 0
-	top: calc(var(--header-height) * -1 - 1px)
-	transform: translate(0, calc(var(--header-height) + 1px))
+	top: calc(var(--header-height) * -1)
+	transform: translate(0, var(--header-height))
 	z-index: 100
 	display: grid
 	grid-template-columns: min-content auto min-content
@@ -24,7 +24,7 @@
 	align-items: stretch
 	&.isVisible
 		opacity: 1
-		transform: translate(0, calc(var(--header-height) + 1px))
+		transform: translate(0, var(--header-height))
 	&.isHidden
 		opacity: 0
 		transform: translate(0, 0)

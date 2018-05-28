@@ -23,6 +23,13 @@ body
 	align-content: stretch
 	justify-items: stretch
 	align-items: stretch
+	transition: transform .75s var(--bezier), opacity .75s var(--bezier)
+	&.toRight
+		transform: translate(17em,0)
+	&.toLeft
+		transform: translate(-17em,0)
+	&.toCenter
+		transform: translate(0,0)
 
 
 

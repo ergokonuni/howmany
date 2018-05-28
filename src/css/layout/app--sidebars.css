@@ -2,7 +2,7 @@
   display: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: rgba(var(--overlay-bg-color), .8);
+  background-color: rgb(var(--overlay-bg-color));
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -11,36 +11,38 @@
   left: 0;
   top: 0;
   z-index: 90;
-  -webkit-transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier);
-  transition: background-color 0.75s var(--bezier), opacity 0.75s var(--bezier); }
+  -webkit-transition: opacity 0.5s var(--bezier);
+  transition: opacity 0.5s var(--bezier); }
   .overlay.isVisible {
-    opacity: 1; }
+    opacity: .85; }
   .overlay.isHidden {
     opacity: 0; }
 
 .app--menu {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-right: 1px solid rgba(var(--key-color), .08);
   background-color: rgba(var(--menu-bg-color), 1);
-  -webkit-box-shadow: 0 0 3em rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 3em rgba(0, 0, 0, 0.35), 0 0 1px rgba(0, 0, 0, 0.5);
+  opacity: 0;
   overflow: auto;
   width: 17em;
-  height: 100%;
+  height: calc(100% - var(--header-height));
   position: fixed;
-  left: -21em;
+  left: -17em;
   bottom: 0;
-  z-index: 200;
-  -webkit-transition: -webkit-transform 0.75s var(--bezier);
-  transition: -webkit-transform 0.75s var(--bezier);
-  transition: transform 0.75s var(--bezier);
-  transition: transform 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
+  z-index: 100;
+  -webkit-transition: opacity 0.5s var(--bezier), -webkit-transform 0.5s var(--bezier);
+  transition: opacity 0.5s var(--bezier), -webkit-transform 0.5s var(--bezier);
+  transition: transform 0.5s var(--bezier), opacity 0.5s var(--bezier);
+  transition: transform 0.5s var(--bezier), opacity 0.5s var(--bezier), -webkit-transform 0.5s var(--bezier); }
   .app--menu.isVisible {
-    -webkit-transform: translate(21em, 0);
-            transform: translate(21em, 0); }
+    -webkit-transform: translate(17em, 0);
+            transform: translate(17em, 0);
+    opacity: 1; }
   .app--menu.isHidden {
     -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
+            transform: translate(0, 0);
+    opacity: 0; }
   .app--menu .ava {
     background-color: rgba(var(--key-color), .12);
     background-position: center center;

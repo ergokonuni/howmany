@@ -110,6 +110,8 @@ function appMenu__Init(){
 			
 			body.addClass('xy-hidden');
 			panel.removeClass('isHidden').addClass('isVisible');
+			page.removeClass('toCenter').addClass('toRight');
+			//body.removeClass('toCenter').addClass('toRight');
 			overlay.removeClass('isNone').addClass('isBlock');
 			setTimeout(function(){
 				overlay.removeClass('isHidden').addClass('isVisible');
@@ -122,6 +124,8 @@ function appMenu__Init(){
 			// Panel is Visible. Hiding it...
 
 			panel.removeClass('isVisible').addClass('isHidden');
+			page.removeClass('toRight').addClass('toCenter');
+			//body.removeClass('toRight').addClass('toCenter');
 			overlay.removeClass('isVisible').addClass('isHidden');
 
 			anim_time = 0
@@ -156,7 +160,7 @@ function appMenu__Init(){
 	});
 	
 	panel.find('.list .item').on('click', function(){
-		return false;
+		//return false;
 	});
 	
 };
