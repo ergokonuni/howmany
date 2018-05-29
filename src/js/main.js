@@ -87,6 +87,7 @@ function appMenu__Init(){
 	body      = $('body');
 	body_pd   = parseFloat(body.css('padding-right'));
 	html      = $('html');
+	var animTimeout;
 	
 	// toggle click
 	toggle.on('click', function(){
@@ -110,6 +111,8 @@ function appMenu__Init(){
 				
 			}
 			
+			clearTimeout(animTimeout);
+			
 			body.addClass('xy-hidden');
 			panel.removeClass('isHidden').addClass('isVisible');
 			page.removeClass('toCenter').addClass('toRight');
@@ -124,6 +127,8 @@ function appMenu__Init(){
 		else if (panel.hasClass('isVisible')) {
 			
 			// Panel is Visible. Hiding it...
+
+			clearTimeout(animTimeout);
 
 			panel.removeClass('isVisible').addClass('isHidden');
 			page.removeClass('toRight').addClass('toCenter');
@@ -141,7 +146,7 @@ function appMenu__Init(){
 				}
 			}
 			
-			setTimeout(function(){
+			animTimeout = setTimeout(function(){
 
 				if (html.hasClass('desktop win')) {
 					
