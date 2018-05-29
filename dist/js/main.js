@@ -200,6 +200,7 @@ function appSidebar__Init(){
 		
 		// Vars
 		toggle    = this;
+		sidebars  = '.app--sidebar';
 		sidebar   = '#' + $(toggle).attr('data-sidebar-id');
 		overlay   = '#' + $(toggle).attr('data-overlay-id');
 		content   = '.page';
@@ -216,8 +217,29 @@ function appSidebar__Init(){
 			
 			header_pd = parseFloat($(header).css('padding-right'));
 			body_pd   = parseFloat($(body).css('padding-right'));
-			
-			console.log('All is good!');
+
+			if (!$(sidebar).hasClass('isVisible')) {
+				
+				// Sidebar is Hidden. Showing it...
+
+				$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
+				$(sidebar).removeClass('isHidden').addClass('isVisible');
+				if ($(sidebar).hasClass('major')){
+					$(content).removeClass('toCenter toLeft').addClass('toRight');
+				}
+				else if ($(sidebar).hasClass('minor')) {
+					$(content).removeClass('toCenter toRight').addClass('toLeft');
+				}
+
+			}
+			else if ($(sidebar).hasClass('isVisible')) {
+				
+				// Sidebar is Visible. Hiding it...
+
+				$(sidebar).removeClass('isVisible').addClass('isHidden');
+				$(content).removeClass('toLeft toRight').addClass('toCenter');
+
+			}
 
 		}
 

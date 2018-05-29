@@ -17,10 +17,10 @@
     +  CS:  Good Vars
     +  CS:  Themes
     ~  XX:  Menu:
-            -  Overlay
+            ~  Both Menus
+            ~  Animation
+            ~  Overlay
             -  Tabindex
-            -  Both Menus
-            -  Animation
             -  Alt Icons
             -  List Icons
             -  Design
