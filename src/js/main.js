@@ -199,44 +199,56 @@ function appSidebar__Init(){
 	$('[data-sidebar-id]').on('click', function(){
 		
 		// Vars
-		toggle    = $(this);
-		sidebar   = $('#' + toggle.attr('data-sidebar-id'));
-		overlay   = $('#' + toggle.attr('data-overlay-id'));
-		content   = $('.page');
-		header    = $('.app--header');
-		header_pd = parseFloat(header.css('padding-right'));
-		body      = $('body');
-		body_pd   = parseFloat(body.css('padding-right'));
-		html      = $('html');
+		toggle    = this;
+		sidebar   = '#' + $(toggle).attr('data-sidebar-id');
+		overlay   = '#' + $(toggle).attr('data-overlay-id');
+		content   = '.page';
+		header    = '.app--header';
+		body      = 'body';
+		html      = 'html';
+		header_pd = 0
+		body_pd   = 0
 		error     = false;
 		var animTimeout;
 
 		// Check for elements exist
-		if (sidebar.length < 1) {
-			console.log("Can't find Sidebar #" + toggle.attr('data-sidebar-id'));
-			error = true;
-		}
-		if (overlay.length < 1) {
-			console.log("Can't find Overlay #" + toggle.attr('data-overlay-id'));
-			error = true;
-		}
-		if (content.length < 1) {
-			console.log("Can't find Content Section");
-			error = true;
-		}
-		if (header.length < 1) {
-			console.log("Can't find App Header");
-			error = true;
-		}
+		if (elementExist([sidebar, overlay, content, header, body])) {
+			
+			header_pd = parseFloat($(header).css('padding-right'));
+			body_pd   = parseFloat($(body).css('padding-right'));
+			
+			console.log('All is good!');
 
-		if (!error) {
-			console.log('All is good');
 		}
 
 	});
 
 };
 // / APP SIDEBAR
+
+
+
+
+
+
+// ELEMENT EXIST
+function elementExist(elm){
+	
+	var status = true;
+	
+	for (i = 0; i < elm.length; i++) {
+		
+		if ($(elm[i]).length < 1) {
+			console.log("Can't find Element: " + elm[i]);
+			status = false;
+		}
+
+	}
+	
+	return status;
+
+};
+// / ELEMENT EXIST
 
 
 
