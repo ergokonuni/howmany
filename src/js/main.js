@@ -77,6 +77,7 @@ function appHeader__Init(){
 // APP MENU
 function appMenu__Init(){
 	
+	// vars
 	toggle    = $('.i--menu');
 	panel     = $('.app--menu');
 	overlay   = $('.overlay');
@@ -87,6 +88,7 @@ function appMenu__Init(){
 	body_pd   = parseFloat(body.css('padding-right'));
 	html      = $('html');
 	
+	// toggle click
 	toggle.on('click', function(){
 		
 		if (!panel.hasClass('isVisible')) {
@@ -158,7 +160,13 @@ function appMenu__Init(){
 		}
 
 	});
+
+	// overlay click
+	overlay.on('click', function(){
+		toggle.trigger('click');
+	});
 	
+	// menu links click
 	panel.find('.list .item').on('click', function(){
 		//return false;
 	});

@@ -90,7 +90,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/js/main.js",
 			"settings":
 			{
-				"buffer_size": 7811,
+				"buffer_size": 8029,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -160,7 +160,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/__sugar.sass",
 			"settings":
 			{
-				"buffer_size": 599,
+				"buffer_size": 633,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -240,7 +240,8 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/layout/app--header.sass",
 			"settings":
 			{
-				"buffer_size": 2178,
+				"buffer_size": 2148,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -256,7 +257,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/layout/app--sidebars.sass",
 			"settings":
 			{
-				"buffer_size": 2085,
+				"buffer_size": 2102,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -319,7 +320,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/layout/__base.sass",
 			"settings":
 			{
-				"buffer_size": 650,
+				"buffer_size": 844,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -328,7 +329,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/pages/__base.sass",
 			"settings":
 			{
-				"buffer_size": 516,
+				"buffer_size": 638,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -734,7 +735,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 23,
 			"sheets":
 			[
 				{
@@ -1282,8 +1283,8 @@
 						"selection":
 						[
 							[
-								455,
-								455
+								407,
+								407
 							]
 						],
 						"settings":
@@ -1440,7 +1441,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 806.4,
+						"translation.y": 648.8,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -1452,15 +1453,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7811,
+						"buffer_size": 8029,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3074,
-								3074
+								2020,
+								2020
 							]
 						],
 						"settings":
@@ -1473,8 +1474,8 @@
 								{
 									"1":
 									[
-										3342,
-										3343
+										2335,
+										2336
 									]
 								},
 								"icon":
@@ -1489,8 +1490,8 @@
 								{
 									"1":
 									[
-										3038,
-										3039
+										1904,
+										1905
 									]
 								},
 								"unmatched":
@@ -1561,8 +1562,8 @@
 								{
 									"1":
 									[
-										3375,
-										3376
+										2335,
+										2336
 									]
 								},
 								"icon":
@@ -1577,8 +1578,8 @@
 								{
 									"1":
 									[
-										3073,
-										3074
+										1904,
+										1905
 									]
 								},
 								"unmatched":
@@ -1647,10 +1648,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3112.8,
+						"translation.y": 2275.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1847,7 +1848,7 @@
 						"translation.y": 2575.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -2232,7 +2233,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -2248,8 +2249,8 @@
 						"selection":
 						[
 							[
-								160,
-								160
+								62,
+								62
 							]
 						],
 						"settings":
@@ -2333,12 +2334,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										102,
+										103
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										56,
+										57
+									]
 								},
 								"unmatched":
 								{
@@ -2402,13 +2418,14 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -2585,7 +2602,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -2966,15 +2983,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 599,
+						"buffer_size": 633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								170,
+								170
 							]
 						],
 						"settings":
@@ -2998,61 +3015,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_tag_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -3135,7 +3152,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -3926,7 +3943,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -4701,7 +4718,7 @@
 						"translation.y": 628.8,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -4710,15 +4727,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2178,
+						"buffer_size": 2148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
+								221,
+								221
 							]
 						],
 						"settings":
@@ -4802,12 +4819,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										228,
+										229
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										216,
+										217
+									]
 								},
 								"unmatched":
 								{
@@ -4879,7 +4911,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -5057,7 +5089,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -5066,15 +5098,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2085,
+						"buffer_size": 2102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								962,
-								962
+								324,
+								324
 							]
 						],
 						"settings":
@@ -5232,10 +5264,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 766.4,
+						"translation.y": 266.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -6384,15 +6416,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 650,
+						"buffer_size": 844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								397,
+								397
 							]
 						],
 						"settings":
@@ -6551,10 +6583,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 115.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -6563,15 +6595,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 516,
+						"buffer_size": 638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								356,
-								356
+								374,
+								374
 							]
 						],
 						"settings":
@@ -6733,7 +6765,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -7032,7 +7064,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{

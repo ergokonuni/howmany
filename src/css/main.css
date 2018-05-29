@@ -77,15 +77,6 @@ body {
   transition: opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier);
   transition: transform 0.75s var(--bezier), opacity 0.75s var(--bezier), -webkit-transform 0.75s var(--bezier); }
-  body.toRight {
-    -webkit-transform: translate(17em, 0);
-            transform: translate(17em, 0); }
-  body.toLeft {
-    -webkit-transform: translate(-17em, 0);
-            transform: translate(-17em, 0); }
-  body.toCenter {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0); }
 
 .container {
   width: var(--container-width);
