@@ -5,11 +5,12 @@
 	background-color: #{'rgb(var(--overlay-bg-color))'};
 	opacity: 0
 	width: 100%
-	height: 100%
+	//height: 100%
+	height: calc(100% - var(--header-height))
 	overflow: auto
 	position: fixed
 	left: 0
-	top: 0
+	bottom: 0
 	z-index: 90
 	transition: opacity .5s var(--bezier)
 	&.isVisible
@@ -19,26 +20,36 @@
 
 
 
-// .app--menu
-.app--menu
+// .app--sidebar
+.app--sidebar
 	box-sizing: border-box
-	border-right: 1px solid #{'rgba(var(--key-color), .08)'};
 	background-color: #{'rgba(var(--menu-bg-color), 1)'};
 	//box-shadow: 0 0 2em rgba(0,0,0, .35), 0 0 1px rgba(0,0,0, .5)
 	opacity: 0
 	overflow: auto
-	width: 17em
+	width: var(--app-sidebar-width)
 	//height: 100%
 	height: calc(100% - var(--header-height))
 	position: fixed
-	left: -17em
 	bottom: 0
 	z-index: 100
 	transition: transform .5s var(--bezier), opacity .5s var(--bezier)
-	&.isVisible
-		transform: translate(17em,0)
+	&.major
+		border-right: 1px solid #{'rgba(var(--key-color), .08)'};
+		left: calc(var(--app-sidebar-width) * -1)
+	&.minor
+		border-left: 1px solid #{'rgba(var(--key-color), .08)'};
+		right: calc(var(--app-sidebar-width) * -1)
+	&.major.isVisible
+		transform: translate(var(--app-sidebar-width),0)
 		opacity: 1
-	&.isHidden
+	&.major.isHidden
+		transform: translate(0,0)
+		opacity: 0
+	&.minor.isVisible
+		transform: translate(calc(var(--app-sidebar-width) * -1),0)
+		opacity: 1
+	&.minor.isHidden
 		transform: translate(0,0)
 		opacity: 0
 	

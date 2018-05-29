@@ -3,9 +3,12 @@ $(document).ready(function(){
 	deviceOrientation__Init();
 	//appHeader__Init();
 	appMenu__Init();
+	appSidebar__Init();
 	textareaAutoresize__Init();
 
 });
+
+
 
 
 
@@ -34,6 +37,8 @@ $(window).on('resize', function(){
 	deviceOrientation__Init();
 });
 // / DEVICE ORIENTATION
+
+
 
 
 
@@ -74,12 +79,14 @@ function appHeader__Init(){
 
 
 
+
+
 // APP MENU
 function appMenu__Init(){
 	
 	// vars
-	toggle    = $('.i--menu');
-	panel     = $('.app--menu');
+	toggle    = $('.i--more');
+	panel     = $('.app--sidebar.minor');
 	overlay   = $('.overlay');
 	page      = $('.page');
 	header    = $('.app--header');
@@ -115,7 +122,8 @@ function appMenu__Init(){
 			
 			body.addClass('xy-hidden');
 			panel.removeClass('isHidden').addClass('isVisible');
-			page.removeClass('toCenter').addClass('toRight');
+			panel.scrollTop(0);
+			page.removeClass('toCenter').addClass('toLeft');
 			//body.removeClass('toCenter').addClass('toRight');
 			overlay.removeClass('isNone').addClass('isBlock');
 			setTimeout(function(){
@@ -131,7 +139,7 @@ function appMenu__Init(){
 			clearTimeout(animTimeout);
 
 			panel.removeClass('isVisible').addClass('isHidden');
-			page.removeClass('toRight').addClass('toCenter');
+			page.removeClass('toLeft').addClass('toCenter');
 			//body.removeClass('toRight').addClass('toCenter');
 			overlay.removeClass('isVisible').addClass('isHidden');
 
@@ -178,6 +186,19 @@ function appMenu__Init(){
 	
 };
 // / APP MENU
+
+
+
+
+
+
+// APP SIDEBAR
+function appSidebar__Init(){
+	return true;
+};
+// / APP SIDEBAR
+
+
 
 
 

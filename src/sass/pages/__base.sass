@@ -16,9 +16,9 @@
 	//align-self: stretch
 	transition: transform .5s var(--bezier), opacity .5s var(--bezier)
 	&.toRight
-		transform: translate(17em,0)
+		transform: translate(var(--app-sidebar-width),0)
 	&.toLeft
-		transform: translate(-17em,0)
+		transform: translate(calc(var(--app-sidebar-width) * -1),0)
 	&.toCenter
 		transform: translate(0,0)
 	img
