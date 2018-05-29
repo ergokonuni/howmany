@@ -39,7 +39,7 @@
     </main>
     <!-- /.page--chart-->
     <!-- .app--sidebar.major-->
-    <aside class="app--sidebar major">
+    <aside class="app--sidebar major" id="app--sidebar--major">
       <!-- .ava-->
       <div class="ava" style="background-image:url(./img/ava/bus1/ava2.jpg);"></div>
       <!-- .list-->
@@ -47,7 +47,7 @@
     </aside>
     <!-- /.app--sidebar.major-->
     <!-- .app--sidebar.minor-->
-    <aside class="app--sidebar minor">
+    <aside class="app--sidebar minor" id="app--sidebar--minor">
       <!-- .ava-->
       <div class="ava" style="background-image:url(./img/ava/bus1/ava2.jpg);"></div>
       <!-- .list-->
@@ -55,14 +55,14 @@
     </aside>
     <!-- /.app--sidebar.minor-->
     <!-- .overlay-->
-    <div class="overlay"></div>
+    <div class="overlay" id="overlay"></div>
     <!-- /.overlay-->
     <!-- .app--header-->
     <header class="app--header">
       <!-- .icon--cell.major-->
       <div class="icon--cell major">
         <!-- .i--menu-->
-        <button class="icon--holder i--menu" tabindex="1">
+        <button class="icon--holder i--menu" data-sidebar-id="app--sidebar--major" data-overlay-id="overlay" tabindex="1">
           <div class="icon--glyph"><span class="line l-1"></span><span class="line l-2"></span><span class="line l-3"></span></div>
         </button>
         <!-- .i--back-->
@@ -82,7 +82,7 @@
       <!-- .icon--cell.minor-->
       <div class="icon--cell minor">
         <!-- .i--more-->
-        <button class="icon--holder i--more">
+        <button class="icon--holder i--more" data-sidebar-id="app--sidebar--minor" data-overlay-id="overlay">
           <div class="icon--glyph"><span class="dot d-1"></span><span class="dot d-2"></span><span class="dot d-3"></span></div>
         </button>
       </div>
