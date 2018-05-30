@@ -225,9 +225,11 @@ function appSidebar__Init(){
 				$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
 				$(sidebar).removeClass('isHidden').addClass('isVisible');
 				if ($(sidebar).hasClass('major')){
+					$(sidebars + '.minor').addClass('x2');
 					$(content).removeClass('toCenter toLeft').addClass('toRight');
 				}
 				else if ($(sidebar).hasClass('minor')) {
+					$(sidebars + '.major').addClass('x2');
 					$(content).removeClass('toCenter toRight').addClass('toLeft');
 				}
 
@@ -237,6 +239,7 @@ function appSidebar__Init(){
 				// Sidebar is Visible. Hiding it...
 
 				$(sidebar).removeClass('isVisible').addClass('isHidden');
+				$(sidebars).removeClass('x2');
 				$(content).removeClass('toLeft toRight').addClass('toCenter');
 
 			}

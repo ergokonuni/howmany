@@ -40,21 +40,27 @@
     border-left: 1px solid rgba(var(--key-color), .08);
     right: calc(var(--app-sidebar-width) * -1); }
   .app--sidebar.major.isVisible {
-    -webkit-transform: translate(var(--app-sidebar-width), 0);
-            transform: translate(var(--app-sidebar-width), 0);
+    -webkit-transform: translate(var(--app-sidebar-width), 0) !important;
+            transform: translate(var(--app-sidebar-width), 0) !important;
     opacity: 1; }
   .app--sidebar.major.isHidden {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
     opacity: 0; }
-  .app--sidebar.minor.isVisible {
+  .app--sidebar.major.x2 {
     -webkit-transform: translate(calc(var(--app-sidebar-width) * -1), 0);
-            transform: translate(calc(var(--app-sidebar-width) * -1), 0);
+            transform: translate(calc(var(--app-sidebar-width) * -1), 0); }
+  .app--sidebar.minor.isVisible {
+    -webkit-transform: translate(calc(var(--app-sidebar-width) * -1), 0) !important;
+            transform: translate(calc(var(--app-sidebar-width) * -1), 0) !important;
     opacity: 1; }
   .app--sidebar.minor.isHidden {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
     opacity: 0; }
+  .app--sidebar.minor.x2 {
+    -webkit-transform: translate(var(--app-sidebar-width), 0);
+            transform: translate(var(--app-sidebar-width), 0); }
   .app--sidebar .ava {
     background-color: rgba(var(--key-color), .12);
     background-position: center center;

@@ -41,17 +41,21 @@
 		border-left: 1px solid #{'rgba(var(--key-color), .08)'};
 		right: calc(var(--app-sidebar-width) * -1)
 	&.major.isVisible
-		transform: translate(var(--app-sidebar-width),0)
+		transform: translate(var(--app-sidebar-width),0) !important
 		opacity: 1
 	&.major.isHidden
 		transform: translate(0,0)
 		opacity: 0
-	&.minor.isVisible
+	&.major.x2
 		transform: translate(calc(var(--app-sidebar-width) * -1),0)
+	&.minor.isVisible
+		transform: translate(calc(var(--app-sidebar-width) * -1),0) !important
 		opacity: 1
 	&.minor.isHidden
 		transform: translate(0,0)
 		opacity: 0
+	&.minor.x2
+		transform: translate(var(--app-sidebar-width),0)
 	
 	// .ava
 	.ava
