@@ -284,7 +284,7 @@ function appSidebar__Init(){
 					scrollbarDancing('end');
 
 					$(overlay).removeClass('isBlock').addClass('isNone');
-					$(body).removeClass('xy-hidden');
+					//$(body).removeClass('xy-hidden');
 
 				}, anim_time);
 
@@ -309,29 +309,44 @@ function scrollbarDancing(state){
 		
 		if (state == 'start') {
 			
-			$(body).removeClass('xy-hidden');
-			doc_width_before = $(document).width();
-			$(body).addClass('xy-hidden');
-			doc_width_after = $(document).width();
-			$(body).removeClass('xy-hidden');
-			scroll_width = doc_width_after - doc_width_before;
+			//$(body).css({'overflow': 'auto'});
+			//doc_width_before = $(document).width();
+			//$(body).css({'overflow': 'hidden'});
+			//doc_width_after = $(document).width();
+			//$(body).css({'overflow': 'auto'});
+			//scroll_width = doc_width_after - doc_width_before;
+			console.log($(document).height());
+			scroll_width = getScrollbarWidth();
 			if (!scroll_width)     { scroll_width     = 0; }
 			if (!body_pd_r)        { body_pd_r        = 0; }
 			if (!header_pd_r)      { header_pd_r      = 0; }
-			$(body).css({'margin-right': body_pd_r + scroll_width});
+			$(body).css({'padding-right': body_pd_r + scroll_width, 'overflow': 'hidden'});
 			$(header).css({'padding-right': header_pd_r + scroll_width});
+			console.log($(document).height());
+			$(body).addClass('xy-hidden');
+			console.log($(document).height());
 			
 		}
 		else if (state == 'end') {
 			
 			if (!body_pd_r)        { body_pd_r        = 0; }
 			if (!header_pd_r)      { header_pd_r      = 0; }
-			$(body).css({'margin-right': body_pd_r});
+			console.log($(document).height());
+			$(body).removeClass('xy-hidden');
+			console.log($(document).height());
+			$(body).css({'padding-right': body_pd_r, 'overflow': 'auto'});
+			console.log($(document).height());
 			$(header).css({'padding-right': header_pd_r});
+			console.log($(document).height());
 			
 		}
 		
 	}
+
+};
+function getScrollbarWidth(){
+
+	return 24;
 
 };
 // / SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
