@@ -195,6 +195,9 @@ function appMenu__Init(){
 // APP SIDEBAR
 function appSidebar__Init(){
 
+	header_pd = parseFloat($('.app--header').css('padding-right'));
+	body_pd   = parseFloat($('body').css('padding-right'));
+
 	// Add Click Event to Sidebar Toggle
 	$('[data-sidebar-id]').on('click', function(){
 		
@@ -207,23 +210,38 @@ function appSidebar__Init(){
 		header    = '.app--header';
 		body      = 'body';
 		html      = 'html';
-		header_pd = 0
-		body_pd   = 0
 		error     = false;
-		var animTimeout;
+		var content_animTimeout, overlay_animTimeout;
 
 		// Check for elements exist
 		if (elementExist([sidebar, overlay, content, header, body])) {
-			
-			header_pd = parseFloat($(header).css('padding-right'));
-			body_pd   = parseFloat($(body).css('padding-right'));
 
 			if (!$(sidebar).hasClass('isVisible')) {
 				
 				// Sidebar is Hidden. Showing it...
 
+				if ($(html).hasClass('desktop win')) {
+					
+					// Scrollbar dancing on desktops with Windows
+					
+					$(body).removeClass('xy-hidden');
+					doc_width_before = $(document).width();
+					$(body).addClass('xy-hidden');
+					doc_width_after = $(document).width();
+					$(body).removeClass('xy-hidden');
+					scroll_width = doc_width_after - doc_width_before;
+					$(body).css({'margin-right': body_pd + scroll_width});
+					$(header).css({'padding-right': header_pd + scroll_width});
+					
+				}
+				
+				clearTimeout(content_animTimeout);
+				
+				$(body).addClass('xy-hidden');
 				$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
 				$(sidebar).removeClass('isHidden').addClass('isVisible');
+				$(sidebar).scrollTop(0);
+				
 				if ($(sidebar).hasClass('major')){
 					$(sidebars + '.minor').addClass('x2');
 					$(content).removeClass('toCenter toLeft').addClass('toRight');
@@ -232,15 +250,50 @@ function appSidebar__Init(){
 					$(sidebars + '.major').addClass('x2');
 					$(content).removeClass('toCenter toRight').addClass('toLeft');
 				}
+				
+				$(overlay).removeClass('isNone').addClass('isBlock');
+				overlay_animTimeout = setTimeout(function(){
+					$(overlay).removeClass('isHidden').addClass('isVisible');
+				}, 10);
 
 			}
 			else if ($(sidebar).hasClass('isVisible')) {
 				
 				// Sidebar is Visible. Hiding it...
 
+				clearTimeout(content_animTimeout);
+				
 				$(sidebar).removeClass('isVisible').addClass('isHidden');
 				$(sidebars).removeClass('x2');
 				$(content).removeClass('toLeft toRight').addClass('toCenter');
+				$(overlay).removeClass('isVisible').addClass('isHidden');
+				
+				anim_time = 0
+				anim_times = $(overlay).css('transition-duration');
+				anim_times = anim_times.split(', ');
+				
+				for (i = 0; i < anim_times.length; i++) {
+					val = parseFloat(anim_times[i]) * 1000;
+					if (anim_time < val) {
+						anim_time = val;
+					}
+				}
+				
+				content_animTimeout = setTimeout(function(){
+
+					if ($(html).hasClass('desktop win')) {
+						
+						// Scrollbar dancing on desktops with Windows
+						
+						$(body).css({'margin-right': body_pd});
+						$(header).css({'padding-right': header_pd});
+						
+					}
+
+					$(overlay).removeClass('isBlock').addClass('isNone');
+					$(body).removeClass('xy-hidden');
+
+				}, anim_time);
 
 			}
 
