@@ -13,24 +13,37 @@ $(document).ready(function(){
 
 
 
+// GLOBAL VARS
+html        = 'html';
+body        = 'body';
+header      = '.app--header';
+header_pd_r =  parseFloat($(header).css('padding-right'));
+body_pd_r   =  parseFloat($(body).css('padding-right'));
+// / GLOBAL VARS
+
+
+
+
+
+
 // DEVICE ORIENTATION
 function deviceOrientation__Init(){
 	
 	docWidth   = $(document).width();
 	docHeight  = $(document).height();
 	
-	$('html').removeClass('portrait landscape square');
+	$(html).removeClass('portrait landscape square');
 	
 	if (docWidth > docHeight) {
-		$('html').addClass('landscape');
+		$(html).addClass('landscape');
 	} else if (docWidth < docHeight) {
-		$('html').addClass('portrait');
+		$(html).addClass('portrait');
 	} else if (docWidth == docHeight) {
-		$('html').addClass('square');
+		$(html).addClass('square');
 	}
 	
 	//console.log('DOC Size:' + docWidth + 'x' + docHeight);
-	//console.log('HTML Class: ' + $('html').attr('class'));
+	//console.log('HTML Class: ' + $(html).attr('class'));
 
 };
 $(window).on('resize', function(){
@@ -62,13 +75,11 @@ function appHeader__Init(){
 
 	function fixedHeader(scrollDirection){
 		
-		header = $('.app--header');
-		
 		if (scrollDirection > 0){
-			header.addClass('isHidden').removeClass('isVisible');
+			$(header).addClass('isHidden').removeClass('isVisible');
 		}
 		else if (scrollDirection < 0){
-			header.addClass('isVisible').removeClass('isHidden');
+			$(header).addClass('isVisible').removeClass('isHidden');
 		}
 
 	};
@@ -195,23 +206,20 @@ function appMenu__Init(){
 // APP SIDEBAR
 function appSidebar__Init(){
 
-	header_pd = parseFloat($('.app--header').css('padding-right'));
-	body_pd   = parseFloat($('body').css('padding-right'));
+	// Vars
+	toggles   = '[data-sidebar-id]';
+	sidebars  = '.app--sidebar';
+	content   = '.page';
+	error     =  false;
+	var content_animTimeout, overlay_animTimeout;
 
 	// Add Click Event to Sidebar Toggle
-	$('[data-sidebar-id]').on('click', function(){
-		
+	$(toggles).on('click', function(){
+
 		// Vars
-		toggle    = this;
-		sidebars  = '.app--sidebar';
-		sidebar   = '#' + $(toggle).attr('data-sidebar-id');
-		overlay   = '#' + $(toggle).attr('data-overlay-id');
-		content   = '.page';
-		header    = '.app--header';
-		body      = 'body';
-		html      = 'html';
-		error     = false;
-		var content_animTimeout, overlay_animTimeout;
+		toggle  =  this;
+		sidebar = '#' + $(toggle).attr('data-sidebar-id');
+		overlay = '#' + $(toggle).attr('data-overlay-id');
 
 		// Check for elements exist
 		if (elementExist([sidebar, overlay, content, header, body])) {
@@ -219,29 +227,26 @@ function appSidebar__Init(){
 			if (!$(sidebar).hasClass('isVisible')) {
 				
 				// Sidebar is Hidden. Showing it...
-
-				if ($(html).hasClass('desktop win')) {
-					
-					// Scrollbar dancing on desktops with Windows
-					
-					$(body).removeClass('xy-hidden');
-					doc_width_before = $(document).width();
-					$(body).addClass('xy-hidden');
-					doc_width_after = $(document).width();
-					$(body).removeClass('xy-hidden');
-					scroll_width = doc_width_after - doc_width_before;
-					$(body).css({'margin-right': body_pd + scroll_width});
-					$(header).css({'padding-right': header_pd + scroll_width});
-					
-				}
+				
+				scrollbarDancing('start');
 				
 				clearTimeout(content_animTimeout);
 				
 				$(body).addClass('xy-hidden');
-				$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
+				
+				$(overlay).removeClass('isNone').addClass('isBlock');
+				overlay_animTimeout = setTimeout(function(){
+					$(overlay).removeClass('isHidden').addClass('isVisible');
+				}, 10);
+				
+				if ($(sidebars + '.isVisible').length > 0) {
+					$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
+					clearTimeout(overlay_animTimeout);
+				}
+
 				$(sidebar).removeClass('isHidden').addClass('isVisible');
 				$(sidebar).scrollTop(0);
-				
+
 				if ($(sidebar).hasClass('major')){
 					$(sidebars + '.minor').addClass('x2');
 					$(content).removeClass('toCenter toLeft').addClass('toRight');
@@ -250,11 +255,6 @@ function appSidebar__Init(){
 					$(sidebars + '.major').addClass('x2');
 					$(content).removeClass('toCenter toRight').addClass('toLeft');
 				}
-				
-				$(overlay).removeClass('isNone').addClass('isBlock');
-				overlay_animTimeout = setTimeout(function(){
-					$(overlay).removeClass('isHidden').addClass('isVisible');
-				}, 10);
 
 			}
 			else if ($(sidebar).hasClass('isVisible')) {
@@ -281,14 +281,7 @@ function appSidebar__Init(){
 				
 				content_animTimeout = setTimeout(function(){
 
-					if ($(html).hasClass('desktop win')) {
-						
-						// Scrollbar dancing on desktops with Windows
-						
-						$(body).css({'margin-right': body_pd});
-						$(header).css({'padding-right': header_pd});
-						
-					}
+					scrollbarDancing('end');
 
 					$(overlay).removeClass('isBlock').addClass('isNone');
 					$(body).removeClass('xy-hidden');
@@ -303,6 +296,45 @@ function appSidebar__Init(){
 
 };
 // / APP SIDEBAR
+
+
+
+
+
+
+// SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
+function scrollbarDancing(state){
+	
+	if ($(html).hasClass('desktop win')) {
+		
+		if (state == 'start') {
+			
+			$(body).removeClass('xy-hidden');
+			doc_width_before = $(document).width();
+			$(body).addClass('xy-hidden');
+			doc_width_after = $(document).width();
+			$(body).removeClass('xy-hidden');
+			scroll_width = doc_width_after - doc_width_before;
+			if (!scroll_width)     { scroll_width     = 0; }
+			if (!body_pd_r)        { body_pd_r        = 0; }
+			if (!header_pd_r)      { header_pd_r      = 0; }
+			$(body).css({'margin-right': body_pd_r + scroll_width});
+			$(header).css({'padding-right': header_pd_r + scroll_width});
+			
+		}
+		else if (state == 'end') {
+			
+			if (!body_pd_r)        { body_pd_r        = 0; }
+			if (!header_pd_r)      { header_pd_r      = 0; }
+			$(body).css({'margin-right': body_pd_r});
+			$(header).css({'padding-right': header_pd_r});
+			
+		}
+		
+	}
+
+};
+// / SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
 
 
 
