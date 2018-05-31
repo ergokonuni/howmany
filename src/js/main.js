@@ -208,10 +208,10 @@ function bodyScrollbarDancing(state){
 				} else {
 					scrollbar_width = getScrollbarWidth();
 				}
-				if (!body_pd_r)        { body_pd_r        = 0; }
-				if (!header_pd_r)      { header_pd_r      = 0; }
-				$(body).css({'padding-right': body_pd_r + scrollbar_width, 'overflow': 'hidden'});
-				$(header).css({'padding-right': header_pd_r + scrollbar_width});
+				if (!body_pd_r)   { body_pd_r   = 0; }
+				if (!header_pd_r) { header_pd_r = 0; }
+				$(body).css({'padding-right':body_pd_r + scrollbar_width, 'overflow':'hidden'});
+				$(header).css({'padding-right':header_pd_r + scrollbar_width});
 				$(body).addClass('xy-hidden');
 				console.log(scrollbar_width);
 				console.log('scrollbar dancing: start: 1');
@@ -221,11 +221,18 @@ function bodyScrollbarDancing(state){
 		else if (state == 'end') {
 			
 			console.log('scrollbar dancing: end: 0');
-			if (!body_pd_r)        { body_pd_r        = 0; }
-			if (!header_pd_r)      { header_pd_r      = 0; }
-			$(body).css({'padding-right': body_pd_r, 'overflow': 'auto'});
-			$(header).css({'padding-right': header_pd_r});
+			if (!body_pd_r)   { body_pd_r   = 0; }
+			if (!header_pd_r) { header_pd_r = 0; }
+			content_width = $(content).width();
+			$(content).css({'width':content_width});
+			console.log(content_width);
+			$(body).css({'padding-right':body_pd_r, 'overflow':'auto', 'overflow-x':'hidden'});
+			$(header).css({'padding-right':header_pd_r});
 			$(body).removeClass('xy-hidden');
+			setTimeout(function(){
+				$(content).css({'width':'auto'});
+				$(body).css({'overflow-x':'auto'});
+			}, 20);
 			console.log('scrollbar dancing: end: 1');
 			
 		}
