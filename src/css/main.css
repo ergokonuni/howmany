@@ -518,6 +518,18 @@ html {
     .app--footer a:hover {
       text-decoration: none; }
 
+.crutch--holder {
+  width: 100px;
+  height: 100px;
+  overflow: auto;
+  position: fixed;
+  left: -10000px;
+  top: -10000px;
+  z-index: 1000; }
+
+.crutch--inner {
+  height: 200px; }
+
 .overlay {
   display: none;
   -webkit-box-sizing: border-box;

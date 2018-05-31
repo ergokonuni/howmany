@@ -198,19 +198,16 @@ function appSidebar__Init(){
 function bodyScrollbarDancing(state){
 	
 	if ($(html).hasClass('desktop win')) {
-		
+
 		if (state == 'start') {
 			
 			if ($(body).css('overflow') != 'hidden') {
 				console.log('scrollbar dancing: start: 0');
-				$(body).css({'overflow': 'auto'});
-				doc_width_before = $(document).width();
-				$(body).css({'overflow': 'hidden', 'padding-right':'24px'});
-				doc_width_after = $(document).width();
-				$(body).css({'overflow': 'auto'});
-				scrollbar_width = doc_width_after - doc_width_before;
-				//scrollbar_width = getScrollbarWidth();
-				if (!scrollbar_width)  { scrollbar_width  = 0; }
+				if (smallPage()) {
+					scrollbar_width = 0;
+				} else {
+					scrollbar_width = getScrollbarWidth();
+				}
 				if (!body_pd_r)        { body_pd_r        = 0; }
 				if (!header_pd_r)      { header_pd_r      = 0; }
 				$(body).css({'padding-right': body_pd_r + scrollbar_width, 'overflow': 'hidden'});
@@ -236,9 +233,42 @@ function bodyScrollbarDancing(state){
 	}
 
 };
+
+
+
 function getScrollbarWidth(){
 
-	return 24;
+	scrollbar_width = 0;
+	crutch = '.crutch--holder';
+	
+	if ($(crutch).length < 1) {
+		crutch_html = '<div class="crutch--holder"><div class="crutch--inner"></div></div>';
+		$(body).append(crutch_html);
+	}
+	
+	$(crutch).css({'overflow':'auto', 'display':'block'});
+	crutch_width_before = $(crutch).width();
+	$(crutch).css({'overflow':'hidden'});
+	crutch_width_after = $(crutch).width();
+	$(crutch).css({'overflow':'auto', 'display':'none'});
+	scrollbar_width = crutch_width_after - crutch_width_before;
+
+	return scrollbar_width;
+
+};
+
+
+
+function smallPage(){
+
+	doc_height = $(document).height();
+	win_height = $(window).height();
+
+	if (doc_height <= win_height) {
+		return true;
+	} else {
+		return false;
+	}
 
 };
 // / BODY SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
