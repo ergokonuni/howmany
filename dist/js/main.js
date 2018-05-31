@@ -2,7 +2,6 @@ $(document).ready(function(){
 	
 	deviceOrientation__Init();
 	//appHeader__Init();
-	//appMenu__Init();
 	appSidebar__Init();
 	textareaAutoresize__Init();
 
@@ -92,117 +91,6 @@ function appHeader__Init(){
 
 
 
-// APP MENU
-function appMenu__Init(){
-	
-	// vars
-	toggle    = $('.i--more');
-	panel     = $('.app--sidebar.minor');
-	overlay   = $('.overlay');
-	page      = $('.page');
-	header    = $('.app--header');
-	header_pd = parseFloat(header.css('padding-right'));
-	body      = $('body');
-	body_pd   = parseFloat(body.css('padding-right'));
-	html      = $('html');
-	var animTimeout;
-	
-	// toggle click
-	toggle.on('click', function(){
-		
-		if (!panel.hasClass('isVisible')) {
-			
-			// Panel is Hidden. Showing it...
-			
-			if (html.hasClass('desktop win')) {
-				
-				// Scrollbar dancing on desktops with Windows
-				
-				body.removeClass('xy-hidden');
-				doc_width_before = $(document).width();
-				body.addClass('xy-hidden');
-				doc_width_after = $(document).width();
-				body.removeClass('xy-hidden');
-				scroll_width = doc_width_after - doc_width_before;
-				body.css({'margin-right': body_pd + scroll_width});
-				header.css({'padding-right': header_pd + scroll_width});
-				
-			}
-			
-			clearTimeout(animTimeout);
-			
-			body.addClass('xy-hidden');
-			panel.removeClass('isHidden').addClass('isVisible');
-			panel.scrollTop(0);
-			page.removeClass('toCenter').addClass('toLeft');
-			//body.removeClass('toCenter').addClass('toRight');
-			overlay.removeClass('isNone').addClass('isBlock');
-			setTimeout(function(){
-				overlay.removeClass('isHidden').addClass('isVisible');
-			}, 10);
-
-		}
-
-		else if (panel.hasClass('isVisible')) {
-			
-			// Panel is Visible. Hiding it...
-
-			clearTimeout(animTimeout);
-
-			panel.removeClass('isVisible').addClass('isHidden');
-			page.removeClass('toLeft').addClass('toCenter');
-			//body.removeClass('toRight').addClass('toCenter');
-			overlay.removeClass('isVisible').addClass('isHidden');
-
-			anim_time = 0
-			anim_times = overlay.css('transition-duration');
-			anim_times = anim_times.split(', ');
-			
-			for (i = 0; i < anim_times.length; i++) {
-				val = parseFloat(anim_times[i]) * 1000;
-				if (anim_time < val) {
-					anim_time = val;
-				}
-			}
-			
-			animTimeout = setTimeout(function(){
-
-				if (html.hasClass('desktop win')) {
-					
-					// Scrollbar dancing on desktops with Windows
-					
-					body.css({'margin-right': body_pd});
-					header.css({'padding-right': header_pd});
-					
-				}
-
-				overlay.removeClass('isBlock').addClass('isNone');
-				body.removeClass('xy-hidden');
-
-			}, anim_time);
-
-		}
-
-	});
-
-	// overlay click
-	overlay.on('click', function(){
-		toggle.trigger('click');
-	});
-	
-	// menu links click
-	panel.find('.list .item').on('click', function(){
-		//return false;
-	});
-	
-};
-// / APP MENU
-
-
-
-
-
-
 // APP SIDEBAR
 function appSidebar__Init(){
 
@@ -228,16 +116,20 @@ function appSidebar__Init(){
 				
 				// Sidebar is Hidden. Showing it...
 				
-				scrollbarDancing('start');
+				if ($(sidebars + '.isVisible').length < 1) {
+					bodyScrollbarDancing('start');
+				}
 				
 				clearTimeout(content_animTimeout);
 				
 				$(body).addClass('xy-hidden');
 				
-				$(overlay).removeClass('isNone').addClass('isBlock');
-				overlay_animTimeout = setTimeout(function(){
-					$(overlay).removeClass('isHidden').addClass('isVisible');
-				}, 10);
+				if ($(sidebars + '.isVisible').length < 1) {
+					$(overlay).removeClass('isNone').addClass('isBlock');
+					overlay_animTimeout = setTimeout(function(){
+						$(overlay).removeClass('isHidden').addClass('isVisible');
+					}, 10);
+				}
 				
 				if ($(sidebars + '.isVisible').length > 0) {
 					$(sidebars + '.isVisible').removeClass('isVisible').addClass('isHidden');
@@ -281,10 +173,10 @@ function appSidebar__Init(){
 				
 				content_animTimeout = setTimeout(function(){
 
-					scrollbarDancing('end');
+					bodyScrollbarDancing('end');
 
 					$(overlay).removeClass('isBlock').addClass('isNone');
-					//$(body).removeClass('xy-hidden');
+					$(body).removeClass('xy-hidden');
 
 				}, anim_time);
 
@@ -302,42 +194,42 @@ function appSidebar__Init(){
 
 
 
-// SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
-function scrollbarDancing(state){
+// BODY SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
+function bodyScrollbarDancing(state){
 	
 	if ($(html).hasClass('desktop win')) {
 		
 		if (state == 'start') {
 			
-			//$(body).css({'overflow': 'auto'});
-			//doc_width_before = $(document).width();
-			//$(body).css({'overflow': 'hidden'});
-			//doc_width_after = $(document).width();
-			//$(body).css({'overflow': 'auto'});
-			//scroll_width = doc_width_after - doc_width_before;
-			console.log($(document).height());
-			scroll_width = getScrollbarWidth();
-			if (!scroll_width)     { scroll_width     = 0; }
-			if (!body_pd_r)        { body_pd_r        = 0; }
-			if (!header_pd_r)      { header_pd_r      = 0; }
-			$(body).css({'padding-right': body_pd_r + scroll_width, 'overflow': 'hidden'});
-			$(header).css({'padding-right': header_pd_r + scroll_width});
-			console.log($(document).height());
-			$(body).addClass('xy-hidden');
-			console.log($(document).height());
+			if ($(body).css('overflow') != 'hidden') {
+				console.log('scrollbar dancing: start: 0');
+				$(body).css({'overflow': 'auto'});
+				doc_width_before = $(document).width();
+				$(body).css({'overflow': 'hidden', 'padding-right':'24px'});
+				doc_width_after = $(document).width();
+				$(body).css({'overflow': 'auto'});
+				scrollbar_width = doc_width_after - doc_width_before;
+				//scrollbar_width = getScrollbarWidth();
+				if (!scrollbar_width)  { scrollbar_width  = 0; }
+				if (!body_pd_r)        { body_pd_r        = 0; }
+				if (!header_pd_r)      { header_pd_r      = 0; }
+				$(body).css({'padding-right': body_pd_r + scrollbar_width, 'overflow': 'hidden'});
+				$(header).css({'padding-right': header_pd_r + scrollbar_width});
+				$(body).addClass('xy-hidden');
+				console.log(scrollbar_width);
+				console.log('scrollbar dancing: start: 1');
+			}
 			
 		}
 		else if (state == 'end') {
 			
+			console.log('scrollbar dancing: end: 0');
 			if (!body_pd_r)        { body_pd_r        = 0; }
 			if (!header_pd_r)      { header_pd_r      = 0; }
-			console.log($(document).height());
-			$(body).removeClass('xy-hidden');
-			console.log($(document).height());
 			$(body).css({'padding-right': body_pd_r, 'overflow': 'auto'});
-			console.log($(document).height());
 			$(header).css({'padding-right': header_pd_r});
-			console.log($(document).height());
+			$(body).removeClass('xy-hidden');
+			console.log('scrollbar dancing: end: 1');
 			
 		}
 		
@@ -349,7 +241,7 @@ function getScrollbarWidth(){
 	return 24;
 
 };
-// / SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
+// / BODY SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
 
 
 
