@@ -17,10 +17,9 @@
     +  CS:  Good Vars
     +  CS:  Themes
     ~  XX:  Menu:
-            ~  Scroll on Bottom
             ~  Overlay
-            -  Tabindex
             -  Alt Icons
+            -  Tabindex
             -  List Icons
             -  Design
     -  XX:  Glyph Icons
