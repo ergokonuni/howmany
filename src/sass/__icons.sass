@@ -22,6 +22,49 @@
 		.line,
 		.dot
 			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .20))'};
+	.icon--glyph
+		&:before
+			display: block
+			content: ""
+			width: 60%
+			height: 2px
+			transform: rotate(0deg) scale(1.5, 1.5)
+			opacity: 0
+			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+			transition: all .25s var(--bezier)
+			transition-delay: .1s
+			position: absolute
+			top: calc(50% - 1px)
+			left: 20%
+			@media only screen and (min-width : 1500px)
+				height: 3px
+		&:after
+			display: block
+			content: ""
+			width: 60%
+			height: 2px
+			transform: rotate(90deg) scale(1.5, 1.5)
+			opacity: 0
+			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+			transition: all .25s var(--bezier)
+			position: absolute
+			top: calc(50% - 1px)
+			left: 20%
+			@media only screen and (min-width : 1500px)
+				height: 3px
+	&.alt
+		.icon--glyph
+			.line,
+			.dot
+				opacity: 0
+			&:before
+				transition-delay: 0s
+				transform: rotate(-45deg) scale(1, 1)
+				opacity: 1
+			&:after
+				transition-delay: .1s
+				transform: rotate(45deg) scale(1, 1)
+				opacity: 1
 
 
 
@@ -33,7 +76,7 @@
 		width: 70%
 		height: 2px
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
-		transition: all .175s ease-in-out
+		transition: all .25s var(--bezier)
 		position: absolute
 		left: 15%
 		@media only screen and (min-width : 1500px)
@@ -57,6 +100,28 @@
 			top: calc(50% + 6px)
 
 
+// .i--close
+.i--close
+	
+	.line
+		display: block
+		width: 60%
+		height: 2px
+		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
+		transition: all .25s var(--bezier)
+		position: absolute
+		top: calc(50% - 1px)
+		left: 20%
+		@media only screen and (min-width : 1500px)
+			height: 3px
+	
+	.l-1
+		transform: rotate(-45deg)
+	
+	.l-2
+		transform: rotate(45deg)
+
+
 
 // .i--back
 .i--back
@@ -66,7 +131,7 @@
 		width: 70%
 		height: 2px
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
-		transition: all .175s ease-in-out
+		transition: all .25s var(--bezier)
 		position: absolute
 		left: 15%
 		@media only screen and (min-width : 1500px)
@@ -104,7 +169,7 @@
 		height: 4px
 		border-radius: 50%
 		background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
-		transition: all .175s ease-in-out
+		transition: all .25s var(--bezier)
 		position: absolute
 		left: calc(50% - 2px)
 		@media only screen and (min-width : 1500px)

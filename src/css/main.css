@@ -1384,14 +1384,65 @@ fieldset {
   .icon--holder:hover .line,
   .icon--holder:hover .dot {
     background-color: rgba(var(--key-color), calc(var(--key-alpha) + .20)); }
+  .icon--holder .icon--glyph:before {
+    display: block;
+    content: "";
+    width: 60%;
+    height: 2px;
+    -webkit-transform: rotate(0deg) scale(1.5, 1.5);
+            transform: rotate(0deg) scale(1.5, 1.5);
+    opacity: 0;
+    background-color: rgba(var(--key-color), calc(var(--key-alpha)));
+    -webkit-transition: all 0.25s var(--bezier);
+    transition: all 0.25s var(--bezier);
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 20%; }
+    @media only screen and (min-width: 1500px) {
+      .icon--holder .icon--glyph:before {
+        height: 3px; } }
+  .icon--holder .icon--glyph:after {
+    display: block;
+    content: "";
+    width: 60%;
+    height: 2px;
+    -webkit-transform: rotate(90deg) scale(1.5, 1.5);
+            transform: rotate(90deg) scale(1.5, 1.5);
+    opacity: 0;
+    background-color: rgba(var(--key-color), calc(var(--key-alpha)));
+    -webkit-transition: all 0.25s var(--bezier);
+    transition: all 0.25s var(--bezier);
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 20%; }
+    @media only screen and (min-width: 1500px) {
+      .icon--holder .icon--glyph:after {
+        height: 3px; } }
+  .icon--holder.alt .icon--glyph .line,
+  .icon--holder.alt .icon--glyph .dot {
+    opacity: 0; }
+  .icon--holder.alt .icon--glyph:before {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transform: rotate(-45deg) scale(1, 1);
+            transform: rotate(-45deg) scale(1, 1);
+    opacity: 1; }
+  .icon--holder.alt .icon--glyph:after {
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
+    -webkit-transform: rotate(45deg) scale(1, 1);
+            transform: rotate(45deg) scale(1, 1);
+    opacity: 1; }
 
 .i--menu .line {
   display: block;
   width: 70%;
   height: 2px;
   background-color: rgba(var(--key-color), calc(var(--key-alpha)));
-  -webkit-transition: all .175s ease-in-out;
-  transition: all .175s ease-in-out;
+  -webkit-transition: all 0.25s var(--bezier);
+  transition: all 0.25s var(--bezier);
   position: absolute;
   left: 15%; }
   @media only screen and (min-width: 1500px) {
@@ -1419,13 +1470,35 @@ fieldset {
     .i--menu .l-3 {
       top: calc(50% + 6px); } }
 
+.i--close .line {
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: rgba(var(--key-color), calc(var(--key-alpha)));
+  -webkit-transition: all 0.25s var(--bezier);
+  transition: all 0.25s var(--bezier);
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 20%; }
+  @media only screen and (min-width: 1500px) {
+    .i--close .line {
+      height: 3px; } }
+
+.i--close .l-1 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.i--close .l-2 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
 .i--back .line {
   display: block;
   width: 70%;
   height: 2px;
   background-color: rgba(var(--key-color), calc(var(--key-alpha)));
-  -webkit-transition: all .175s ease-in-out;
-  transition: all .175s ease-in-out;
+  -webkit-transition: all 0.25s var(--bezier);
+  transition: all 0.25s var(--bezier);
   position: absolute;
   left: 15%; }
   @media only screen and (min-width: 1500px) {
@@ -1465,8 +1538,8 @@ fieldset {
   height: 4px;
   border-radius: 50%;
   background-color: rgba(var(--key-color), calc(var(--key-alpha)));
-  -webkit-transition: all .175s ease-in-out;
-  transition: all .175s ease-in-out;
+  -webkit-transition: all 0.25s var(--bezier);
+  transition: all 0.25s var(--bezier);
   position: absolute;
   left: calc(50% - 2px); }
   @media only screen and (min-width: 1500px) {

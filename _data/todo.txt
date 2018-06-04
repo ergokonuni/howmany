@@ -18,7 +18,7 @@
     +  CS:  Themes
     ~  XX:  Menu:
             ~  Overlay
-            -  Alt Icons
+            ~  Alt Icons
             -  Tabindex
             -  List Icons
             -  Design

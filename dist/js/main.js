@@ -123,6 +123,8 @@ function appSidebar__Init(){
 				clearTimeout(content_animTimeout);
 				
 				$(body).addClass('xy-hidden');
+				$(toggles).removeClass('alt');
+				$(toggle).addClass('alt');
 				
 				if ($(sidebars + '.isVisible').length < 1) {
 					$(overlay).removeClass('isNone').addClass('isBlock');
@@ -147,7 +149,7 @@ function appSidebar__Init(){
 					$(sidebars + '.major').addClass('x2');
 					$(content).removeClass('toCenter toRight').addClass('toLeft');
 				}
-
+				
 			}
 			else if ($(sidebar).hasClass('isVisible')) {
 				
@@ -159,6 +161,7 @@ function appSidebar__Init(){
 				$(sidebars).removeClass('x2');
 				$(content).removeClass('toLeft toRight').addClass('toCenter');
 				$(overlay).removeClass('isVisible').addClass('isHidden');
+				$(toggles).removeClass('alt');
 				
 				anim_time = 0
 				anim_times = $(overlay).css('transition-duration');
