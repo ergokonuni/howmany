@@ -1401,13 +1401,13 @@ fieldset {
   .icon--holder .icon--glyph:before {
     -webkit-transition-delay: .1s;
             transition-delay: .1s;
-    -webkit-transform: rotate(0deg) scale(1.5, 1.5);
-            transform: rotate(0deg) scale(1.5, 1.5); }
+    -webkit-transform: rotate(25deg) scale(1, 1);
+            transform: rotate(25deg) scale(1, 1); }
   .icon--holder .icon--glyph:after {
     -webkit-transition-delay: 0;
             transition-delay: 0;
-    -webkit-transform: rotate(90deg) scale(1.5, 1.5);
-            transform: rotate(90deg) scale(1.5, 1.5); }
+    -webkit-transform: rotate(115deg) scale(1, 1);
+            transform: rotate(115deg) scale(1, 1); }
   .icon--holder.alt .icon--glyph .line,
   .icon--holder.alt .icon--glyph .dot {
     opacity: 0; }
@@ -1459,16 +1459,16 @@ fieldset {
       top: calc(50% + 6px); } }
 
 .i--menu.alt .l-1 {
-  -webkit-transform: scale(0.65, 0.65) translate(0, 2px);
-          transform: scale(0.65, 0.65) translate(0, 2px); }
+  -webkit-transform: scale(0.5, 0.5) translate(0, 3px);
+          transform: scale(0.5, 0.5) translate(0, 3px); }
 
 .i--menu.alt .l-2 {
-  -webkit-transform: scale(0.65, 0.65);
-          transform: scale(0.65, 0.65); }
+  -webkit-transform: scale(0.5, 0.5);
+          transform: scale(0.5, 0.5); }
 
 .i--menu.alt .l-3 {
-  -webkit-transform: scale(0.65, 0.65) translate(0, -2px);
-          transform: scale(0.65, 0.65) translate(0, -2px); }
+  -webkit-transform: scale(0.5, 0.5) translate(0, -3px);
+          transform: scale(0.5, 0.5) translate(0, -3px); }
 
 .i--close .line {
   display: block;
