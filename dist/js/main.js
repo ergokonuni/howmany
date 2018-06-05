@@ -100,21 +100,25 @@ function appSidebar__Init(){
 	content   = '.page';
 	error     =  false;
 	var content_animTimeout, overlay_animTimeout;
-
+	
 	// Add Click Event to Sidebar Toggle
 	$(toggles).on('click', function(){
-
+		
 		// Vars
 		toggle  =  this;
 		sidebar = '#' + $(toggle).attr('data-sidebar-id');
 		overlay = '#' + $(toggle).attr('data-overlay-id');
-
+		
 		// Check for elements exist
 		if (elementExist([sidebar, overlay, content, header, body])) {
-
+			
 			if (!$(sidebar).hasClass('isVisible')) {
 				
 				// Sidebar is Hidden. Showing it...
+				
+				$(overlay).off().on('click', function(){
+					$(toggle).trigger('click');
+				});
 				
 				if ($(sidebars + '.isVisible').length < 1) {
 					bodyScrollbarDancing('start');
