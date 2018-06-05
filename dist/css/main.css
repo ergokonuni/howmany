@@ -1405,14 +1405,16 @@ fieldset {
     -webkit-transform: rotate(0deg) scale(1.5, 1.5);
             transform: rotate(0deg) scale(1.5, 1.5); }
   .icon--holder .icon--glyph:after {
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
     -webkit-transform: rotate(90deg) scale(1.5, 1.5);
             transform: rotate(90deg) scale(1.5, 1.5); }
   .icon--holder.alt .icon--glyph .line,
   .icon--holder.alt .icon--glyph .dot {
     opacity: 0; }
   .icon--holder.alt .icon--glyph:before {
-    -webkit-transition-delay: .0s;
-            transition-delay: .0s;
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
     -webkit-transform: rotate(-45deg) scale(1, 1);
             transform: rotate(-45deg) scale(1, 1);
     opacity: 1; }
@@ -1458,16 +1460,16 @@ fieldset {
       top: calc(50% + 6px); } }
 
 .i--menu.alt .l-1 {
-  -webkit-transform: scale(0.75, 0.75) translate(0, 2px);
-          transform: scale(0.75, 0.75) translate(0, 2px); }
+  -webkit-transform: scale(0.65, 0.65) translate(0, 2px);
+          transform: scale(0.65, 0.65) translate(0, 2px); }
 
 .i--menu.alt .l-2 {
-  -webkit-transform: scale(0.75, 0.75);
-          transform: scale(0.75, 0.75); }
+  -webkit-transform: scale(0.65, 0.65);
+          transform: scale(0.65, 0.65); }
 
 .i--menu.alt .l-3 {
-  -webkit-transform: scale(0.75, 0.75) translate(0, -2px);
-          transform: scale(0.75, 0.75) translate(0, -2px); }
+  -webkit-transform: scale(0.65, 0.65) translate(0, -2px);
+          transform: scale(0.65, 0.65) translate(0, -2px); }
 
 .i--close .line {
   display: block;
@@ -1541,6 +1543,19 @@ fieldset {
   transition: all 0.25s var(--bezier);
   position: absolute;
   left: calc(50% - 2px); }
+  .i--more .dot:before, .i--more .dot:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(var(--key-color), calc(var(--key-alpha)));
+    -webkit-transition: all 0.25s var(--bezier);
+    transition: all 0.25s var(--bezier);
+    oapcity: 0;
+    position: absolute;
+    left: 0;
+    top: 0; }
   @media only screen and (min-width: 1500px) {
     .i--more .dot {
       width: 6px;
@@ -1563,16 +1578,16 @@ fieldset {
       top: calc(50% + 7px); } }
 
 .i--more.alt .d-1 {
-  -webkit-transform: scale(0.75, 0.75) translate(0, 2px);
-          transform: scale(0.75, 0.75) translate(0, 2px); }
+  -webkit-transform: scale(0.65, 0.65) translate(0, 2px);
+          transform: scale(0.65, 0.65) translate(0, 2px); }
 
 .i--more.alt .d-2 {
-  -webkit-transform: scale(0.75, 0.75);
-          transform: scale(0.75, 0.75); }
+  -webkit-transform: scale(0.65, 0.65);
+          transform: scale(0.65, 0.65); }
 
 .i--more.alt .d-3 {
-  -webkit-transform: scale(0.75, 0.75) translate(0, -2px);
-          transform: scale(0.75, 0.75) translate(0, -2px); }
+  -webkit-transform: scale(0.65, 0.65) translate(0, -2px);
+          transform: scale(0.65, 0.65) translate(0, -2px); }
 
 @-webkit-keyframes link_focus {
   0% {
