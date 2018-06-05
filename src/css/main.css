@@ -1384,48 +1384,35 @@ fieldset {
   .icon--holder:hover .line,
   .icon--holder:hover .dot {
     background-color: rgba(var(--key-color), calc(var(--key-alpha) + .20)); }
-  .icon--holder .icon--glyph:before {
+  .icon--holder .icon--glyph:before, .icon--holder .icon--glyph:after {
     display: block;
     content: "";
     width: 60%;
     height: 2px;
-    -webkit-transform: rotate(0deg) scale(1.5, 1.5);
-            transform: rotate(0deg) scale(1.5, 1.5);
     opacity: 0;
     background-color: rgba(var(--key-color), calc(var(--key-alpha)));
     -webkit-transition: all 0.25s var(--bezier);
     transition: all 0.25s var(--bezier);
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 20%; }
+    @media only screen and (min-width: 1500px) {
+      .icon--holder .icon--glyph:before, .icon--holder .icon--glyph:after {
+        height: 3px; } }
+  .icon--holder .icon--glyph:before {
     -webkit-transition-delay: .1s;
             transition-delay: .1s;
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 20%; }
-    @media only screen and (min-width: 1500px) {
-      .icon--holder .icon--glyph:before {
-        height: 3px; } }
+    -webkit-transform: rotate(0deg) scale(1.5, 1.5);
+            transform: rotate(0deg) scale(1.5, 1.5); }
   .icon--holder .icon--glyph:after {
-    display: block;
-    content: "";
-    width: 60%;
-    height: 2px;
     -webkit-transform: rotate(90deg) scale(1.5, 1.5);
-            transform: rotate(90deg) scale(1.5, 1.5);
-    opacity: 0;
-    background-color: rgba(var(--key-color), calc(var(--key-alpha)));
-    -webkit-transition: all 0.25s var(--bezier);
-    transition: all 0.25s var(--bezier);
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 20%; }
-    @media only screen and (min-width: 1500px) {
-      .icon--holder .icon--glyph:after {
-        height: 3px; } }
+            transform: rotate(90deg) scale(1.5, 1.5); }
   .icon--holder.alt .icon--glyph .line,
   .icon--holder.alt .icon--glyph .dot {
     opacity: 0; }
   .icon--holder.alt .icon--glyph:before {
-    -webkit-transition-delay: 0s;
-            transition-delay: 0s;
+    -webkit-transition-delay: .0s;
+            transition-delay: .0s;
     -webkit-transform: rotate(-45deg) scale(1, 1);
             transform: rotate(-45deg) scale(1, 1);
     opacity: 1; }
@@ -1469,6 +1456,18 @@ fieldset {
   @media only screen and (min-width: 1500px) {
     .i--menu .l-3 {
       top: calc(50% + 6px); } }
+
+.i--menu.alt .l-1 {
+  -webkit-transform: scale(0.75, 0.75) translate(0, 2px);
+          transform: scale(0.75, 0.75) translate(0, 2px); }
+
+.i--menu.alt .l-2 {
+  -webkit-transform: scale(0.75, 0.75);
+          transform: scale(0.75, 0.75); }
+
+.i--menu.alt .l-3 {
+  -webkit-transform: scale(0.75, 0.75) translate(0, -2px);
+          transform: scale(0.75, 0.75) translate(0, -2px); }
 
 .i--close .line {
   display: block;
@@ -1562,6 +1561,18 @@ fieldset {
   @media only screen and (min-width: 1500px) {
     .i--more .d-3 {
       top: calc(50% + 7px); } }
+
+.i--more.alt .d-1 {
+  -webkit-transform: scale(0.75, 0.75) translate(0, 2px);
+          transform: scale(0.75, 0.75) translate(0, 2px); }
+
+.i--more.alt .d-2 {
+  -webkit-transform: scale(0.75, 0.75);
+          transform: scale(0.75, 0.75); }
+
+.i--more.alt .d-3 {
+  -webkit-transform: scale(0.75, 0.75) translate(0, -2px);
+          transform: scale(0.75, 0.75) translate(0, -2px); }
 
 @-webkit-keyframes link_focus {
   0% {

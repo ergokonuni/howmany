@@ -205,7 +205,6 @@ function bodyScrollbarDancing(state){
 		if (state == 'start') {
 			
 			if ($(body).css('overflow') != 'hidden') {
-				console.log('scrollbar dancing: start: 0');
 				if (smallPage()) {
 					scrollbar_width = 0;
 				} else {
@@ -216,19 +215,15 @@ function bodyScrollbarDancing(state){
 				$(body).css({'padding-right':body_pd_r + scrollbar_width, 'overflow':'hidden'});
 				$(header).css({'padding-right':header_pd_r + scrollbar_width});
 				$(body).addClass('xy-hidden');
-				console.log(scrollbar_width);
-				console.log('scrollbar dancing: start: 1');
 			}
 			
 		}
 		else if (state == 'end') {
 			
-			console.log('scrollbar dancing: end: 0');
 			if (!body_pd_r)   { body_pd_r   = 0; }
 			if (!header_pd_r) { header_pd_r = 0; }
 			content_width = $(content).width();
 			$(content).css({'width':content_width});
-			console.log(content_width);
 			$(body).css({'padding-right':body_pd_r, 'overflow':'auto', 'overflow-x':'hidden'});
 			$(header).css({'padding-right':header_pd_r});
 			$(body).removeClass('xy-hidden');
@@ -236,7 +231,6 @@ function bodyScrollbarDancing(state){
 				$(content).css({'width':'auto'});
 				$(body).css({'overflow-x':'auto'});
 			}, 20);
-			console.log('scrollbar dancing: end: 1');
 			
 		}
 		

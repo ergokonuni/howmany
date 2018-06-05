@@ -23,27 +23,12 @@
 		.dot
 			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha) + .20))'};
 	.icon--glyph
-		&:before
-			display: block
-			content: ""
-			width: 60%
-			height: 2px
-			transform: rotate(0deg) scale(1.5, 1.5)
-			opacity: 0
-			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
-			transition: all .25s var(--bezier)
-			transition-delay: .1s
-			position: absolute
-			top: calc(50% - 1px)
-			left: 20%
-			@media only screen and (min-width : 1500px)
-				height: 3px
+		&:before,
 		&:after
 			display: block
 			content: ""
 			width: 60%
 			height: 2px
-			transform: rotate(90deg) scale(1.5, 1.5)
 			opacity: 0
 			background-color: #{'rgba(var(--key-color), calc(var(--key-alpha)))'};
 			transition: all .25s var(--bezier)
@@ -52,13 +37,18 @@
 			left: 20%
 			@media only screen and (min-width : 1500px)
 				height: 3px
+		&:before
+			transition-delay: .1s
+			transform: rotate(0deg) scale(1.5, 1.5)
+		&:after
+			transform: rotate(90deg) scale(1.5, 1.5)
 	&.alt
 		.icon--glyph
 			.line,
 			.dot
 				opacity: 0
 			&:before
-				transition-delay: 0s
+				transition-delay: .0s
 				transform: rotate(-45deg) scale(1, 1)
 				opacity: 1
 			&:after
@@ -98,6 +88,15 @@
 			top: calc(50% + 5px)
 		@media only screen and (min-width : 1500px)
 			top: calc(50% + 6px)
+	
+	&.alt
+		
+		.l-1
+			transform: scale(.75, .75) translate(0, 2px)
+		.l-2
+			transform: scale(.75, .75)
+		.l-3
+			transform: scale(.75, .75) translate(0, -2px)
 
 
 // .i--close
@@ -189,3 +188,12 @@
 		top: calc(50% + 5px)
 		@media only screen and (min-width : 1500px)
 			top: calc(50% + 7px)
+	
+	&.alt
+		
+		.d-1
+			transform: scale(.75, .75) translate(0, 2px)
+		.d-2
+			transform: scale(.75, .75)
+		.d-3
+			transform: scale(.75, .75) translate(0, -2px)
