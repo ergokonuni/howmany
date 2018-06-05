@@ -9,11 +9,11 @@
 	color: #{'rgba(var(--key-color), calc(var(--key-alpha) - .33))'};
 	border-bottom: 1px solid #{'rgba(var(--key-color), .08)'};
 	background-color: #{'rgb(var(--bg-color))'};
+	background-color: #fff
 	transition: transform .5s var(--bezier), opacity .75s var(--bezier)
 	position: fixed
 	left: 0
-	top: calc(var(--header-height) * -1)
-	transform: translate(0, var(--header-height))
+	top: 0
 	z-index: 100
 	display: grid
 	grid-template-columns: min-content auto min-content
@@ -24,10 +24,10 @@
 	align-items: stretch
 	&.isVisible
 		opacity: 1
-		transform: translate(0, var(--header-height))
+		transform: translate(0, 0)
 	&.isHidden
 		opacity: 0
-		transform: translate(0, 0)
+		transform: translate(0, calc(var(--header-height) * -1))
 	
 	
 	
