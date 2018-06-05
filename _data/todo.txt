@@ -17,8 +17,8 @@
     +  CS:  Good Vars
     +  CS:  Themes
     ~  XX:  Menu:
-            ~  Overlay
             ~  Alt Icons
+            ~  Overlay
             -  Tabindex
             -  List Icons
             -  Design
