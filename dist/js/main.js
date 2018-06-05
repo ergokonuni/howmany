@@ -122,6 +122,7 @@ function appSidebar__Init(){
 				
 				if ($(sidebars + '.isVisible').length < 1) {
 					bodyScrollbarDancing('start');
+					tabIndexDancing('start');
 				}
 				
 				clearTimeout(content_animTimeout);
@@ -181,6 +182,7 @@ function appSidebar__Init(){
 				content_animTimeout = setTimeout(function(){
 
 					bodyScrollbarDancing('end');
+					tabIndexDancing('end');
 
 					$(overlay).removeClass('isBlock').addClass('isNone');
 					$(body).removeClass('xy-hidden');
@@ -280,6 +282,51 @@ function smallPage(){
 
 };
 // / BODY SCROLLBAR DANCING ON DESKTOP WITH WINDOWS (OMG!)
+
+
+
+
+
+
+// TAB-INDEX DANCING
+function tabIndexDancing(state){
+	
+	if (state == 'start') {
+		
+		// Start
+		$(content).find('a').each(function(){
+			
+			tabindex      = $(this).attr('tabindex');
+			data_tabindex = $(this).attr('data-tabindex');
+			
+			if (tabindex && tabindex != '') {
+				$(this).attr('data-tabindex', tabindex);
+			}
+			$(this).attr('tabindex', '-1');
+			
+		});
+		
+	}
+	else if (state == 'end') {
+		
+		// End
+		$(content).find('a').each(function(){
+			
+			tabindex      = $(this).attr('tabindex');
+			data_tabindex = $(this).attr('data-tabindex');
+			
+			if (data_tabindex && data_tabindex != '') {
+				$(this).attr('tabindex', data_tabindex);
+			} else {
+				$(this).attr('tabindex', '');
+			}
+			
+		});
+		
+	}
+
+};
+// / TAB-INDEX DANCING
 
 
 
