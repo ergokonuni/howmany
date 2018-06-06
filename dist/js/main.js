@@ -305,7 +305,7 @@ function tabIndexDancing(elm_disabled, elm_enabled){
 			
 			$(this).addClass('tabindex--disabled');
 			console.log('D: ' + $(this).attr('class'));
-			$(this).find('a').each(function(){
+			$(this).find('a, input, textarea, button, [tabindex]').each(function(){
 
 				tabindex      = $(this).attr('tabindex');
 				data_tabindex = $(this).attr('data-tabindex');
@@ -329,7 +329,7 @@ function tabIndexDancing(elm_disabled, elm_enabled){
 			
 			$(this).removeClass('tabindex--disabled');
 			console.log('A: ' + $(this).attr('class'));
-			$(this).find('a').each(function(){
+			$(this).find('a, input, textarea, button, [tabindex]').each(function(){
 				
 				tabindex      = $(this).attr('tabindex');
 				data_tabindex = $(this).attr('data-tabindex');
@@ -343,10 +343,15 @@ function tabIndexDancing(elm_disabled, elm_enabled){
 			});
 			
 		}
-		if ($(this).hasClass('app--sidebar minor')) {
-			$(header).find('.i--more').attr('tabindex', '2');
-		} else {
-			$(header).find('.i--more').removeAttr('tabindex');
+		
+		if (!$(header).hasClass('tabindex--hidden')) {
+			if ($(this).hasClass('app--sidebar major')) {
+				$(header).find('.i--more').attr('data-tabindex', $(header).find('.i--more').attr('tabindex'));
+				$(header).find('.i--more').removeAttr('tabindex');
+			} else {
+				$(header).find('.i--more').attr('tabindex', $(header).find('.i--more').attr('data-tabindex'));
+				$(header).find('.i--more').removeAttr('data-tabindex');
+			}
 		}
 		
 	});
