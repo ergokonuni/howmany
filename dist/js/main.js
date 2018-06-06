@@ -16,6 +16,8 @@ $(document).ready(function(){
 html        = 'html';
 body        = 'body';
 header      = '.app--header';
+sidebars    = '.app--sidebar';
+content     = '.page';
 header_pd_r =  parseFloat($(header).css('padding-right'));
 body_pd_r   =  parseFloat($(body).css('padding-right'));
 // / GLOBAL VARS
@@ -96,10 +98,10 @@ function appSidebar__Init(){
 
 	// Vars
 	toggles   = '[data-sidebar-id]';
-	sidebars  = '.app--sidebar';
-	content   = '.page';
-	error     =  false;
 	var content_animTimeout, overlay_animTimeout;
+	
+	// Sidebar Items Tabindex Init
+	tabIndexDancing('init');
 	
 	// Add Click Event to Sidebar Toggle
 	$(toggles).on('click', function(){
@@ -116,7 +118,7 @@ function appSidebar__Init(){
 				
 				// Sidebar is Hidden. Showing it...
 				
-				$(overlay).off().on('click', function(){
+				$(overlay).off('click').on('click', function(){
 					$(toggle).trigger('click');
 				});
 				
@@ -291,6 +293,23 @@ function smallPage(){
 // TAB-INDEX DANCING
 function tabIndexDancing(state){
 	
+	if (state == 'init') {
+		
+		// Init
+		$(sidebars).find('a').each(function(){
+			
+			tabindex      = $(this).attr('tabindex');
+			data_tabindex = $(this).attr('data-tabindex');
+			
+			if (tabindex && tabindex != '') {
+				$(this).attr('data-tabindex', tabindex);
+			}
+			$(this).attr('tabindex', '-1');
+			
+		});
+		
+	}
+	
 	if (state == 'start') {
 		
 		// Start
@@ -307,7 +326,8 @@ function tabIndexDancing(state){
 		});
 		
 	}
-	else if (state == 'end') {
+	
+	if (state == 'end') {
 		
 		// End
 		$(content).find('a').each(function(){
@@ -318,13 +338,13 @@ function tabIndexDancing(state){
 			if (data_tabindex && data_tabindex != '') {
 				$(this).attr('tabindex', data_tabindex);
 			} else {
-				$(this).attr('tabindex', '');
+				$(this).removeAttr('tabindex', '');
 			}
 			
 		});
 		
 	}
-
+	
 };
 // / TAB-INDEX DANCING
 
@@ -336,18 +356,18 @@ function tabIndexDancing(state){
 // ELEMENT EXIST
 function elementExist(elm){
 	
-	var status = true;
+	var elm_exist = true;
 	
 	for (i = 0; i < elm.length; i++) {
 		
 		if ($(elm[i]).length < 1) {
 			console.log("Can't find Element: " + elm[i]);
-			status = false;
+			elm_exist = false;
 		}
 
 	}
 	
-	return status;
+	return elm_exist;
 
 };
 // / ELEMENT EXIST
@@ -360,7 +380,7 @@ function elementExist(elm){
 // TEXTAREA AUTORESIZE
 function textareaAutoresize__Init(){
 
-	textarea = $('textarea[autoresize="on"]');
+	textarea = $('textarea[data-autoresize="on"]');
 
 	textarea.each(function(){
 		$(this).on('input keydown keyup change', function(){
