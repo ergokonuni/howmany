@@ -101,7 +101,7 @@ function appSidebar__Init(){
 	var content_animTimeout, overlay_animTimeout;
 	
 	// Sidebar Items Tabindex Init
-	tabIndexDancing('init');
+	tabIndexDancing($(sidebars));
 	
 	// Add Click Event to Sidebar Toggle
 	$(toggles).on('click', function(){
@@ -124,9 +124,9 @@ function appSidebar__Init(){
 				
 				if ($(sidebars + '.isVisible').length < 1) {
 					bodyScrollbarDancing('start');
-					tabIndexDance([$(sidebars), $(content)], [$(sidebar)]);
+					tabIndexDancing($(content), $(sidebar));
 				} else {
-					tabIndexDance([$(sidebars + '.isVisible')], [$(sidebar)]);
+					tabIndexDancing($(sidebars), $(sidebar));
 				}
 				
 				clearTimeout(content_animTimeout);
@@ -171,6 +171,7 @@ function appSidebar__Init(){
 				$(content).removeClass('toLeft toRight').addClass('toCenter');
 				$(overlay).removeClass('isVisible').addClass('isHidden');
 				$(toggles).removeClass('alt');
+				tabIndexDancing($(sidebar), $(content));
 				
 				anim_time = 0
 				anim_times = $(overlay).css('transition-duration');
@@ -186,8 +187,8 @@ function appSidebar__Init(){
 				content_animTimeout = setTimeout(function(){
 
 					bodyScrollbarDancing('end');
-					tabIndexDance([$(sidebars)], [$(content)]);
 
+					$(content).removeClass('toCenter');
 					$(overlay).removeClass('isBlock').addClass('isNone');
 					$(body).removeClass('xy-hidden');
 
@@ -293,99 +294,63 @@ function smallPage(){
 
 
 // TAB-INDEX DANCING
-function tabIndexDance(elm_disabled, elm_active){
-
-	//for (i = 0; i < elm_disabled.length, i++) {
-	//}
+function tabIndexDancing(elm_disabled, elm_enabled){
 	
 	$(elm_disabled).each(function(){
 		
-		$(this).find('a').each(function(){
+		// Disabling Tabindex in Specified Elements
+		console.log('------------------');
+		console.log('D: ' + $(this).attr('class'));
+		if (!$(this).hasClass('tabindex--disabled')) {
+			
+			$(this).addClass('tabindex--disabled');
+			console.log('D: ' + $(this).attr('class'));
+			$(this).find('a').each(function(){
 
-			tabindex      = $(this).attr('tabindex');
-			data_tabindex = $(this).attr('data-tabindex');
+				tabindex      = $(this).attr('tabindex');
+				data_tabindex = $(this).attr('data-tabindex');
+				
+				if (tabindex && tabindex != '') {
+					$(this).attr('data-tabindex', tabindex);
+				}
+				$(this).attr('tabindex', '-1');
+				
+			});
 			
-			if (tabindex && tabindex != '') {
-				$(this).attr('data-tabindex', tabindex);
-			}
-			$(this).attr('tabindex', '-1');
+		}
+		
+	});
+	
+	$(elm_enabled).each(function(){
+		
+		// Enabling Tabindex in Specified Elements
+		console.log('A: ' + $(this).attr('class'));
+		if ($(this).hasClass('tabindex--disabled')) {
 			
-		});
+			$(this).removeClass('tabindex--disabled');
+			console.log('A: ' + $(this).attr('class'));
+			$(this).find('a').each(function(){
+				
+				tabindex      = $(this).attr('tabindex');
+				data_tabindex = $(this).attr('data-tabindex');
+				
+				if (data_tabindex && data_tabindex != '') {
+					$(this).attr('tabindex', data_tabindex);
+				} else {
+					$(this).removeAttr('tabindex');
+				}
+				
+			});
+			
+		}
+		if ($(this).hasClass('app--sidebar minor')) {
+			$(header).find('.i--more').attr('tabindex', '2');
+		} else {
+			$(header).find('.i--more').removeAttr('tabindex');
+		}
 		
 	});
 
-	$(elm_active).each(function(){
-
-		$(this).find('a').each(function(){
-			
-			tabindex      = $(this).attr('tabindex');
-			data_tabindex = $(this).attr('data-tabindex');
-			
-			if (data_tabindex && data_tabindex != '') {
-				$(this).attr('tabindex', data_tabindex);
-			} else {
-				$(this).removeAttr('tabindex');
-			}
-			
-		});
-		
-	});
-
-};
-function tabIndexDancing(state){
-	
-	if (state == 'init') {
-		
-		// Init
-		$(sidebars).find('a').each(function(){
-			
-			tabindex      = $(this).attr('tabindex');
-			data_tabindex = $(this).attr('data-tabindex');
-			
-			if (tabindex && tabindex != '') {
-				$(this).attr('data-tabindex', tabindex);
-			}
-			$(this).attr('tabindex', '-1');
-			
-		});
-		
-	}
-	
-	if (state == 'start') {
-		
-		// Start
-		$(content).find('a').each(function(){
-			
-			tabindex      = $(this).attr('tabindex');
-			data_tabindex = $(this).attr('data-tabindex');
-			
-			if (tabindex && tabindex != '') {
-				$(this).attr('data-tabindex', tabindex);
-			}
-			$(this).attr('tabindex', '-1');
-			
-		});
-		
-	}
-	
-	if (state == 'end') {
-		
-		// End
-		$(content).find('a').each(function(){
-			
-			tabindex      = $(this).attr('tabindex');
-			data_tabindex = $(this).attr('data-tabindex');
-			
-			if (data_tabindex && data_tabindex != '') {
-				$(this).attr('tabindex', data_tabindex);
-			} else {
-				$(this).removeAttr('tabindex');
-			}
-			
-		});
-		
-	}
-	
 };
 // / TAB-INDEX DANCING
 
