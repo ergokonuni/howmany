@@ -124,7 +124,9 @@ function appSidebar__Init(){
 				
 				if ($(sidebars + '.isVisible').length < 1) {
 					bodyScrollbarDancing('start');
-					tabIndexDancing('start');
+					tabIndexDance([$(sidebars), $(content)], [$(sidebar)]);
+				} else {
+					tabIndexDance([$(sidebars + '.isVisible')], [$(sidebar)]);
 				}
 				
 				clearTimeout(content_animTimeout);
@@ -184,7 +186,7 @@ function appSidebar__Init(){
 				content_animTimeout = setTimeout(function(){
 
 					bodyScrollbarDancing('end');
-					tabIndexDancing('end');
+					tabIndexDance([$(sidebars)], [$(content)]);
 
 					$(overlay).removeClass('isBlock').addClass('isNone');
 					$(body).removeClass('xy-hidden');
@@ -291,6 +293,45 @@ function smallPage(){
 
 
 // TAB-INDEX DANCING
+function tabIndexDance(elm_disabled, elm_active){
+
+	//for (i = 0; i < elm_disabled.length, i++) {
+	//}
+	
+	$(elm_disabled).each(function(){
+		
+		$(this).find('a').each(function(){
+
+			tabindex      = $(this).attr('tabindex');
+			data_tabindex = $(this).attr('data-tabindex');
+			
+			if (tabindex && tabindex != '') {
+				$(this).attr('data-tabindex', tabindex);
+			}
+			$(this).attr('tabindex', '-1');
+			
+		});
+		
+	});
+
+	$(elm_active).each(function(){
+
+		$(this).find('a').each(function(){
+			
+			tabindex      = $(this).attr('tabindex');
+			data_tabindex = $(this).attr('data-tabindex');
+			
+			if (data_tabindex && data_tabindex != '') {
+				$(this).attr('tabindex', data_tabindex);
+			} else {
+				$(this).removeAttr('tabindex');
+			}
+			
+		});
+		
+	});
+
+};
 function tabIndexDancing(state){
 	
 	if (state == 'init') {
@@ -338,7 +379,7 @@ function tabIndexDancing(state){
 			if (data_tabindex && data_tabindex != '') {
 				$(this).attr('tabindex', data_tabindex);
 			} else {
-				$(this).removeAttr('tabindex', '');
+				$(this).removeAttr('tabindex');
 			}
 			
 		});
