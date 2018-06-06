@@ -299,12 +299,9 @@ function tabIndexDancing(elm_disabled, elm_enabled){
 	$(elm_disabled).each(function(){
 		
 		// Disabling Tabindex in Specified Elements
-		console.log('------------------');
-		console.log('D: ' + $(this).attr('class'));
 		if (!$(this).hasClass('tabindex--disabled')) {
 			
 			$(this).addClass('tabindex--disabled');
-			console.log('D: ' + $(this).attr('class'));
 			$(this).find('a, input, textarea, button, [tabindex]').each(function(){
 
 				tabindex      = $(this).attr('tabindex');
@@ -324,11 +321,9 @@ function tabIndexDancing(elm_disabled, elm_enabled){
 	$(elm_enabled).each(function(){
 		
 		// Enabling Tabindex in Specified Elements
-		console.log('A: ' + $(this).attr('class'));
 		if ($(this).hasClass('tabindex--disabled')) {
 			
 			$(this).removeClass('tabindex--disabled');
-			console.log('A: ' + $(this).attr('class'));
 			$(this).find('a, input, textarea, button, [tabindex]').each(function(){
 				
 				tabindex      = $(this).attr('tabindex');
