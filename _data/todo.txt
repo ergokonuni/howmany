@@ -16,7 +16,7 @@
     +  JS:  Gulp Config
     +  CS:  Good Vars
     +  CS:  Themes
-    +  XX:  Menu:
+    +  XX:  Menu
     ~  XX:  Font Icons
     -  XX:  SVG Icons
     -  XX:  PNG → SVG
