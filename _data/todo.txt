@@ -16,10 +16,8 @@
     +  JS:  Gulp Config
     +  CS:  Good Vars
     +  CS:  Themes
-    ~  XX:  Menu:
-            -  List Icons
-            -  Design
-    -  XX:  Glyph Icons
+    +  XX:  Menu:
+    ~  XX:  Font Icons
     -  XX:  SVG Icons
     -  XX:  PNG → SVG
     -  CS:  Good Ideas from Bootstrap CSS
