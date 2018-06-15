@@ -17,10 +17,11 @@
     +  CS:  Good Vars
     +  CS:  Themes
     +  XX:  Menu
-    ~  XX:  Font Icons
+    -  JS:  HTML Classes (br, sz, os, ori)
+    -  XX:  Menu Bugfix (mobile body width, page width auto)
+    -  XX:  Font Icons
     -  CS:  Good Ideas
     -  CS:  Pixel Ratio
-    -  JS:  HTML Classes (br, sz, os, ori)
     -  XX:  SVG Icons
     -  XX:  PNG → SVG
     -  CS:  Signin Form (from flex to css-grid)
