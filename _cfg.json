@@ -25,6 +25,9 @@
     },
     "data": {
       "root": "_data/"
+    },
+    "gulp": {
+      "root": "_gulp/"
     }
   }
 }

@@ -10,8 +10,8 @@ var uglify = require('gulp-uglify');
 gulp.task('js-libs', function(){
 	return gulp.src([
 		paths.libs.root + 'jquery/dist/jquery.slim.min.js',
+		//paths.libs.root + 'current-device/src/index.js',
 		//paths.libs.root + 'popper.js/dist/umd/popper.min.js',
-		//paths.libs.root + 'device.js/device.js',
 		//paths.libs.root + 'bootstrap/dist/js/bootstrap.min.js',
 		//paths.libs.root + 'bootstrap/dist/js/bootstrap.bundle.min.js',
 		//paths.libs.root + 'owl.carousel/dist/owl.carousel.js',

@@ -12,4 +12,5 @@ gulp.task('watch', ['sass', 'css-libs', 'js', 'js-libs', 'pug', 'html', 'img', '
 	gulp.watch(paths.src.js + '**/*.js', ['js']);
 	gulp.watch(paths.src.img + '**/*', ['img']);
 	gulp.watch(paths.src.fonts + '**/*', ['fonts']);
+	gulp.watch(paths.gulp.root + '**/*.js', ['js-libs']);
 });
