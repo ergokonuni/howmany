@@ -17,7 +17,7 @@
     +  CS:  Good Vars
     +  CS:  Themes
     +  XX:  Menu
-    -  JS:  HTML Classes (br, sz, os, ori)
+    ~  JS:  HTML Classes (br, dv, os, ori)
     -  XX:  Menu Bugfix (mobile body width, page width auto)
     -  XX:  Font Icons
     -  CS:  Good Ideas

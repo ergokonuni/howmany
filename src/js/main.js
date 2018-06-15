@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	
 	deviceOrientation__Init();
+	deviceOS__Init();
 	//appHeader__Init();
 	appSidebar__Init();
 	textareaAutoresize__Init();
@@ -51,6 +52,28 @@ $(window).on('resize', function(){
 	deviceOrientation__Init();
 });
 // / DEVICE ORIENTATION
+
+
+
+
+
+
+// DEVICE OS
+function deviceOS__Init(){
+	
+	var isMac = navigator.platform.toUpperCase().indexOf('MAC')!==-1;
+	var isWin = navigator.platform.toUpperCase().indexOf('WIN')!==-1;
+	var isLinux = navigator.platform.toUpperCase().indexOf('LINUX')!==-1;
+	var isAndroid = navigator.appVersion.toUpperCase().indexOf('ANDROID')!==-1;
+	
+	if (isMac) $(html).addClass('isMac');
+	if (isWin) $(html).addClass('isWin');
+	if (isLinux) $(html).addClass('isLinux');
+	if (isAndroid) $(html).addClass('isAndroid');
+	console.log('HTML Class: ' + $(html).attr('class'));
+
+};
+// / DEVICE OS
 
 
 
