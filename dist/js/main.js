@@ -4,6 +4,7 @@ $(document).ready(function(){
 	//appHeader__Init();
 	appSidebar__Init();
 	textareaAutoresize__Init();
+	
 	console.log('HTML Class: ' + $(html).attr('class'));
 
 });
