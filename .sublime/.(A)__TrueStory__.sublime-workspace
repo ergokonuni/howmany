@@ -85,7 +85,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/tpl/layout/__base.pug",
 			"settings":
 			{
-				"buffer_size": 842,
+				"buffer_size": 828,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -94,16 +94,8 @@
 			"file": "/D/OpenServer/domains/truestory/src/js/main.js",
 			"settings":
 			{
-				"buffer_size": 13285,
+				"buffer_size": 12755,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Work/.HTML/svita/.E-Shop 1.0/markup/app/js/main.js",
-			"settings":
-			{
-				"buffer_size": 6887,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +183,7 @@
 			"file": "/D/OpenServer/domains/truestory/src/sass/__scrollbar.sass",
 			"settings":
 			{
-				"buffer_size": 1887,
+				"buffer_size": 1895,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -420,6 +412,12 @@
 	],
 	"file_history":
 	[
+		"/D/Work/.HTML/svita/.E-Shop 1.0/markup/app/js/main.js",
+		"/D/OpenServer/domains/truestory/src/js/current-device.js",
+		"/D/OpenServer/domains/truestory/src/tpl/layout/js.pug",
+		"/D/OpenServer/domains/truestory/_cfg.json",
+		"/D/OpenServer/domains/truestory/_gulp/watch.js",
+		"/D/OpenServer/domains/truestory/_gulp/js-libs.js",
 		"/D/OpenServer/domains/truestory/src/tpl/layout/meta.pug",
 		"/D/OpenServer/domains/truestory/src/sass/partials/__base.sass",
 		"/D/OpenServer/domains/truestory/src/sass/partials/table.sass",
@@ -452,11 +450,9 @@
 		"/D/OpenServer/domains/truestory/README.md",
 		"/D/OpenServer/domains/truestory/gulpfile.js",
 		"/D/OpenServer/domains/truestory/_libs.info",
-		"/D/OpenServer/domains/truestory/_cfg.json",
 		"/D/OpenServer/domains/truestory/src/sass/main.sass",
 		"/D/OpenServer/domains/truestory/src/js/main.js",
 		"/D/OpenServer/domains/truestory/src/tpl/layout/css.pug",
-		"/D/OpenServer/domains/truestory/src/tpl/layout/js.pug",
 		"/D/OpenServer/domains/truestory/src/tpl/layout/favicon.pug",
 		"/D/OpenServer/domains/truestory/src/sass/form/selectbox.sass",
 		"/D/OpenServer/domains/truestory/dist/css/main.css",
@@ -479,7 +475,6 @@
 		"/D/OpenServer/domains/truestory/src/sass/__scrollbar.sass",
 		"/D/OpenServer/domains/truestory/src/tpl/layout/_app--header.pug",
 		"/D/OpenServer/domains/truestory/src/sass/__mixin.sass",
-		"/D/OpenServer/domains/truestory/_gulp/watch.js",
 		"/D/OpenServer/domains/truestory/_gulp/sass.js",
 		"/D/OpenServer/domains/truestory/_gulp/js.js",
 		"/D/OpenServer/domains/truestory/src/sass/print/_print.sass",
@@ -491,7 +486,6 @@
 		"/D/OpenServer/domains/truestory/_gulp/clear-cache.js",
 		"/D/OpenServer/domains/truestory/_gulp/remove-dist.js",
 		"/D/OpenServer/domains/truestory/_gulp/server.js",
-		"/D/OpenServer/domains/truestory/_gulp/js-libs.js",
 		"/D/OpenServer/domains/truestory/_gulp/img.js",
 		"/D/OpenServer/domains/truestory/_gulp/html.js",
 		"/D/OpenServer/domains/truestory/_gulp/css-libs.js",
@@ -545,13 +539,11 @@
 		"/D/OpenServer/domains/truestory/app/sass/partials/menu.sass",
 		"/D/OpenServer/domains/truestory/app/sass2/main.sass",
 		"/D/OpenServer/domains/truestory/app/sass/form/inputs.sass",
-		"/D/OpenServer/domains/truestory/app/sass/form/textarea.sass",
-		"/D/OpenServer/domains/truestory/app/sass/__scrollbar.sass",
-		"/D/OpenServer/domains/truestory/app/libs/normalize-css/normalize.css"
+		"/D/OpenServer/domains/truestory/app/sass/form/textarea.sass"
 	],
 	"find":
 	{
-		"height": 66.0
+		"height": 48.8
 	},
 	"find_in_files":
 	{
@@ -565,6 +557,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bodyScrollbarDancing",
+			"win",
 			"}\n",
 			"error",
 			"toggle",
@@ -690,9 +684,7 @@
 			"od",
 			"fff",
 			"bottom",
-			"22px",
-			"13px",
-			"ccc"
+			"22px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -896,7 +888,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -1074,7 +1066,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
@@ -1252,7 +1244,7 @@
 						"translation.y": 104.8,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1261,15 +1253,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								62,
+								62
 							]
 						],
 						"settings":
@@ -1429,7 +1421,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1438,15 +1430,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13285,
+						"buffer_size": 12755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1425,
-								1425
+								162,
+								162
 							]
 						],
 						"settings":
@@ -1459,24 +1451,24 @@
 								{
 									"1":
 									[
-										1551,
-										1552
+										4770,
+										4771
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1546,
-										1547
+										4761,
+										4762
 									]
 								},
 								"unmatched":
@@ -1547,8 +1539,8 @@
 								{
 									"1":
 									[
-										1430,
-										1431
+										185,
+										186
 									]
 								},
 								"icon":
@@ -1563,8 +1555,8 @@
 								{
 									"1":
 									[
-										1425,
-										1426
+										146,
+										147
 									]
 								},
 								"unmatched":
@@ -1633,7 +1625,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1450.4,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1641,213 +1633,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/D/Work/.HTML/svita/.E-Shop 1.0/markup/app/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1572,
-								1572
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										4791,
-										4792
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										4482,
-										4483
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1655,
-										1656
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1571,
-										1572
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2115.2,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/D/Work/.HTML/svita/.E-Shop 1.0/markup/app/sass/layout/_header.sass",
 					"semi_transient": false,
 					"settings":
@@ -1972,21 +1757,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1997,31 +1787,26 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2040,7 +1825,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/D/OpenServer/domains/truestory/src/tpl/layout/_app--header.pug",
 					"semi_transient": false,
 					"settings":
@@ -2243,11 +2028,11 @@
 						"translation.y": 330.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/D/OpenServer/domains/truestory/src/tpl/layout/_app--sidebars.pug",
 					"semi_transient": false,
 					"settings":
@@ -2435,11 +2220,11 @@
 						"translation.y": 79.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/D/OpenServer/domains/truestory/src/text.pug",
 					"semi_transient": false,
 					"settings":
@@ -2554,21 +2339,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -2579,31 +2369,26 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2617,11 +2402,11 @@
 						"translation.y": 188.8,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "/D/OpenServer/domains/truestory/src/sass/main.sass",
 					"semi_transient": false,
 					"settings":
@@ -2814,7 +2599,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__var.sass",
 					"semi_transient": false,
 					"settings":
@@ -2989,11 +2774,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 11,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__sugar.sass",
 					"semi_transient": false,
 					"settings":
@@ -3113,21 +2898,16 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -3148,11 +2928,16 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -3167,11 +2952,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 12,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__icons.sass",
 					"semi_transient": false,
 					"settings":
@@ -3183,8 +2968,8 @@
 						"selection":
 						[
 							[
-								1958,
-								1958
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3283,27 +3068,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										1960,
-										1961
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										1952,
-										1953
-									]
 								},
 								"unmatched":
 								{
@@ -3311,21 +3081,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -3336,31 +3091,46 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -3373,14 +3143,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2067.2,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 13,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__adaptive.sass",
 					"semi_transient": false,
 					"settings":
@@ -3585,24 +3355,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 14,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__scrollbar.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1887,
+						"buffer_size": 1895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								57,
+								57
 							]
 						],
 						"settings":
@@ -3686,27 +3456,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										16,
-										17
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										8,
-										9
-									]
 								},
 								"unmatched":
 								{
@@ -3714,56 +3469,56 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -3779,11 +3534,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"file": "/D/OpenServer/domains/truestory/src/sass/__animation.sass",
 					"semi_transient": false,
 					"settings":
@@ -3977,7 +3732,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 16,
 					"file": "/D/OpenServer/domains/truestory/src/sass/themes/theme--day.sass",
 					"semi_transient": false,
 					"settings":
@@ -4152,11 +3907,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 17,
 					"file": "/D/OpenServer/domains/truestory/src/sass/themes/theme--night.sass",
 					"semi_transient": false,
 					"settings":
@@ -4346,11 +4101,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 18,
 					"file": "/D/OpenServer/domains/truestory/src/sass/themes/theme--purple.sass",
 					"semi_transient": false,
 					"settings":
@@ -4559,7 +4314,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 19,
 					"file": "/D/OpenServer/domains/truestory/src/sass/print/typography.sass",
 					"semi_transient": false,
 					"settings":
@@ -4571,8 +4326,8 @@
 						"selection":
 						[
 							[
-								1075,
-								1043
+								0,
+								0
 							]
 						],
 						"settings":
@@ -4730,14 +4485,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 628.8,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 20,
 					"file": "/D/OpenServer/domains/truestory/src/sass/layout/app--header.sass",
 					"semi_transient": false,
 					"settings":
@@ -4911,11 +4666,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 21,
 					"file": "/D/OpenServer/domains/truestory/src/sass/layout/app--footer.sass",
 					"semi_transient": false,
 					"settings":
@@ -5089,11 +4844,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 22,
 					"file": "/D/OpenServer/domains/truestory/src/sass/layout/app--sidebars.sass",
 					"semi_transient": false,
 					"settings":
@@ -5105,8 +4860,8 @@
 						"selection":
 						[
 							[
-								492,
-								492
+								144,
+								144
 							]
 						],
 						"settings":
@@ -5190,27 +4945,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										491,
-										492
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										482,
-										483
-									]
 								},
 								"unmatched":
 								{
@@ -5279,14 +5019,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 318.4,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 23,
 					"file": "/D/OpenServer/domains/truestory/src/sass/form/inputs.sass",
 					"semi_transient": false,
 					"settings":
@@ -5476,11 +5216,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 24,
 					"file": "/D/OpenServer/domains/truestory/src/sass/form/textarea.sass",
 					"semi_transient": false,
 					"settings":
@@ -5670,11 +5410,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 25,
 					"file": "/D/OpenServer/domains/truestory/src/sass/form/buttons.sass",
 					"semi_transient": false,
 					"settings":
@@ -5849,11 +5589,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 26,
 					"file": "/D/OpenServer/domains/truestory/src/sass/pages/home.sass",
 					"semi_transient": false,
 					"settings":
@@ -6043,7 +5783,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 29,
 					"type": "text"
 				}
 			]
@@ -6053,7 +5793,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 28,
+					"buffer": 27,
 					"file": "/D/OpenServer/domains/truestory/src/sass/layout/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -6228,11 +5968,11 @@
 						"translation.y": 190.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 28,
 					"file": "/D/OpenServer/domains/truestory/src/sass/pages/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -6407,11 +6147,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 29,
 					"file": "/D/OpenServer/domains/truestory/src/sass/partials/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -6584,11 +6324,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 30,
 					"file": "/D/OpenServer/domains/truestory/src/sass/modal/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -6767,7 +6507,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 31,
 					"file": "/D/OpenServer/domains/truestory/src/sass/form/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -6942,11 +6682,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 32,
 					"file": "/D/OpenServer/domains/truestory/src/sass/themes/__base.sass",
 					"semi_transient": false,
 					"settings":
@@ -7135,7 +6875,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 30,
 					"type": "text"
 				}
 			]
