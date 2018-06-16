@@ -112,6 +112,7 @@ p
 	+ p,
 	+ ul,
 	+ ol,
+	+ blockquote,
 	+ .tbl
 		margin-top: 2em
 em
@@ -237,7 +238,46 @@ hr
 
 
 blockquote
-	// todo
+	padding: 1rem 1.5rem 1rem 3rem
+	margin: 0
+	border: none
+	position: relative
+	overflow: hidden
+	background-color: #{'rgba(var(--key-color), .04)'};
+	&::before
+		content: '"'
+		font-size: 4em
+		line-height: 1
+		color: #{'rgba(var(--key-color), .2)'};
+		position: absolute
+		left: 1rem
+		top: .9rem
+	.src
+		width: 200px
+		font-size: .8em
+		white-space: nowrap
+		text-overflow: ellipsis
+		overflow: hidden
+		position: relative
+		margin-top: 0
+		padding-top: 2em
+		opacity: .6
+		&::before
+			content: ''
+			width: 50%
+			height: 1px
+			background-color: #{'rgba(var(--key-color), .14)'};
+			position: absolute
+			left: 0
+			top: 1.2em
+		a
+			color: inherit
+	+ p,
+	+ ul,
+	+ ol,
+	+ blockquote,
+	+ .tbl
+		margin-top: 2em
 
 
 
@@ -272,5 +312,6 @@ blockquote
 	+ p,
 	+ ul,
 	+ ol,
+	+ blockquote,
 	+ .tbl
 		margin-top: 2em

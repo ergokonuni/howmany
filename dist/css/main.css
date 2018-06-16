@@ -201,6 +201,7 @@ p {
   p + p,
   p + ul,
   p + ol,
+  p + blockquote,
   p + .tbl {
     margin-top: 2em; }
 
@@ -346,6 +347,48 @@ hr {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
+blockquote {
+  padding: 1rem 1.5rem 1rem 3rem;
+  margin: 0;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(var(--key-color), .04); }
+  blockquote::before {
+    content: '"';
+    font-size: 4em;
+    line-height: 1;
+    color: rgba(var(--key-color), .2);
+    position: absolute;
+    left: 1rem;
+    top: .9rem; }
+  blockquote .src {
+    width: 200px;
+    font-size: .8em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0;
+    padding-top: 2em;
+    opacity: .6; }
+    blockquote .src::before {
+      content: '';
+      width: 50%;
+      height: 1px;
+      background-color: rgba(var(--key-color), .14);
+      position: absolute;
+      left: 0;
+      top: 1.2em; }
+    blockquote .src a {
+      color: inherit; }
+  blockquote + p,
+  blockquote + ul,
+  blockquote + ol,
+  blockquote + blockquote,
+  blockquote + .tbl {
+    margin-top: 2em; }
+
 .tbl {
   width: 100%;
   max-width: 100%;
@@ -378,6 +421,7 @@ hr {
   .tbl + p,
   .tbl + ul,
   .tbl + ol,
+  .tbl + blockquote,
   .tbl + .tbl {
     margin-top: 2em; }
 
