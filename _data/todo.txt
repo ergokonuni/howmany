@@ -18,7 +18,7 @@
     +  CS:  Themes
     +  XX:  Menu
     +  JS:  HTML Classes (current-device.js)
-    ~  CS:  Good Ideas
+    +  CS:  Good Ideas
     -  XX:  Font Icons
     -  CS:  Pixel Ratio
     -  XX:  SVG Icons

@@ -111,7 +111,8 @@ p
 	margin: 0
 	+ p,
 	+ ul,
-	+ ol
+	+ ol,
+	+ .tbl
 		margin-top: 2em
 em
 	font-style: italic
@@ -237,3 +238,37 @@ hr
 
 blockquote
 	// todo
+
+
+
+.tbl
+	width: 100%
+	max-width: 100%
+	background-color: none
+	border: 1px solid #{'rgba(var(--key-color), .08)'};
+	tr,
+	th,
+	td
+		transition: all 0.2s var(--bezier)
+	tr:nth-of-type(odd)
+		background-color: #{'rgba(var(--key-color), .04)'};
+	tr:hover
+		background-color: #{'rgba(var(--link-hover-color), .15)'};
+	th
+		font-size: .75em
+		text-transform: uppercase
+		vertical-align: bottom
+		background-color: #{'rgba(var(--key-color), .08)'};
+		border: 1px solid #{'rgba(var(--key-color), .08)'};
+		padding: .65em .5em
+		margin: 0
+	td
+		vertical-align: top
+		border: 1px solid #{'rgba(var(--key-color), .08)'};
+		padding: .25em .5em
+		margin: 0
+	+ p,
+	+ ul,
+	+ ol,
+	+ .tbl
+		margin-top: 2em

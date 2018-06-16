@@ -200,7 +200,8 @@ p {
   margin: 0; }
   p + p,
   p + ul,
-  p + ol {
+  p + ol,
+  p + .tbl {
     margin-top: 2em; }
 
 em {
@@ -344,6 +345,39 @@ hr {
   border-top: 1px solid #777;
   -webkit-box-shadow: none;
           box-shadow: none; }
+
+.tbl {
+  width: 100%;
+  max-width: 100%;
+  background-color: none;
+  border: 1px solid rgba(var(--key-color), .08); }
+  .tbl tr,
+  .tbl th,
+  .tbl td {
+    -webkit-transition: all 0.2s var(--bezier);
+    transition: all 0.2s var(--bezier); }
+  .tbl tr:nth-of-type(odd) {
+    background-color: rgba(var(--key-color), .04); }
+  .tbl tr:hover {
+    background-color: rgba(var(--link-hover-color), .15); }
+  .tbl th {
+    font-size: .75em;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    background-color: rgba(var(--key-color), .08);
+    border: 1px solid rgba(var(--key-color), .08);
+    padding: .65em .5em;
+    margin: 0; }
+  .tbl td {
+    vertical-align: top;
+    border: 1px solid rgba(var(--key-color), .08);
+    padding: .25em .5em;
+    margin: 0; }
+  .tbl + p,
+  .tbl + ul,
+  .tbl + ol,
+  .tbl + .tbl {
+    margin-top: 2em; }
 
 .logo {
   font-family: var(--font-cond);
