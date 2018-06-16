@@ -12,7 +12,6 @@
   color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
   border-bottom: 1px solid rgba(var(--key-color), .08);
   background-color: rgb(var(--bg-color));
-  background-color: #fff;
   -webkit-transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
   transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
   transition: transform 0.5s var(--bezier), opacity 0.75s var(--bezier);

@@ -356,7 +356,7 @@ hr {
   .tbl td {
     -webkit-transition: all 0.2s var(--bezier);
     transition: all 0.2s var(--bezier); }
-  .tbl tr:nth-of-type(odd) {
+  .tbl tr:nth-of-type(even) {
     background-color: rgba(var(--key-color), .04); }
   .tbl tr:hover {
     background-color: rgba(var(--link-hover-color), .15); }
@@ -373,6 +373,8 @@ hr {
     border: 1px solid rgba(var(--key-color), .08);
     padding: .25em .5em;
     margin: 0; }
+  .tbl tbody + tbody {
+    border-top: 2px solid rgba(var(--key-color), .25); }
   .tbl + p,
   .tbl + ul,
   .tbl + ol,
@@ -543,7 +545,6 @@ hr {
   color: rgba(var(--key-color), calc(var(--key-alpha) - .33));
   border-bottom: 1px solid rgba(var(--key-color), .08);
   background-color: rgb(var(--bg-color));
-  background-color: #fff;
   -webkit-transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
   transition: opacity 0.75s var(--bezier), -webkit-transform 0.5s var(--bezier);
   transition: transform 0.5s var(--bezier), opacity 0.75s var(--bezier);

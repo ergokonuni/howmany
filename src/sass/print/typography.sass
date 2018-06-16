@@ -250,7 +250,7 @@ blockquote
 	th,
 	td
 		transition: all 0.2s var(--bezier)
-	tr:nth-of-type(odd)
+	tr:nth-of-type(even)
 		background-color: #{'rgba(var(--key-color), .04)'};
 	tr:hover
 		background-color: #{'rgba(var(--link-hover-color), .15)'};
@@ -267,6 +267,8 @@ blockquote
 		border: 1px solid #{'rgba(var(--key-color), .08)'};
 		padding: .25em .5em
 		margin: 0
+	tbody + tbody
+		border-top: 2px solid #{'rgba(var(--key-color), .25)'};
 	+ p,
 	+ ul,
 	+ ol,
