@@ -17,15 +17,15 @@
     +  CS:  Good Vars
     +  CS:  Themes
     +  XX:  Menu
-    +  JS:  HTML Classes (current-device.js)
+    +  JS:  Current Device
     +  CS:  Good Ideas
     ~  CS:  Typography
-    -  XX:  Font Icons
+    -  CS:  Print Version
     -  CS:  Pixel Ratio
+    -  CS:  Signin Form (from flex to css-grid)
+    -  XX:  Font Icons
     -  XX:  SVG Icons
     -  XX:  PNG → SVG
-    -  CS:  Signin Form (from flex to css-grid)
-    -  CS:  Print Version
     -  CS:  Switch from Full-Width to Space
     -  JS:  Load Data from XML
     -  XX:  P:  Condition
@@ -34,7 +34,7 @@
     -  XX:  Form (Select) (C)
     -  JS:  Loading... (Logo) (C)
     -  JS:  Loading... (Top Line) (C)
-    -  XX:  Icons Interactive (C)
+    -  JS:  Loading... (Spiner) (C)
   
   
   BUG FIX:
